@@ -1,22 +1,26 @@
-#bg-img {
-
-}
-
 #head {
     background-color: #4ac2d2;
 }
 
 /*NAV-BAR*/
-#nav_bar_logo {
+.nav_bar_logo {
     max-width: 25%;
     max-height: inherit;
 
-    min-width: 150pt;
+    min-width: 140pt;
     min-height: inherit;
+
+    padding-bottom: 0%;
 }
 
-.nav_bar-btn {
+@media(min-width: 992px) {
+    .nav-bar-padding {
+        min-height: 50pt;
+        max-height: 150pt;
+    }
+}
+
+.nav-bar-btn {
     color: #ffffff;
     font-size: 150%;
-    padding-top: 50%
 }
