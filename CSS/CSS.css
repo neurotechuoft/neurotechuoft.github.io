@@ -1,3 +1,4 @@
+/*----------------------LANDING PAGE----------------------*/
 #head {
     background-color: #4ac2d2;
 }
@@ -23,4 +24,10 @@
 .nav-bar-btn {
     color: #ffffff;
     font-size: 150%;
+}
+
+.landing-text {
+    color: #ffffff;
+    font-size: 500%;
+    padding: 0% 15% 10% 15%;
 }
