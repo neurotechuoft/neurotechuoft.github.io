@@ -29,5 +29,10 @@
 .landing-text {
     color: #ffffff;
     font-size: 500%;
+    padding: 0% 15% 0% 15%;
+}
+.landing-subtext {
+    color: #4a4a57;
+    font-size: 175%;
     padding: 0% 15% 10% 15%;
 }
