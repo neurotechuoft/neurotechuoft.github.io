@@ -1,3 +1,38 @@
-#bg-img {
-    
+/*----------------------LANDING PAGE----------------------*/
+#head {
+    background-color: #4ac2d2;
+}
+
+/*NAV-BAR*/
+.nav_bar_logo {
+    max-width: 25%;
+    max-height: inherit;
+
+    min-width: 140pt;
+    min-height: inherit;
+
+    padding-bottom: 0%;
+}
+
+@media(min-width: 992px) {
+    .nav-bar-padding {
+        min-height: 50pt;
+        max-height: 150pt;
+    }
+}
+
+.nav-bar-btn {
+    color: #ffffff;
+    font-size: 150%;
+}
+
+.landing-text {
+    color: #ffffff;
+    font-size: 500%;
+    padding: 0% 15% 0% 15%;
+}
+.landing-subtext {
+    color: #4a4a57;
+    font-size: 175%;
+    padding: 0% 15% 10% 15%;
 }
