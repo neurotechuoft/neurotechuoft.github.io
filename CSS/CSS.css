@@ -37,7 +37,16 @@
     padding: 0% 15% 10% 15%;
 }
 
+/*----------------------SPONSORS----------------------*/
+#sponsors {
+    background-color: #f1f2ff
+}
 
+@media (min-width: 768px) {
+    .sponsor-img {
+        padding: 10%;
+    }
+}
 
 /*----------------------CONTACT INFO----------------------*/
 #contact {
@@ -48,6 +57,7 @@
 @media (min-width: 768px) {
     .contact-bar-btn {
         padding: 40%;
+
     }
 }
 .contact-bar-btn {
