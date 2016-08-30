@@ -6,10 +6,17 @@
     background-color: #4ac2d2;
 }
 
+/*NAV-BAR*/
 #nav_bar_logo {
     max-width: 25%;
     max-height: inherit;
 
     min-width: 150pt;
     min-height: inherit;
+}
+
+.nav_bar-btn {
+    color: #ffffff;
+    font-size: 150%;
+    padding-top: 50%
 }
