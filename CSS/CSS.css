@@ -14,7 +14,7 @@
     padding-bottom: 0%;
 }
 
-@media(min-width: 992px) {
+@media(min-width: 768px) {
     .nav-bar-padding {
         min-height: 50pt;
         max-height: 150pt;
