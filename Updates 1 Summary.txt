@@ -1,20 +1,17 @@
-November 1, 2016
 
-Hi!
+November 9, 2016
 
-NeurotechUofT's Workshops and Biosignals Board teams have been particularly busy lately.
+Hi all,
 
-Our workshops are designed for current and potential club members who are interested in developing their knowledge of technical concepts (e.g. computer programming, hardware fundamentals, etc.) used in the club's projects. The workshops are generally structured around small, hands-on projects that are related to NeurotechUofT's existing work.
+With the closing of another week come exciting updates from the hardware and workshops teams at NeurotechUofT!
 
-The objective of the current project is to record muscle signals from one individual, process the data and apply those signal ouputs to another individual, hence making the person on the receiving end execute the same muscle movements. In the fall term of this academic year, the workshops will be designed around this mini-project. In the winter term, these workshops will be incorporated into regular club activities.
+Developments are underway for the technical workshops coming up next term. These workshops will be structured around work on a mini project that will record muscle signals from one individual and apply them to another individual as a way to mirror muscle movements. At the moment, the team is sourcing materials and designing the schematics of the circuit board that will be needed for this mini project. In November, testing will begin.
 
-Work on the mini-project currently consists of sourcing necessary materials and designing the schematics of the circuit board that will be needed for the overall product. In November, testing of the board will begin.
+The hardware team has also been working hard on the biosignals board project that will be challenged in the NeurotechX competition. The circuit diagram that outlines the chip's connection to Arduino is now complete and the circuit itself has been connected. Debugging is the task at hand before dry electrodes can be attached and the chip to Arduino connection is finalized.
 
-The biosignals board team aims to engineer a device capable of reading EEG signals from an individual, processing the signal data, and converting it in such a way that it is able to be sent as input to other devices, thereby enabling human control over them. This device will be tested in the upcoming NeurotechX competition.
+Thanks for reading!
 
-The chip being used for this project is called the NeuroSky Brainwave EEG: TGAM chip. So far, the team has completed a circuit diagram to organize the chip's connection to Arduino. Work on the chip continues - wires have been soldered on, the circuit has been connected and the team is working on debugging before dry electrodes can be attached and the chip to Arduino connection is finalized.
-
-Thank you for reading!
+TL;DR: Planning is underway for a mini project that will be the foundation for upcoming workshops. The biosignals board team is working on establishing a secure connection between the TGAM chip and Arduino.
 
 September 4, 2016
 
