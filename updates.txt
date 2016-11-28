@@ -1,4 +1,7 @@
-November 28, 2016
+November 27, 2016
+
+TL;DR:
+Last weekend we travelled to Montreal to attend Neurotech Demo Day: The Student Edition and had a blast! Now that the biosignals board project has come to a close, we are starting developments on a mind-controlled Wall-EEG drone.
 
 Hello everyone!
 
