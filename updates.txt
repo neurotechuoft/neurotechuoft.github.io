@@ -1,0 +1,40 @@
+November 27, 2016
+
+TL;DR:
+Last weekend we travelled to Montreal to attend Neurotech Demo Day: The Student Edition and had a blast! Now that the biosignals board project has come to a close, we are starting developments on a mind-controlled Wall-EEG drone.
+
+Hello everyone!
+
+Last weekend our hardware team travelled to Montreal to attend Neurotech Demo Day: The Student Edition. They had the long-awaited opportunity to showcase the biosignals board project that had been under construction since the start of this academic year. It was a ton of fun to mix and mingle with other neuro-technology developers and enthusiasts and to learn more about the various projects occurring at other universities.  Congratulations to ETS and McGill for their respective wins in parts 1 and 2 of the competition, and many thanks to NeurotechX, Dejardins, Hexoskin, Muse, OpenBCI and NeuroSky for making this happen!
+
+Now that NeurotechX Demo Day has come and passed, work is set to begin on another project planned for the rest of the school year: a mind-controlled Wall-EEG drone! More information about this will be shared as progress is made.
+
+Thanks for keeping up with us!
+
+Lidia Injac
+
+P.S. If you would like to see some photos from the competition, check out our Twitter!
+
+November 9, 2016
+
+Hi all,
+
+With the closing of another week come exciting updates from the hardware and workshops teams at NeurotechUofT!
+
+Developments are underway for the technical workshops coming up next term. These workshops will be structured around work on a mini project that will record muscle signals from one individual and apply them to another individual as a way to mirror muscle movements. At the moment, the team is sourcing materials and designing the schematics of the circuit board that will be needed for this mini project. In November, testing will begin.
+
+The hardware team has also been working hard on the biosignals board project that will be challenged in the NeurotechX competition. The circuit diagram that outlines the chip's connection to Arduino is now complete and the circuit itself has been connected. Debugging is the task at hand before dry electrodes can be attached and the chip to Arduino connection is finalized.
+
+Thanks for reading!
+
+TL;DR: Planning is underway for a mini project that will be the foundation for upcoming workshops. The biosignals board team is working on establishing a secure connection between the TGAM chip and Arduino.
+
+September 4, 2016
+
+Hello there!
+
+The team has started the Mindfulness Study - a research endeavour that observes different meditation techniques and documents the corresponding biofeedback of study participants. The aim of this study is to create and optimize a program that will allow a user to progress into a meditative state. Brainwave data, blood oxygenation levels, etc. are used to form a picture of individual's mental state, which helps the user meditate better.
+
+The Wall-EEG mind controlled bot is able to obtain and graph signals from the OpenBCI but noise is still an issue. It has been noticed that the source of the noise is improper electrode-to-skin contact. Furthermore, the OpenBCI GUI processes much better than our team's code. What remains to be done is studying the OpenBCI GUI to find out what processing techniques are used before we start working to improve our own code. We are almost done choosing a technique, and are in the process of testing it in real time.
+
+Thanks for reading!
