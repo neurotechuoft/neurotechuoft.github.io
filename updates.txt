@@ -16,7 +16,7 @@ Next comes a field trip on Thursday, February 2nd to the IBBME Medical Imaging L
 
 We will be hosting a neurotech conference on Thursday, February 23rd,  during reading week, at which we will have booths and showcases displaying current neurotech projects as well as professors giving talks about neuroscience research and the status of the neurotech industry. This will be followed by a breakout session, during which we will have discussions with invited researchers and companies. We hope to see you there!
 
-As promised, we have news to share about our WallEEG project! Before starting to develop the aerial drone, our software and hardware teams are going to do a trial run of the project on a land-based bot. We have recently acquired one such bot and our work meetings will be starting next weekend. Once we have developed a functioning bot with a secure connection to Emotiv, we will begin working on connecting Emotiv to an aerial drone.
+As promised, we have news to share about our WallEEG project! Before starting to develop the aerial drone, our software and hardware teams are going to do a trial run of the project on a land-based bot. One of our members has developed one such bot and our work meetings will be starting next weekend. Once we have developed a functioning bot with a secure connection to Emotiv, we will begin working on connecting Emotiv to an aerial drone.
 
 Finally, we are recruiting new team members to fill some executive/administrative team positions. The recruitment form will be shared on this website and our Facebook page shortly, so if you are interested, we encourage you to apply! We are looking forward to meeting all of our new members!
 
