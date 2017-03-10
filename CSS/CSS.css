@@ -90,6 +90,12 @@
     }
 }
 
+@media (max-width: 768px) {
+    .sponsor-img {
+        width: 50%;
+    }
+}
+
 /*----------------------CONTACT INFO----------------------*/
 #contact {
     background-color: #4a4a57;
