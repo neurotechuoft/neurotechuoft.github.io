@@ -1,3 +1,28 @@
+
+/*----------------------UTILITIES----------------------*/
+.row-align-cols-center {
+    text-align: center;
+}
+
+.row-align-cols-center > * {
+    display:inline-block;
+    float:none;
+}
+
+.row-align-bottom {
+    font-size: 0;
+}
+.row-align-bottom > * {
+    float: none;
+    display: inline-block;
+    font-size: 14px; /* if using LESS it's quicker to just use @font-size-base */
+    margin-left: auto;
+}
+
+.row-align-bottom > *:last-child {
+    vertical-align: bottom;
+}
+
 /*----------------------LANDING PAGE----------------------*/
 #landing-page {
     background-color: #4ac2d2;
