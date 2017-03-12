@@ -1,3 +1,18 @@
+March 12, 2017
+
+Hello readers!
+
+We here at NeurotechUofT would like to extend a huge thank you to all of the attendees who made it to our fair this past reading week! It was a ton of fun to learn more about current innovations in neurotech through discussion and lectures from experts in the field. The club's ongoing projects are a perfect opportunity for further learning if any of you wish to do some more neuro-hacking.
+
+The Biosignals Board team has once again taken on the project that was used in last November's NeurotechX Student Competition. The guidelines for this year's competition have been released and the project design is being developed further in preparation for it. The plan is to have the VitReous and WallEEG teams work out the non-hardware aspects of the project so that once the distinct parts are complete and bug-free, they can be merged, comprehensive tests can be made, and - time permitting - advanced features can be added.
+
+As for the Wall-EEG project, that team has converted the entirety of the existing software to Python 3.0 syntax so that it can run properly. The next steps are to design two apps: PyQt and Electron (with Python integration).
+
+NeurotechUofT has recently launched a new tutorial series we call "How to Hack the Brain, with Coffee". At our weekly meetups, we aim to explore how to pick up and analyze brain activity as measured by EEG signals - in short, how to hack your brain. For information regarding meeting time and location (and in case you have missed the first few meetings), please see the event details on the Events page. All of the material covered at each session is posted there.
+
+Until next time,
+Lidia Injac
+
 January 24, 2017
 
 TL;DR:
@@ -8,7 +23,7 @@ TL;DR:
 
 Hello everyone!
 
-It has been a while since our last update, and with the arrival of 2017 comes a new and eventful term for us here at NeurotechUofT. There is a lot to share, so keep reading to get the latest team news!  
+It has been a while since our last update, and with the arrival of 2017 comes a new and eventful term for us here at NeurotechUofT. There is a lot to share, so keep reading to get the latest team news!
 
 One event is rapidly approaching this week: the WeAreWearables conference held at the MaRS Discover District Centre! This Wednesday, January 25th, we will be there to present the VitReous project that was first introduced by our team at NeurotechX Student Demo Day this past November. This will be our first time attending and will mark the first year of many more to come! We can't wait to mix and mingle with other tech enthusiasts and see the newest state-of-the-art wearables projects.
 
