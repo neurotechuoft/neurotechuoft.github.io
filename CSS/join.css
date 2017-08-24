@@ -1,0 +1,13 @@
+.join-intro-div {
+    background-color: #A8D46F;
+    padding: 5% 0% 7% 0%;
+}
+.join-intro > h1 {
+    color: #ffffff;
+    font-size: 12em;
+}
+
+.join-intro > h2 {
+    color: #fefefe;
+    font-size: 2.5em;
+}
