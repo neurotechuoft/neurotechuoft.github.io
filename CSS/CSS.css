@@ -69,15 +69,43 @@
 }
 
 .landing-btn-div {
-    padding: 0% 0% 5% 0%;
+    padding: 0% 0% 2% 0%;
 }
 .landing-btn {
-    background-color: #4ac2d2;
+    background-color: #265a88;
     padding: 3% 7% 3% 7%;
     border-color: #4a4a57;
     border-width: thick;
 
     font-size: 175%;
+    color: #EDEDED;
+
+    font-weight: bold;
+    text-align: center;
+}
+.landing-btn:hover {
+    background-color: #EDEDED;
+    padding: 3% 7% 3% 7%;
+    border-color: #4a4a57;
+    border-width: thick;
+
+    font-size: 175%;
+    color: #265a88;
+
+    font-weight: bold;
+    text-align: center;
+}
+
+.landing-btn-two-div {
+    padding: 0% 0% 5% 0%;
+}
+.landing-btn-two {
+    background-color: #4ac2d2;
+    padding: 1% 4% 1% 4%;
+    border-color: #4a4a57;
+    border-width: thick;
+
+    font-size: 125%;
     color: #4a4a57;
 
     font-weight: bold;
