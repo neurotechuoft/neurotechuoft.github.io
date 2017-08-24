@@ -2,12 +2,30 @@
     background-color: #A8D46F;
     padding: 5% 0% 7% 0%;
 }
-.join-intro > h1 {
+.join > h1 {
     color: #ffffff;
     font-size: 12em;
 }
 
-.join-intro > h2 {
+.join > h2 {
     color: #fefefe;
     font-size: 2.5em;
+}
+.join > h3 {
+    color: #ededed;
+}
+
+.join-comic-div {
+    background-color: #ef7c6e;
+    padding: 5% 0% 7% 0%;
+}
+
+.join-slack-div {
+    background-color: #136690;
+    padding: 5% 0% 7% 0%;
+}
+
+#slack-logo {
+    max-width: 40%;
+    max-height: auto;
 }
