@@ -1,0 +1,39 @@
+.join-div {
+    padding: 5% 0% 7% 0%;
+}
+
+.join > h1 {
+    color: #ffffff;
+    font-size: 1000%;
+}
+.join > h2 {
+    color: #fefefe;
+    font-size: 250%;
+}
+.join > h3 {
+    color: #ededed;
+}
+
+
+.join-intro-div {
+    background-color: #A8D46F;
+}
+
+
+.join-comic-div {
+    background-color: #ef7c6e;
+}
+
+.join-slack-div {
+    background-color: #136690;
+    color: #ffffff;
+}
+
+#slack-logo {
+    max-width: 40%;
+    max-height: auto;
+}
+
+#typeform-link > a {
+    color: #E2F0F6;
+}
