@@ -26,9 +26,14 @@
 
 .join-slack-div {
     background-color: #136690;
+    color: #ffffff;
 }
 
 #slack-logo {
     max-width: 40%;
     max-height: auto;
+}
+
+#typeform-link > a {
+    color: #E2F0F6;
 }
