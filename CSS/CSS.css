@@ -162,3 +162,36 @@
     width: 100%;
     height: 100%;
 }
+
+/*------------------------TITLE------------------------*/
+.title {
+    padding: 1.7vh 0 2vh 0;
+    margin-bottom: 6vh;
+    margin-top: 6vh;
+}
+
+/*------------------------TEAM------------------------*/
+#team-banner {
+    background-color: #ef7c6e;
+    color: #ffffff;
+}
+
+#current-projects {
+    background-color: #136690;
+    color: #ffffff;
+}
+
+#on-hold-projects {
+    background-color: #6B8998;
+    color: #ffffff;
+}
+
+#events-banner {
+    background-color: #A8D46F;
+    color: #ffffff;
+}
+
+#faq-banner {
+    background-color: #4ac2d2;
+    color: #ffffff;
+}
