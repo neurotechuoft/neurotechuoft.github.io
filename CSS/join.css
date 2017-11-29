@@ -1,5 +1,5 @@
 .join-div {
-    padding: 5% 0% 7% 0%;
+    padding: 5% 0% 5% 0%;
 }
 
 .join > h1 {
@@ -32,6 +32,22 @@
 #slack-logo {
     max-width: 40%;
     max-height: auto;
+}
+
+.link {
+    border-radius: 2.5vmin;
+    border: 0.5vmin solid;
+    padding-bottom: 1%;
+    min-width: 40vw;
+    max-width: 70vw;
+}
+
+.link-dark {
+    border-color: #888888;
+}
+
+.link-light {
+    border-color: #eeeeee;
 }
 
 #typeform-link > a {
