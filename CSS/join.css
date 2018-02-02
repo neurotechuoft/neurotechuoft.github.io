@@ -26,7 +26,6 @@
 
 .join-slack-div {
     background-color: #136690;
-    color: #ffffff;
 }
 
 #slack-logo {
@@ -39,15 +38,24 @@
     border: 0.5vmin solid;
     padding-bottom: 1%;
     min-width: 40vw;
-    max-width: 70vw;
+    max-width: 60vw;
 }
 
 .link-dark {
-    border-color: #888888;
+    /* border-color: #888888; */
+    border-color: #136690;
+    background-color: #136690;
+    color: #ffffff;
 }
 
 .link-light {
-    border-color: #eeeeee;
+    /* border-color: #eeeeee; */
+    border-color: #ffffff;
+    background-color: #ffffff;
+    
+}
+.link-dark > h2 > a {
+    color: #ffffff;
 }
 
 #typeform-link > a {
