@@ -1,4 +1,12 @@
 
+h1, h2 {
+    font-family: Tahoma, Verdana, Helvetica, sans-serif;
+}
+
+h3, p {
+    font-family: "Open Sans", sans-serif;
+}
+
 /*----------------------UTILITIES----------------------*/
 .row-align-cols-center {
     text-align: center;
