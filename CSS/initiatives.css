@@ -1,0 +1,29 @@
+.initiative-btn {
+    padding: 3% 7% 3% 7%;
+    border-width: thick;
+
+    font-size: 175%;
+    color: #ffffff;
+
+    font-weight: bold;
+    text-align: center;
+}
+
+.initiative-btn:hover {
+    color: #ededed;
+}
+
+#workshops-btn {
+    background-color: #ef7c6e;
+    border-color: #ef7c6e;
+}
+
+#cortical-apps-btn {
+    background-color: #a8d46f;
+    border-color: #a8d46f;
+}
+
+#projects-btn {
+    background-color: #136690;
+    border-color: #136690;
+}
