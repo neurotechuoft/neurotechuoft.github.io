@@ -1,0 +1,37 @@
+h1 {
+    color: #a8d46f;
+}
+
+h2, h3, p {
+    color: white;
+}
+
+.cortical-apps {
+    /* background-color: #136690; */
+    background-color: #1C3B5C;
+}
+
+.join-btn {
+    background-color: #ef7c6e;
+    padding: 3% 7% 3% 7%;
+    border-color: #e76fce;
+    border-width: thick;
+
+    font-size: 175%;
+    color: white;
+
+    font-weight: bold;
+    text-align: center;
+}
+.join-btn:hover {
+    background-color: #ec9b90;
+    padding: 3% 7% 3% 7%;
+    border-color: #e76fce;
+    border-width: thick;
+
+    font-size: 175%;
+    color: #265a88;
+
+    font-weight: bold;
+    text-align: center;
+}
