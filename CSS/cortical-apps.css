@@ -14,7 +14,7 @@ h2, h3, p {
 .join-btn {
     background-color: #ef7c6e;
     padding: 3% 7% 3% 7%;
-    border-color: #e76fce;
+    border-color: #ef7c6e;
     border-width: thick;
 
     font-size: 175%;
@@ -26,10 +26,35 @@ h2, h3, p {
 .join-btn:hover {
     background-color: #ec9b90;
     padding: 3% 7% 3% 7%;
-    border-color: #e76fce;
+    border-color: #ef7c6e;
     border-width: thick;
 
     font-size: 175%;
+    color: #265a88;
+
+    font-weight: bold;
+    text-align: center;
+}
+
+.details-btn {
+    background-color: #4ac2d2;
+    padding: 1% 7% 1% 7%;
+    border-color: #4ac2d2;
+    border-width: thick;
+
+    font-size: 125%;
+    color: white;
+
+    font-weight: bold;
+    text-align: center;
+}
+.details-btn:hover {
+    background-color: #4ac2d2;
+    padding: 1% 7% 1% 7%;
+    border-color: #4ac2d2;
+    border-width: thick;
+
+    font-size: 125%;
     color: #265a88;
 
     font-weight: bold;
