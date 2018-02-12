@@ -60,3 +60,32 @@ h2, h3, p {
     font-weight: bold;
     text-align: center;
 }
+
+.slack-btn {
+    background-color: #4ac2d2;
+    padding: 1% 1% 1% 1%;
+    border-color: #4ac2d2;
+    border-width: thick;
+
+    max-width: 15vmin;
+
+    font-size: 125%;
+    color: white;
+
+    font-weight: bold;
+    text-align: center;
+}
+.slack-btn:hover {
+    background-color: #265a88;
+    padding: 1% 1% 1% 1%;
+    border-color: #265a88;
+    border-width: thick;
+
+    max-width: 15vmin;
+
+    font-size: 125%;
+    color: #265a88;
+
+    font-weight: bold;
+    text-align: center;
+}
