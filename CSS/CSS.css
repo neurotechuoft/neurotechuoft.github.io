@@ -1,4 +1,11 @@
+*{
+  font-family: 'Montserrat', sans-serif !important;
+  border-radius: 0 !important;
+}
 
+body{
+    overflow-x: hidden;
+}
 h1, h2 {
     font-family: Tahoma, Verdana, Helvetica, sans-serif;
 }
@@ -32,25 +39,35 @@ h3, p {
 }
 
 /*-------------------------COMMON-------------------------*/
-.landing-page-div {
-    padding: 5% 0% 7% 0%;
-}
 
 /*----------------------LANDING PAGE----------------------*/
-#landing-page {
-    background-color: #4ac2d2;
-    /*margin-bottom: 3%;*/
+
+nav, .navbar{
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background: #48bfd7; /* Old browsers */
+background: -moz-linear-gradient(left, #48bfd7 0%, #5be1e2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #48bfd7 0%,#5be1e2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #48bfd7 0%,#5be1e2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48bfd7', endColorstr='#5be1e2',GradientType=1 ); /* IE6-9 */
+  border: 0;
+z-index: 9999999;
+}
+
+.navbar-right{
+  margin-top: 15px;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: #FFF;
+  font-size: 1.2em
 }
 
 /*NAV-BAR*/
 .nav_bar_logo {
-    max-width: 25%;
-    max-height: inherit;
-
-    min-width: 140pt;
-    min-height: inherit;
-
-    padding-bottom: 0%;
+    max-width: 100px;
+    padding: 0;
 }
 
 @media(min-width: 768px) {
@@ -65,6 +82,33 @@ h3, p {
     font-size: 150%;
 }
 
+.jumbotron{
+  text-align: center;
+  width: 100% !important;
+  height: 100% !important;
+  padding-top: 100px;
+  background: #48bfd7; /* Old browsers */
+  background: -moz-linear-gradient(left, #48bfd7 0%, #5be1e2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #48bfd7 0%,#5be1e2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #48bfd7 0%,#5be1e2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48bfd7', endColorstr='#5be1e2',GradientType=1 ); /* IE6-9 */
+}
+
+.jumbotron h1{
+  text-align: center;
+  color: #FFF;
+  font-size: 2.5em;
+  line-height: 1.5em;
+}
+
+.jumbotron h2{
+  text-align: center;
+  color: #085960;
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+}
+
 .landing-text {
     color: #ffffff;
     font-size: 500%;
@@ -76,50 +120,39 @@ h3, p {
     padding: 0% 20% 3% 20%;
 }
 
-.landing-btn-div {
-    padding: 0% 0% 2% 0%;
-}
 .landing-btn {
-    background-color: #265a88;
-    padding: 3% 7% 3% 7%;
-    border-color: #4a4a57;
-    border-width: thick;
+  margin: 10px;
+  border-radius: 0;
+    background-color: #18a9bc;
+    padding: 1% 5% 1% 5%;
+    border: 1px solid #2a6b7f;
 
     font-size: 175%;
     color: #EDEDED;
 
     font-weight: bold;
     text-align: center;
+    transition: all 0.5s ease;
 }
 .landing-btn:hover {
-    background-color: #EDEDED;
-    padding: 3% 7% 3% 7%;
-    border-color: #4a4a57;
-    border-width: thick;
+    color: #FFF;
+    background-color: #1d5a6d;
 
-    font-size: 175%;
-    color: #265a88;
-
-    font-weight: bold;
-    text-align: center;
 }
 
-.landing-btn-two-div {
-    padding: 0% 0% 5% 0%;
-}
 .landing-btn-two {
-    background-color: #4ac2d2;
-    padding: 1% 4% 1% 4%;
-    border-color: #4a4a57;
-    border-width: thick;
-
-    font-size: 125%;
+    background-color: rgba(255,255,255, 0.5);
     color: #4a4a57;
-
-    font-weight: bold;
-    text-align: center;
 }
 
+.updates{
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.container{
+  box-sizing: border-box;
+}
 
 /*----------------------SPONSORS----------------------*/
 #sponsors {
@@ -162,7 +195,7 @@ h3, p {
     width: 100%;
     padding-bottom: 50% ;
   }
-  
+
 .google-calendar iframe {
     position: absolute;
     top: 0;
