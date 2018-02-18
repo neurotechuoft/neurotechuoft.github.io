@@ -1,5 +1,4 @@
 *{
-  font-family: 'Montserrat', sans-serif !important;
   border-radius: 0 !important;
 }
 
@@ -8,12 +7,67 @@ body{
 }
 h1, h2 {
     font-family: Tahoma, Verdana, Helvetica, sans-serif;
+
+}
+
+.updates h1{
+  color: #3c3c40;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+
 }
 
 h3, p {
     font-family: "Open Sans", sans-serif;
 }
 
+h4{
+  margin: 20px 0px 10px 0px;
+  color: #4a4a57;
+
+}
+
+b{
+  color: #4a4a57;
+}
+
+.updates h3{
+  font-size: 16px;
+  margin: 0 0 10px 0;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ef7c6e;
+  border-bottom: 1px solid #dfdfdf;
+
+}
+
+p{
+  font-weight: 100
+}
+
+a{
+  color: #ef7c6e;
+  transition: all 0.5s ease;
+}
+
+a:hover{
+  color: #a03830;
+  text-decoration: none;
+}
+
+.button{
+  float: right;
+  border: 1px solid #dfdfdf;
+  padding: 2% 5% 2% 5%;
+  background-color: #18a9bc;
+  color: #FFFFFF;
+  transition: all 0.5s ease;
+}
+
+.button:hover{
+  background:
+}
 /*----------------------UTILITIES----------------------*/
 .row-align-cols-center {
     text-align: center;
@@ -172,6 +226,30 @@ z-index: 9999999;
 }
 
 /*----------------------CONTACT INFO----------------------*/
+.footer{
+  padding: 30px;
+  text-align: center;
+}
+.footer li{
+  display: inline;
+  margin: 20px;
+  transition: all 0.5s ease;
+}
+
+.footer ul{
+  padding: 0;
+  margin: 0;
+}
+
+.footer li:hover{
+  opacity: 0.5;
+
+}
+
+.social-me{
+  width: 40px;
+}
+
 #contact {
     background-color: #4a4a57;
 }
