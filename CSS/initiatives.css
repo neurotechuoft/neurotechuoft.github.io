@@ -1,11 +1,12 @@
 .initiative-btn {
-    padding: 3% 7% 3% 7%;
+    padding: 1% 7% 1% 7%;
+    margin-bottom: 5%;
     border-width: thick;
 
-    font-size: 175%;
     color: #ffffff;
 
     font-weight: bold;
+
     text-align: center;
 }
 
@@ -26,4 +27,19 @@
 #projects-btn {
     background-color: #136690;
     border-color: #136690;
+}
+
+#journey-of-member {
+    background-color: #f1f2ff;
+    /* padding-bottom: 5vmin; */
+}
+
+.logo-stage {
+    max-width: 25%;
+    max-height: inherit;
+
+    min-width: 90pt;
+    min-height: inherit;
+
+    padding-bottom: 0%;
 }
