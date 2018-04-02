@@ -36,6 +36,10 @@ h3, p {
     padding: 5% 0% 7% 0%;
 }
 
+
+/*---------------------DIV BACKGROUNDS---------------------*/
+
+
 /*----------------------LANDING PAGE----------------------*/
 #landing-page {
     background-color: #4ac2d2;
@@ -178,7 +182,7 @@ h3, p {
     margin-top: 6vh;
 }
 
-/*------------------------TEAM------------------------*/
+/*------------------------SUBTITLES------------------------*/
 #team-banner {
     background-color: #ef7c6e;
     color: #ffffff;
