@@ -69,6 +69,15 @@
     background-color: #A8D46F;
 }
 
+.join-apply-btn {
+    /* background-color: #136690; */
+    background-color: #136690;
+}
+.join-apply-btn:hover {
+    /* background-color: #136690; */
+    background-color: #136690;
+}
+
 #slack-logo {
     max-width: 40%;
     max-height: auto;
@@ -109,6 +118,7 @@
 }
 
 #job-board {
+    padding: 5% 0% 2% 0%;
     background-color: #4ac2d2;
     color: white;
 }
