@@ -3,7 +3,7 @@ h1, h2 {
     font-family: Tahoma, Verdana, Helvetica, sans-serif;
 }
 
-h3, p {
+h3, p, ul, li {
     font-family: "Open Sans", sans-serif;
 }
 
@@ -204,6 +204,11 @@ h3, p {
 }
 
 #faq-banner {
+    background-color: #4ac2d2;
+    color: #ffffff;
+}
+
+#opportunities-banner {
     background-color: #4ac2d2;
     color: #ffffff;
 }
