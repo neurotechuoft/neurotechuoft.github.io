@@ -35,7 +35,12 @@ h3, p, ul, li {
 .landing-page-div {
     padding: 5% 0% 7% 0%;
 }
-
+.link-light {
+    color: #f1f2ff;
+}
+.link-light:hover {
+    color: #ededed;
+}
 
 /*---------------------DIV BACKGROUNDS---------------------*/
 
