@@ -3,7 +3,7 @@ h1, h2 {
     font-family: Tahoma, Verdana, Helvetica, sans-serif;
 }
 
-h3, p {
+h3, p, ul, li {
     font-family: "Open Sans", sans-serif;
 }
 
@@ -35,6 +35,18 @@ h3, p {
 .landing-page-div {
     padding: 5% 0% 7% 0%;
 }
+.light {
+    color: white;
+}
+.link-light {
+    color: #f1f2ff;
+}
+.link-light:hover {
+    color: #ededed;
+}
+
+/*---------------------DIV BACKGROUNDS---------------------*/
+
 
 /*----------------------LANDING PAGE----------------------*/
 #landing-page {
@@ -67,7 +79,7 @@ h3, p {
 
 .landing-text {
     color: #ffffff;
-    font-size: 500%;
+    font-size: 400%;
     padding: 0% 15% 0% 15%;
 }
 .landing-subtext {
@@ -77,13 +89,13 @@ h3, p {
 }
 
 .landing-btn-div {
-    padding: 0% 0% 2% 0%;
+    padding: 0% 0% 4% 0%;
 }
 .landing-btn {
     background-color: #265a88;
     padding: 3% 7% 3% 7%;
-    border-color: #4a4a57;
-    border-width: thick;
+    /* border-color: #4a4a57; */
+    /* border-width: thick; */
 
     font-size: 175%;
     color: #EDEDED;
@@ -94,8 +106,8 @@ h3, p {
 .landing-btn:hover {
     background-color: #EDEDED;
     padding: 3% 7% 3% 7%;
-    border-color: #4a4a57;
-    border-width: thick;
+    /* border-color: #4a4a57; */
+    /* border-width: thick; */
 
     font-size: 175%;
     color: #265a88;
@@ -178,7 +190,7 @@ h3, p {
     margin-top: 6vh;
 }
 
-/*------------------------TEAM------------------------*/
+/*------------------------SUBTITLES------------------------*/
 #team-banner {
     background-color: #ef7c6e;
     color: #ffffff;
@@ -200,6 +212,11 @@ h3, p {
 }
 
 #faq-banner {
+    background-color: #4ac2d2;
+    color: #ffffff;
+}
+
+#opportunities-banner {
     background-color: #4ac2d2;
     color: #ffffff;
 }
