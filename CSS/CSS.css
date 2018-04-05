@@ -35,6 +35,9 @@ h3, p, ul, li {
 .landing-page-div {
     padding: 5% 0% 7% 0%;
 }
+.light {
+    color: white;
+}
 .link-light {
     color: #f1f2ff;
 }
