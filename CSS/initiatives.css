@@ -14,6 +14,21 @@
     color: #ededed;
 }
 
+.apply-btn {
+    padding: 1% 7% 1% 7%;
+    margin-bottom: 1%;
+    border-width: thick;
+
+    color: #ffffff;
+
+    font-weight: bold;
+
+    text-align: center;
+}
+.apply-btn:hover {
+    color: #ededed;
+}
+
 #workshops-btn {
     background-color: #ef7c6e;
     border-color: #ef7c6e;
