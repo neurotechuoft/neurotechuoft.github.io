@@ -1,0 +1,19 @@
+@import '../common.scss';
+
+/*----------------------CONTACT INFO----------------------*/
+.LinksBar {
+    background-color: $bg-dark;
+}
+
+
+@media (min-width: 768px) {
+    .contact-bar-btn {
+        padding: 40%;
+
+    }
+}
+
+.contact-bar-btn {
+    color: #ffffff;
+    font-size: 150%;
+}

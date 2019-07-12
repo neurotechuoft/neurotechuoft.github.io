@@ -1,0 +1,23 @@
+@import '../common.scss';
+
+.Sponsors {
+    background-color: $bg-light;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+.sponsor-img {
+    padding-bottom: 5%;
+}
+
+@media (min-width: 768px) {
+    .sponsor-img { 
+        padding: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .sponsor-img {
+        width: 50%;
+    }
+}

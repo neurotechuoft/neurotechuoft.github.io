@@ -1,0 +1,21 @@
+@import "../common.scss";
+
+.NavBar {
+    background-color: $ntuoft-blue;
+}
+
+.nav-bar-btn {
+    color: #ffffff;
+    font-size: 150%;
+    padding-top: 8vh;
+}
+
+.nav_bar_logo {
+    max-width: 25%;
+    max-height: inherit;
+
+    min-width: 140pt;
+    min-height: inherit;
+
+    padding-bottom: 0%;
+}
