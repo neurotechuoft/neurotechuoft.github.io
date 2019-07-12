@@ -1,0 +1,31 @@
+@import "./../common.scss";
+
+.LandingDiv {
+    background: $ntuoft-blue;
+}
+
+.landing-text {
+    color: #ffffff;
+    font-size: 400%;
+    padding: 0% 15% 0% 15%;
+}
+
+.landing-subtext {
+    color: #4a4a57;
+    font-size: 150%;
+    padding: 0% 20% 3% 20%;
+}
+
+.landing-btn {
+    background-color: #265a88;
+    padding: 3% 7% 3% 7%;
+    /* border-color: #4a4a57; */
+    /* border-width: thick; */
+    border: none;
+
+    font-size: 175%;
+    color: #EDEDED;
+
+    font-weight: bold;
+    text-align: center;
+}
