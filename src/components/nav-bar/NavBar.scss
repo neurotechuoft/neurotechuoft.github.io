@@ -1,21 +1,24 @@
-@import "../common.scss";
+@import '../common.scss';
 
-.NavBar {
+.navbar {
     background-color: $ntuoft-blue;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-items: center;
 }
 
-.nav-bar-btn {
+.navButton a {
     color: #ffffff;
-    font-size: 150%;
-    padding-top: 8vh;
+    font-size: 21px;
+    text-align: center;
+    text-decoration: none;
+
+    display: inline-block;
 }
 
-.nav_bar_logo {
-    max-width: 25%;
-    max-height: inherit;
-
-    min-width: 140pt;
-    min-height: inherit;
-
-    padding-bottom: 0%;
+.navButton a:hover {
+  color: #30527C;
+  text-decoration: underline;
 }

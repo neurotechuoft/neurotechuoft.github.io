@@ -1,38 +1,21 @@
-import React from 'react'
+import React from 'react';
 import './NavBar.scss';
 
-import ntuoft_dark from './../../assets/neurotechuoft_dark.png'
+import Logo from './Logo';
+import NavButton from './NavButton';
 
 function NavBar() {
     return(
-        <div className="NavBar">
-            <div class="row">
-                {/* <!-- Logo --> */}
-                <div class="col-md-2 col-sm-2">
-                    <img src={ntuoft_dark} class="img-fluid center-block nav_bar_logo" alt="NeurotechUofT Logo"></img>
-                </div>
+        <div className="navbar">
 
-                {/* <!-- Nav Buttons --> */}
-                <div class="col-md-2 col-sm-2 text-center">
-                    <a href="index.html" role="button" class="btn btn-link nav-bar-btn ">HOME</a>
-                </div>
+          <Logo/>
 
-                <div class="col-md-2 col-sm-2 text-center">
-                    <a href="our-team.html" role="button" class="btn btn-link nav-bar-btn" href="our-team.html">TEAM</a>
-                </div>
-
-                <div class="col-md-2 col-sm-2 text-center">
-                    <a href="initiatives.html" role="button" class="btn btn-link nav-bar-btn">INITIATIVES</a>
-                </div>
-
-                <div class="col-md-2 col-sm-2 text-center">
-                    <a href="events.html" role="button" class="btn btn-link nav-bar-btn">EVENTS</a>
-                </div>
-
-                <div class="col-md-2 col-sm-2 text-center">
-                    <a href="faq.html" role="button" class="btn btn-link nav-bar-btn">FAQ</a>
-                </div>
-            </div>
+          <NavButton link="index.html" buttonName="HOME"/>
+          <NavButton link="our-team.html" buttonName="TEAM"/>
+          <NavButton link="initiatives.html" buttonName="INITIATIVES"/>
+          <NavButton link="events.html" buttonName="EVENTS"/>
+          <NavButton link="faq.html" buttonName="FAQ"/>
+          
         </div>
     )
 }
