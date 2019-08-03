@@ -58,6 +58,7 @@
   font-weight: 500;
   font-size: 24px;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
 
   white-space: normal;
   width: 100%;
@@ -70,13 +71,18 @@
     color: $blue-dark;
 }
 
-.joinus-div h3 {
+.joinus-div > button {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.1;
   color: #ffffff;
+  background-color: transparent;
   margin: 20px 0px 10px 0px;
+}
+
+.joinus-div > button:hover {
+  text-decoration: underline;
 }
 
 .step1 button {

@@ -1,0 +1,46 @@
+@import '../common.scss';
+
+.curr-proj-div {
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.curr-proj-div h1 {
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  color: #136690;
+  font-size: 36px;
+
+  margin-bottom: 8vh;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.proj {
+  width: 33%;
+  padding: 0px 15px;
+}
+
+.proj button {
+  margin: 20px 0px 10px 0px;
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  color: #337ab7;
+  font-size: 30px;
+  background-color: transparent;
+  transition: 0.2s;
+}
+
+.proj button:hover {
+    color: $blue-dark;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.proj p {
+  font-size: 15px;
+  line-height: 1.42857143;
+}

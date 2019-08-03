@@ -19,7 +19,7 @@ function JoinUsDiv() {
           <button>Read a comic :D</button>
         </div>
       </div>
-      <h3>(Help drive undergrad neurotech innovation by joining one of our teams :D)</h3>
+      <button>(Help drive undergrad neurotech innovation by joining one of our teams :D)</button>
     </div>
   )
 }
