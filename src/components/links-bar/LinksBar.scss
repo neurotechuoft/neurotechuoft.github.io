@@ -1,19 +1,32 @@
 @import '../common.scss';
 
-/*----------------------CONTACT INFO----------------------*/
-.LinksBar {
+.linksbar {
     background-color: $bg-dark;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 13em;
+    align-items: center;
+    justify-items: center;
 }
 
-
-@media (min-width: 768px) {
-    .contact-bar-btn {
-        padding: 40%;
-
-    }
-}
-
-.contact-bar-btn {
+.linksbar button,
+.linksbar a {
     color: #ffffff;
-    font-size: 150%;
+    background-color: transparent;
+    font-size: 130%;
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.linksbar button {
+  margin-left: 20%;
+  grid-column: 1 / span 2;
+  justify-self: start;
+}
+
+.linksbar button:hover,
+.linksbar a:hover {
+  color: $blue-dark;
+  text-decoration: underline;
 }

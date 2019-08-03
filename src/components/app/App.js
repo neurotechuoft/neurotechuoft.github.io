@@ -15,8 +15,8 @@ function App() {
       <NinjaDiv/>
       <JoinUsDiv/>
       <CurrProjDiv/>
-      {/*<Sponsors></Sponsors>
-      <LinksBar></LinksBar>*/}
+      {/*<Sponsors></Sponsors>*/}
+      <LinksBar></LinksBar>
     </div>
   );
 }

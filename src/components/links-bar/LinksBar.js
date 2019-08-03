@@ -3,30 +3,15 @@ import './LinksBar.scss';
 
 function LinksBar() {
   return (
-    <div className="LinksBar">
-        <div class="row center-block">
-            <div class="col-md-2 col-sm-2 text-center">
-                <button class="btn btn-link contact-bar-btn" disabled="disabled">NeurotechUofT</button>
-            </div>
+    <div className="linksbar">
 
-            <div class="col-md-2 col-sm-2"></div>
+      <button>NeurotechUofT</button>
 
-            <div class="col-md-2 col-sm-2 text-center">
-                <a href="https://www.facebook.com/groups/neurotechUofT/" role="button" class="btn btn-link contact-bar-btn ">facebook</a>
-            </div>
+      <a href="https://www.facebook.com/groups/neurotechUofT/">facebook</a>
+      <a href="https://twitter.com/neurotechuoft">twitter</a>
+      <a href="mailto:ask@neurotechuoft.com">e-mail</a>
+      <a href="https://github.com/neurotechuoft">github</a>
 
-            <div class="col-md-2 col-sm-2 text-center">
-                <a href="https://twitter.com/neurotechuoft" role="button" class="btn btn-link contact-bar-btn" href="our-team.html">twitter</a>
-            </div>
-
-            <div class="col-md-2 col-sm-2 text-center">
-                <a href="mailto:ask@neurotechuoft.com" role="button" class="btn btn-link contact-bar-btn">e-mail</a>
-            </div>
-
-            <div class="col-md-2 col-sm-2 text-center">
-                <a href="https://github.com/neurotechuoft" role="button" class="btn btn-link contact-bar-btn">github</a>
-            </div>
-        </div>
     </div>
   );
 }
