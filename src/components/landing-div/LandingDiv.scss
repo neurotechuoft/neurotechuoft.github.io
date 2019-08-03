@@ -2,4 +2,43 @@
 
 .landing-div {
   background-color: $ntuoft-blue;
+  text-align: center;
+}
+
+.landing-div h1 {
+    color: #ffffff;
+    font-size: 350%;
+    padding: 0% 15% 0% 15%;
+
+    line-height: 1.42;
+    text-align: center;
+}
+
+.landing-div h2 {
+    color: $bg-dark;
+    font-size: 130%;
+    padding: 0% 19.5% 3% 19.5%;
+
+    line-height: 1.42;
+    text-align: center;
+}
+
+.landing-div > button {
+    background-color: $blue-dark;
+    padding: 3.5% 7% 3.5% 7%;
+    margin: 0% auto 4% auto;
+    border-radius: 4px;
+
+    font-size: 155%;
+    color: #EDEDED;
+
+    font-weight: bold;
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.landing-div > button:hover {
+    background-color: #EDEDED;
+    color: $blue-dark;
 }

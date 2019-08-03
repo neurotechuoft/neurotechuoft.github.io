@@ -1,4 +1,4 @@
-@import '../common.scss';
+@import '../../common.scss';
 
 .navbar {
     background-color: $ntuoft-blue;
@@ -9,16 +9,30 @@
     justify-items: center;
 }
 
-.navButton a {
+.navbar button {
     color: #ffffff;
+    background-color: transparent;
     font-size: 21px;
     text-align: center;
     text-decoration: none;
 
     display: inline-block;
+
+    transition: 0.2s;
 }
 
-.navButton a:hover {
-  color: #30527C;
+.navbar button:hover {
+  color: $blue-dark;
   text-decoration: underline;
+}
+
+.navbar img{
+    max-width: 25%;
+    max-height: inherit;
+
+    min-width: 140pt;
+    min-height: inherit;
+
+    display: block;
+    margin: 0 auto;
 }

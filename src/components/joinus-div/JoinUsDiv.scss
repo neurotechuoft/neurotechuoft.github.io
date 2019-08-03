@@ -1,0 +1,92 @@
+@import '../common.scss';
+
+.joinus-div {
+  background-color: #136690;
+  text-align: center;
+  padding: 5% 0% 7% 0%;
+}
+
+.joinus-div h1 {
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.1;
+  margin: 20px 0px 10px 0px;
+}
+
+.steps-to-join {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.step {
+  max-width: 25%;
+  max-height: inherit;
+  min-width: 90pt;
+  min-height: inherit;
+  padding: 0 15px 0 15px;
+
+  display: block;
+  margin: 0;
+
+  flex-basis: 100%;
+}
+
+.steps-to-join div {
+    padding: 0 15px;
+}
+
+.step h2 {
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #ffffff;
+  margin: 20px 0px 10px 0px;
+}
+
+.step button {
+  padding: 6% 20% 6% 20%;
+  margin-bottom: 5%;
+
+  border-radius: 1vmin;
+
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+
+  white-space: normal;
+  width: 100%;
+
+  transition: 0.2s;
+}
+
+.step button:hover {
+    background-color: #EDEDED;
+    color: $blue-dark;
+}
+
+.joinus-div h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #ffffff;
+  margin: 20px 0px 10px 0px;
+}
+
+.step1 button {
+  background-color: #A8D46F;
+}
+
+.step2 button {
+  background-color: #4ac2d2;
+}
+
+.step3 button {
+  background-color: #ef7c6e;
+}

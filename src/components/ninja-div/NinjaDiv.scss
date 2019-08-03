@@ -1,0 +1,117 @@
+@import '../common.scss';
+
+.ninja-div {
+    padding-bottom: 10vmin;
+    background: $bg-light;
+}
+
+.ninja-div *{
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+}
+
+.ninja-div > h1 {;
+  font-size: 220%;
+  padding: 6% 0% 3% 0%;
+  text-align: center;
+}
+
+.evolution {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.evolstage {
+  max-width: 25%;
+  max-height: inherit;
+  min-width: 90pt;
+  min-height: inherit;
+  padding: 0 15px 0 15px;
+
+  display: block;
+  margin: 0;
+}
+
+.evolstage img {
+  max-width: 25%;
+  max-height: inherit;
+  min-width: 90pt;
+  min-height: inherit;
+  padding-bottom: 0%;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.evolstage h1 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin: .67em 0
+}
+
+.evolstage h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.evolstage > button {
+  padding: 2% 8%;
+  margin-bottom: 5%;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  line-height: 1.42857143;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  transition: 0.2s;
+}
+
+.tadpole > button {
+  background-color: #ef7c6e;
+}
+
+.padawan > button {
+  background-color: #A8D46F;
+}
+
+.ninja > button {
+  background-color: #136690;
+}
+
+.tadpole > button:hover,
+.padawan > button:hover,
+.ninja > button:hover {
+  background-color: #EDEDED;
+  color: $blue-dark;
+}
+
+.evolstage p {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 10px;
+  font-size: 15px;
+  line-height: 1.42857143;
+}
+
+.evolstage b {
+  font-family: inherit;
+}
+
+.padawan p button,
+.ninja p button {
+  color: #337AB7;
+  background-color: transparent;
+  transition: 0.2s;
+}
+
+.padawan p button:hover,
+.ninja p button:hover {
+  color: $blue-dark;
+  background-color: transparent;
+  text-decoration: underline;
+}
