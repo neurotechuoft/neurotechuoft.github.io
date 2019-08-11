@@ -7,6 +7,7 @@ import LandingDiv from '../landing-div/LandingDiv';
 import NinjaDiv from '../ninja-div/NinjaDiv';
 import JoinUsDiv from '../joinus-div/JoinUsDiv';
 import CurrProjDiv from '../currproj-div/CurrProjDiv';
+import OpportunitiesDiv from '../opportunities-div/OpportunitiesDiv';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       <NinjaDiv/>
       <JoinUsDiv/>
       <CurrProjDiv/>
-      {/*<Sponsors></Sponsors>*/}
-      <LinksBar></LinksBar>
+      <OpportunitiesDiv/>
+      <Sponsors/>
+      <LinksBar/>
     </div>
   );
 }

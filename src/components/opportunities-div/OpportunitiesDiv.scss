@@ -1,0 +1,52 @@
+@import '../common.scss';
+
+.opportunities-div {
+  background-color: $ntuoft-blue;
+  text-align: center;
+  padding: 3%;
+  color: #ffffff;
+}
+
+.opportunities-div h1 {
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  font-size: 36px;
+  margin-top: 3%;
+}
+
+.opportunities-div h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+}
+
+.positions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 4em);
+  justify-items: center;
+  align-items: center;
+  margin: 2%;
+}
+
+.last-position {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.opportunities-div > button {
+    background-color: $blue-dark;
+    padding: 3.5% 7% 3.5% 7%;
+    margin: 0% auto 4% auto;
+    border-radius: 4px;
+
+    font-size: 155%;
+    color: #EDEDED;
+
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.opportunities-div > button:hover {
+    background-color: #EDEDED;
+    color: $blue-dark;
+}

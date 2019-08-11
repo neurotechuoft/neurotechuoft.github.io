@@ -1,23 +1,95 @@
 @import '../common.scss';
 
-.Sponsors {
-    background-color: $bg-light;
-    padding-top: 5%;
-    padding-bottom: 5%
+.sponsors {
+  background-color: $bg-light;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  text-align: center;
 }
 
-.sponsor-img {
-    padding-bottom: 5%;
+.sponsors h1 {
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  margin-bottom: 2%;
+  font-size: 36px;
 }
 
-@media (min-width: 768px) {
-    .sponsor-img {
-        padding: 10%;
-    }
+.sponsors h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
 }
 
-@media (max-width: 768px) {
-    .sponsor-img {
-        width: 50%;
-    }
+.sponsors a {
+  color: #337ab7;
+  background-color: transparent;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.sponsors a:hover {
+    color: $blue-dark;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.sponsor-images {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: repeat(3, 30%);
+  justify-items: center;
+  align-items: center;
+}
+
+#ibbme_uoft{
+  justify-self: end;
+  max-width: 65%;
+  height: auto;
+}
+
+#neurotechx{
+  max-width: 60%;
+  height: auto;
+}
+
+#ece_uoft{
+  justify-self: start;
+  max-width: 65%;
+  height: auto;
+}
+
+#interaxon{
+  justify-self: end;
+  margin-right: 5%;
+  max-width: 50%;
+  height: auto;
+}
+
+#pizza{
+  max-width: 100%;
+  height: auto;
+}
+
+#openbci{
+  justify-self: start;
+  margin-left: 5%;
+  max-width: 65%;
+  height: auto;
+}
+
+#neurosky{
+  justify-self: end;
+  margin-right: 5%;
+  max-width: 40%;
+  height: auto;
+}
+
+#skule_uoft{
+  max-width: 80%;
+  height: auto;
+}
+
+#yncn{
+  justify-self: start;
+  margin-left: 5%;
+  max-width: 40%;
+  height: auto;
 }
