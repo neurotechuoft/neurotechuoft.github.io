@@ -1,25 +1,30 @@
 import React from 'react';
-import './App.scss';
 
-import LinksBar from '../links-bar/LinksBar';
-import Sponsors from '../sponsors/Sponsors';
-import LandingDiv from '../landing-div/LandingDiv';
-import NinjaDiv from '../ninja-div/NinjaDiv';
-import JoinUsDiv from '../joinus-div/JoinUsDiv';
-import CurrProjDiv from '../currproj-div/CurrProjDiv';
-import OpportunitiesDiv from '../opportunities-div/OpportunitiesDiv';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
+import HomePage from './HomePage';
+import InitiativesPage from "./InitiativesPage";
+
+import NavBar from "../nav-bar/NavBar";
+import LinksBar from "../links-bar/LinksBar";
+
 
 function App() {
   return (
-    <div className="App">
-      <LandingDiv/>
-      <NinjaDiv/>
-      <JoinUsDiv/>
-      <CurrProjDiv/>
-      <OpportunitiesDiv/>
-      <Sponsors/>
+    <Router>
+      <div className="App">
+
+      <NavBar/>
+
+      <Switch>
+        <Route path="/" exact component={HomePage}/>
+        <Route path="/initiatives" component={InitiativesPage}/>
+      </Switch>
+
       <LinksBar/>
-    </div>
+
+      </div>
+    </Router>
   );
 }
 

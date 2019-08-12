@@ -1,4 +1,4 @@
-@import '../../common.scss';
+@import '../common.scss';
 
 .navbar {
     background-color: $ntuoft-blue;
@@ -9,7 +9,7 @@
     justify-items: center;
 }
 
-.navbar button {
+.navbar h1 {
     color: #ffffff;
     background-color: transparent;
     font-size: 21px;
@@ -21,7 +21,7 @@
     transition: 0.2s;
 }
 
-.navbar button:hover {
+.navbar h1:hover {
   color: $blue-dark;
   text-decoration: underline;
 }

@@ -1,12 +1,9 @@
 import React from 'react';
 import './LandingDiv.scss'
 
-import NavBar from './nav-bar/NavBar';
-
 function LandingDiv() {
     return(
         <div className="landing-div">
-            <NavBar/>
 
             <h1 id="landing-header">
               Driving neurotech innovation at the University of Toronto
