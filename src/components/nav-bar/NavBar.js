@@ -9,13 +9,15 @@ function NavBar() {
     return(
       <div className="navbar">
 
-        <img src={ntuoft_dark} alt="NeurotechUofT Logo"/>
+        <Link to="/" exact>
+          <img src={ntuoft_dark} alt="NeurotechUofT Logo"/>
+        </Link>
 
         <Link to="/" exact>
           <h1>HOME</h1>
         </Link>
 
-        <Link>
+        <Link to="/team">
           <h1>TEAM</h1>
         </Link>
 
@@ -23,11 +25,11 @@ function NavBar() {
           <h1>INITIATIVES</h1>
         </Link>
 
-        <Link>
+        <Link to="/events">
         <h1>EVENTS</h1>
         </Link>
 
-        <Link>
+        <Link to="/faq">
         <h1>FAQ</h1>
         </Link>
 

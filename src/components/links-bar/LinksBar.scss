@@ -9,7 +9,7 @@
     justify-items: center;
 }
 
-.linksbar button,
+.linksbar h3,
 .linksbar a {
     color: #ffffff;
     background-color: transparent;
@@ -19,13 +19,13 @@
     transition: 0.2s;
 }
 
-.linksbar button {
+.linksbar :first-child {
   margin-left: 20%;
   grid-column: 1 / span 2;
   justify-self: start;
 }
 
-.linksbar button:hover,
+.linksbar h3:hover,
 .linksbar a:hover {
   color: $blue-dark;
   text-decoration: underline;

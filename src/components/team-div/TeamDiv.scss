@@ -1,0 +1,36 @@
+@import '../common.scss';
+
+.team-div {
+  padding-bottom: 5%;
+}
+
+.team-banner > h1 {
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  font-size: 36px;
+
+  padding: 1vh;
+}
+
+.team-banner > h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+
+  padding: 1vh;
+}
+
+.team-div a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.team-div a:hover {
+  text-decoration: underline;
+}
+
+.team-banner {
+  color: #ffffff;
+  background-color: #EF7C6E;
+  text-align: center;
+
+  padding: 1em;
+}

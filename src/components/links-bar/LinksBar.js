@@ -1,11 +1,13 @@
 import React from 'react';
 import './LinksBar.scss';
 
+import {Link} from 'react-router-dom';
+
 function LinksBar() {
   return (
     <div className="linksbar">
 
-      <button>NeurotechUofT</button>
+      <Link to="/" exact>NeurotechUofT</Link>
 
       <a href="https://www.facebook.com/groups/neurotechUofT/">facebook</a>
       <a href="https://twitter.com/neurotechuoft">twitter</a>
