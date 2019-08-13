@@ -1,8 +1,8 @@
-@import '../common.scss';
-
 .landing-div {
-  background-color: $ntuoft-blue;
+  background-color: #4ac2d2;
   text-align: center;
+
+  padding-bottom: 15vh;
 }
 
 .landing-div h1 {
@@ -15,18 +15,19 @@
 }
 
 .landing-div h2 {
-    color: $bg-dark;
+    color: #4a4a57;
     font-size: 130%;
     padding: 0% 19.5% 3% 19.5%;
 
     line-height: 1.42;
     text-align: center;
+
+    margin-bottom: 7vh;
 }
 
-.landing-div > button {
-    background-color: $blue-dark;
+.landing-div > a {
+    background-color: #265A88;
     padding: 3.5% 7% 3.5% 7%;
-    margin: 0% auto 4% auto;
     border-radius: 4px;
 
     font-size: 155%;
@@ -38,7 +39,7 @@
     transition: 0.2s;
 }
 
-.landing-div > button:hover {
+.landing-div > a:hover {
     background-color: #EDEDED;
-    color: $blue-dark;
+    color: #265A88;
 }

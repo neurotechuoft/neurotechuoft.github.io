@@ -17,15 +17,43 @@ function Sponsors() {
           <h1>OUR PARTNERS</h1>
 
             <div className="sponsor-images">
-              <img src={ibbme_uoft} alt="Institute of Biomaterials & Biomedical Engineering UofT" id="ibbme_uoft"/>
-              <img src={neurotechx} alt="NeurotechX" id="neurotechx"/>
-              <img src={ece_uoft} alt="Department of Electrical & Computer Engineering UofT" id="ece_uoft"/>
-              <img src={interaxon} alt="Interaxon MUSE" id="interaxon"/>
-              <img src={pizza} alt="PizzaPizza" id="pizza"/>
-              <img src={openbci} alt="OpenBCI" id="openbci"/>
-              <img src={neurosky} alt="NeuroSky" id="neurosky"/>
-              <img src={skule_uoft} alt="Skule UofT" id="skule_uoft"/>
-              <img src={yncn} alt="YNCN" id="yncn"/>
+
+              <a href="https://ibbme.utoronto.ca/">
+                <img src={ibbme_uoft} alt="Institute of Biomaterials & Biomedical Engineering UofT" id="ibbme_uoft"/>
+              </a>
+
+              <a href="http://neurotechx.com/">
+                <img src={neurotechx} alt="NeurotechX" id="neurotechx"/>
+              </a>
+
+              <a href="https://www.ece.utoronto.ca/">
+                <img src={ece_uoft} alt="Department of Electrical & Computer Engineering UofT" id="ece_uoft"/>
+              </a>
+
+              <a href="http://www.choosemuse.com/">
+                <img src={interaxon} alt="Interaxon MUSE" id="interaxon"/>
+              </a>
+
+              <a href="https://www.pizzapizza.ca/">
+                <img src={pizza} alt="PizzaPizza" id="pizza"/>
+              </a>
+
+              <a href="http://openbci.com/">
+                <img src={openbci} alt="OpenBCI" id="openbci"/>
+              </a>
+
+              <a href="http://neurosky.com/">
+                <img src={neurosky} alt="NeuroSky" id="neurosky"/>
+              </a>
+
+              <a href="http://skule.ca/">
+                <img src={skule_uoft} alt="Skule UofT" id="skule_uoft"/>
+              </a>
+
+              <a href="https://yourenext.ca/">
+                <img src={yncn} alt="YNCN" id="yncn"/>
+              </a>
+
             </div>
 
           <h3>

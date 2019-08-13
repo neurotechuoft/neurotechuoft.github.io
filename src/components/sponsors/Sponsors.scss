@@ -1,7 +1,5 @@
-@import '../common.scss';
-
 .sponsors {
-  background-color: $bg-light;
+  background-color: #f1f2ff;
   padding-top: 4%;
   padding-bottom: 5%;
   text-align: center;
@@ -18,15 +16,15 @@
   font-size: 24px;
 }
 
-.sponsors a {
+.sponsors h3 a {
   color: #337ab7;
   background-color: transparent;
   text-decoration: none;
   transition: 0.2s;
 }
 
-.sponsors a:hover {
-    color: $blue-dark;
+.sponsors h3 a:hover {
+    color: #265A88;
     background-color: transparent;
     text-decoration: underline;
 }

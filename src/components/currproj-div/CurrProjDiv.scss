@@ -1,5 +1,3 @@
-@import '../common.scss';
-
 .curr-proj-div {
   text-align: center;
   padding-bottom: 5%;
@@ -34,7 +32,7 @@
 }
 
 .proj button:hover {
-    color: $blue-dark;
+    color: #265A88;
     background-color: transparent;
     text-decoration: underline;
 }

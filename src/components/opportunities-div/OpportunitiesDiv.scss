@@ -1,7 +1,5 @@
-@import '../common.scss';
-
 .opportunities-div {
-  background-color: $ntuoft-blue;
+  background-color: #4ac2d2;
   text-align: center;
   padding: 3%;
   color: #ffffff;
@@ -33,7 +31,7 @@
 }
 
 .opportunities-div > button {
-    background-color: $blue-dark;
+    background-color: #265A88;
     padding: 3.5% 7% 3.5% 7%;
     margin: 0% auto 4% auto;
     border-radius: 4px;
@@ -48,5 +46,5 @@
 
 .opportunities-div > button:hover {
     background-color: #EDEDED;
-    color: $blue-dark;
+    color: #265A88;
 }

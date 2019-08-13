@@ -1,6 +1,8 @@
 import React from 'react';
 import './LandingDiv.scss'
 
+import {Link} from 'react-router-dom';
+
 function LandingDiv() {
     return(
         <div className="landing-div">
@@ -14,7 +16,7 @@ function LandingDiv() {
               interested in learning about neurotech, and sharing ideas with like-minded individuals
             </h2>
 
-            <button>Join us</button>
+            <Link to="/join">Join us</Link>
         </div>
     )
 }

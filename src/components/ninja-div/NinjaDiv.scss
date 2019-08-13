@@ -1,8 +1,6 @@
-@import '../common.scss';
-
 .ninja-div {
     padding-bottom: 10vmin;
-    background: $bg-light;
+    background: #f1f2ff;
 }
 
 .ninja-div *{
@@ -58,37 +56,40 @@
   margin-bottom: 10px;
 }
 
-.evolstage > button {
-  padding: 2% 8%;
-  margin-bottom: 5%;
-  color: #ffffff;
+.ninja-btn {
   text-align: center;
-  width: 100%;
+  margin: 2.5vh 0 4vh 0;
+}
+.ninja-btn-link {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   border-radius: 4px;
-  line-height: 1.42857143;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
   transition: 0.2s;
 }
 
-.tadpole > button {
+.tadpole .ninja-btn-link {
   background-color: #ef7c6e;
+  padding: 1.3vh 10vw;
 }
 
-.padawan > button {
+.padawan .ninja-btn-link {
   background-color: #A8D46F;
+  padding: 1.3vh 9.5vw;
 }
 
-.ninja > button {
+.ninja .ninja-btn-link {
   background-color: #136690;
+  padding: 1.3vh 8vw;
 }
 
-.tadpole > button:hover,
-.padawan > button:hover,
-.ninja > button:hover {
+.ninja-btn-link:hover {
   background-color: #EDEDED;
-  color: $blue-dark;
+  color: #265A88;
 }
 
 .evolstage p {
@@ -100,18 +101,4 @@
 
 .evolstage b {
   font-family: inherit;
-}
-
-.padawan p button,
-.ninja p button {
-  color: #337AB7;
-  background-color: transparent;
-  transition: 0.2s;
-}
-
-.padawan p button:hover,
-.ninja p button:hover {
-  color: $blue-dark;
-  background-color: transparent;
-  text-decoration: underline;
 }

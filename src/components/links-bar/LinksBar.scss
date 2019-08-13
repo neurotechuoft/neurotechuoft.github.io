@@ -1,7 +1,5 @@
-@import '../common.scss';
-
 .linksbar {
-    background-color: $bg-dark;
+    background-color: #4a4a57;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 13em;
@@ -27,6 +25,6 @@
 
 .linksbar h3:hover,
 .linksbar a:hover {
-  color: $blue-dark;
+  color: #265A88;
   text-decoration: underline;
 }

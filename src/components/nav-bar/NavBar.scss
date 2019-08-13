@@ -1,7 +1,5 @@
-@import '../common.scss';
-
 .navbar {
-    background-color: $ntuoft-blue;
+    background-color: #4ac2d2;
 
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -22,7 +20,7 @@
 }
 
 .navbar h1:hover {
-  color: $blue-dark;
+  color: #265A88;
   text-decoration: underline;
 }
 
