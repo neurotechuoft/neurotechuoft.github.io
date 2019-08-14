@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
 
 import HomePage from "./HomePage";
 import JoinPage from "./JoinPage";
@@ -9,6 +10,7 @@ import InitiativesDiv from "../initiatives-div/InitiativesDiv";
 import EventsDiv from "../events-div/EventsDiv";
 import FAQDiv from "../faq-div/FAQDiv";
 import WorkshopsDiv from "../workshops-div/WorkshopsDiv";
+import CorticalAppsDiv from "../cortical-apps-div/CorticalAppsDiv";
 
 import NavBar from "../nav-bar/NavBar";
 import LinksBar from "../links-bar/LinksBar";
@@ -17,6 +19,7 @@ import LinksBar from "../links-bar/LinksBar";
 function App() {
   return (
     <Router>
+    <ScrollToTop>
       <div className="App">
 
       <NavBar/>
@@ -29,11 +32,13 @@ function App() {
         <Route path="/events" component={EventsDiv}/>
         <Route path="/faq" component={FAQDiv}/>
         <Route path="/workshops" component={WorkshopsDiv}/>
+        <Route path="/cortical-apps" component={CorticalAppsDiv}/>
       </Switch>
 
       <LinksBar/>
 
       </div>
+    </ScrollToTop>
     </Router>
   );
 }

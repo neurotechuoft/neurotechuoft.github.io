@@ -29,7 +29,7 @@ function NinjaEvolution() {
         <h1>{"Padawan"}</h1>
         <h3>{"Knowledge: 2nd year —"}</h3>
         <div className="ninja-btn">
-          <Link className="ninja-btn-link">Cortical Apps</Link>
+          <Link to="/cortical-apps" className="ninja-btn-link">Cortical Apps</Link>
         </div>
         <p>
         Start applying your neurotech skills to real projects! Work on feature development

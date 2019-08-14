@@ -1,8 +1,4 @@
-.workshops-div {
-  padding-bottom: 5%;
-}
-
-.workshops-div-div > h1 {
+.workshops-div > h1 {
   font-family: Tahoma, Verdana, Helvetica, sans-serif;
   font-size: 36px;
   text-align: center;
@@ -12,4 +8,11 @@
 
   padding: 1em;
   margin-bottom: 1.5em;
+}
+
+.workshops-div p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  margin: 13vh 10vw;
 }

@@ -1,7 +1,7 @@
 .joinus-div {
   background-color: #136690;
   text-align: center;
-  padding: 5% 0% 7% 0%;
+  padding: 5% 0% 5% 0%;
 }
 
 .joinus-div h1 {
@@ -46,51 +46,49 @@
   margin: 20px 0px 10px 0px;
 }
 
-.step button {
-  padding: 6% 20% 6% 20%;
+.step a {
+  display: block;
+  padding: 3vh 0;
   margin-bottom: 5%;
-
+  text-decoration: none;
   border-radius: 1vmin;
-
   color: #ffffff;
   font-weight: 500;
   font-size: 24px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-
-  white-space: normal;
+  white-space: nowrap;
   width: 100%;
-
   transition: 0.2s;
 }
 
-.step button:hover {
+.step a:hover {
     background-color: #EDEDED;
     color: #265A88;
 }
 
-.joinus-div > button {
+.drive-undergrad-research {
+  display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 500;
-  line-height: 1.1;
   color: #ffffff;
-  background-color: transparent;
-  margin: 20px 0px 10px 0px;
+  text-decoration: none;
+  margin: 3vh 0;
 }
 
-.joinus-div > button:hover {
+.drive-undergrad-research:hover {
   text-decoration: underline;
 }
 
-.step1 button {
+.step1 a {
   background-color: #A8D46F;
 }
 
-.step2 button {
+.step2 a {
   background-color: #4ac2d2;
 }
 
-.step3 button {
+.step3 a {
   background-color: #ef7c6e;
 }
