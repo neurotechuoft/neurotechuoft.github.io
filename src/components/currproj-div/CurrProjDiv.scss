@@ -22,7 +22,9 @@
   padding: 0px 15px;
 }
 
-.proj button {
+.proj a {
+  display: inline-block;
+  text-decoration: none;
   margin: 20px 0px 10px 0px;
   font-family: Tahoma, Verdana, Helvetica, sans-serif;
   color: #337ab7;
@@ -31,7 +33,7 @@
   transition: 0.2s;
 }
 
-.proj button:hover {
+.proj a:hover {
     color: #265A88;
     background-color: transparent;
     text-decoration: underline;

@@ -8,7 +8,7 @@ function CurrProjDiv() {
 
       <div className="projects">
         <div className="proj">
-          <button>MindType</button>
+          <a href="https://github.com/neurotechuoft/MindType">MindType</a>
           <p>
             A mind-controlled keyboard! Current mind-controlled keyboards require
             multiple operations to select a character. We propose the usage of an
@@ -19,7 +19,7 @@ function CurrProjDiv() {
         </div>
 
         <div className="proj">
-          <button>WallEEG</button>
+          <a href="https://github.com/neurotechuoft/Wall-EEG">WallEEG</a>
           <p>
             A mind-controlled quidditch robot! This project proves the interdisciplinary
             nature of neurotechnology, and consists of concepts from electrical engineering,
@@ -29,7 +29,7 @@ function CurrProjDiv() {
         </div>
 
         <div className="proj">
-          <button>Headset</button>
+          <a href="https://www.youtube.com/watch?v=OJdKAIgMKiA">Headset</a>
           <p>
             Our own EEG headset! We're trying to make a headset for the OpenBCI
             board that is comfortale for wearers and easy to use for researchers

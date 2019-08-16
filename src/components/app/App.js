@@ -11,6 +11,7 @@ import EventsDiv from "../events-div/EventsDiv";
 import FAQDiv from "../faq-div/FAQDiv";
 import WorkshopsDiv from "../workshops-div/WorkshopsDiv";
 import CorticalAppsDiv from "../cortical-apps-div/CorticalAppsDiv";
+import AdvancedProjDiv from "../advanced-proj-div/AdvancedProjDiv";
 
 import NavBar from "../nav-bar/NavBar";
 import LinksBar from "../links-bar/LinksBar";
@@ -33,6 +34,7 @@ function App() {
         <Route path="/faq" component={FAQDiv}/>
         <Route path="/workshops" component={WorkshopsDiv}/>
         <Route path="/cortical-apps" component={CorticalAppsDiv}/>
+        <Route path="/advanced-projects" component={AdvancedProjDiv}/>
       </Switch>
 
       <LinksBar/>

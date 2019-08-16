@@ -42,7 +42,7 @@ function NinjaEvolution() {
         <h1>{"Ninja"}</h1>
         <h3>{"Knowledge: 3rd year —"}</h3>
         <div className="ninja-btn">
-          <Link className="ninja-btn-link">Advanced Projects</Link>
+          <Link to="/advanced-projects" className="ninja-btn-link">Advanced Projects</Link>
         </div>
         <p>
         Work on our most advanced research and product development initiatives,

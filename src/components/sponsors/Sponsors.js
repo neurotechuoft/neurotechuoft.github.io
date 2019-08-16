@@ -11,6 +11,8 @@ import neurosky from './../../assets/sponsors/neurosky.png'
 import skule_uoft from './../../assets/sponsors/skule-uoft.png'
 import yncn from './../../assets/sponsors/yncn.png'
 
+import sponsorship_pdf from "./../../assets/NeurotechUofT-Sponsorship.pdf"
+
 function Sponsors() {
     return(
         <div className="sponsors">
@@ -57,7 +59,7 @@ function Sponsors() {
             </div>
 
           <h3>
-            (Interested in a collaboration? <a href="../../assets/NeurotechUofT-Sponsorship.pdf">
+            (Interested in a collaboration? <a href={sponsorship_pdf}>
                                               Find out how we can work together here
                                             </a>)
           </h3>
