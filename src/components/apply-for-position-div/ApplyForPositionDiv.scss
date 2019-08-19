@@ -1,0 +1,100 @@
+.apply-for-position-div {
+  padding-bottom: 5%;
+}
+
+.apply-for-position-div > h1 {
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  font-size: 36px;
+  text-align: center;
+
+  color: #ffffff;
+  background-color: #6B8998;
+
+  padding: 1em;
+  margin-bottom: 1.5em;
+}
+
+.available-positions {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20vh;
+}
+
+.available-positions a {
+  display: block;
+  background-color: #337ab7;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 1vh;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.available-positions a:hover {
+    background-color: #EDEDED;
+    color: #265A88;
+}
+
+.available-positions p {
+  font-size: 14px;
+  margin: 1.5vh 0;
+  line-height: 1.43;
+}
+
+.available-positions h1 {
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  font-size: 36px;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+.available-positions h2 {
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.available-positions h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+.available-positions h4 {
+  font-size: 18px;
+  margin-bottom: 2vh;
+}
+
+.available-positions .collapsable h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  color: #337ab7;
+  margin: 0;
+  transition: 0.2s;
+}
+
+.available-positions .collapsable h3:hover {
+  color: #265A88;
+  text-decoration: underline;
+}
+
+.available-positions .caret {
+  color: #337ab7;
+}
+
+.available-positions .collapsable {
+  padding-bottom: 1vh;
+  margin-bottom: 2vh;
+}
+
+.executive-positions,
+.advanced-project-positions {
+  width: 35vw;
+}
+
+.available-positions .collapsing b {
+  font-size: 14px;
+  margin: 1.5vh 0;
+  line-height: 1.43;
+}

@@ -27,7 +27,7 @@ function JoinUsDiv() {
 
       </div>
 
-      <Link className="drive-undergrad-research">(Help drive undergrad neurotech innovation by joining one of our teams :D)</Link>
+      <Link to="/opportunities" className="drive-undergrad-research">(Help drive undergrad neurotech innovation by joining one of our teams :D)</Link>
 
     </div>
   )

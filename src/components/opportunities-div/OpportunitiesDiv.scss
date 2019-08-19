@@ -2,18 +2,19 @@
   background-color: #4ac2d2;
   text-align: center;
   padding: 3%;
-  color: #ffffff;
 }
 
 .opportunities-div h1 {
   font-family: Tahoma, Verdana, Helvetica, sans-serif;
   font-size: 36px;
   margin-top: 3%;
+  color: #ffffff;
 }
 
 .opportunities-div h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
+  color: #ffffff;
 }
 
 .positions {
@@ -30,21 +31,22 @@
   grid-row: 3;
 }
 
-.opportunities-div > button {
-    background-color: #265A88;
-    padding: 3.5% 7% 3.5% 7%;
-    margin: 0% auto 4% auto;
-    border-radius: 4px;
+.opportunities-div > a {
+  display: inline-block;
+  background-color: #265A88;
+  padding: 3.5% 7% 3.5% 7%;
+  margin: 0% auto 4% auto;
+  border-radius: 4px;
 
-    font-size: 155%;
-    color: #ffffff;
+  font-size: 155%;
+  color: #ffffff;
 
-    text-decoration: none;
+  text-decoration: none;
 
-    transition: 0.2s;
+  transition: 0.2s;
 }
 
-.opportunities-div > button:hover {
-    background-color: #EDEDED;
-    color: #265A88;
+.opportunities-div > a:hover {
+  background-color: #EDEDED;
+  color: #265A88;
 }

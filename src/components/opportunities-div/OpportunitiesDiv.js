@@ -1,6 +1,8 @@
 import React from 'react';
 import './OpportunitiesDiv.scss';
 
+import {Link} from 'react-router-dom';
+
 function OpportunitiesDiv() {
   return(
     <div className="opportunities-div">
@@ -14,7 +16,7 @@ function OpportunitiesDiv() {
         <h3>VR / AR Developer (WallEEG)</h3>
         <h3 className="last-position">UX Designer (Headset)</h3>
       </div>
-      <button>Apply for a position</button>
+      <Link to="/opportunities">Apply for a position</Link>
     </div>
 
   )

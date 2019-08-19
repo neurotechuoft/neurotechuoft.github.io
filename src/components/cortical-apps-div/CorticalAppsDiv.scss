@@ -1,6 +1,5 @@
 .cortical-apps-div {
   background-color: #1C3B5C;
-  color: #ffffff;
   text-align: center;
   padding: 10vh 10vw;
 }
@@ -8,12 +7,14 @@
 .cortical-apps-div h1{
   font-family: Tahoma, Verdana, Helvetica, sans-serif;
   font-size: 36px;
+  color: #ffffff;
 }
 
 .cortical-apps-div h2{
   font-family: Tahoma, Verdana, Helvetica, sans-serif;
   font-size: 30px;
   margin: 2vh 0;
+  color: #ffffff;
 }
 
 .cortical-apps-div p{
@@ -21,6 +22,11 @@
   font-size: 14px;
   line-height: 1.5;
   margin: 0 0 1vh 0;
+  color: #ffffff;
+}
+
+.cortical-apps-div b {
+  color: #ffffff;
 }
 
 .cortical-apps-div > img {
