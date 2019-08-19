@@ -1,11 +1,188 @@
 .updates-resources-div {
+  display: flex;
+  padding: 10vh 19vh;
+}
 
+.updates-resources-div h4 {
+  font-size: 18px;
+  margin: 1vh 0;
+}
+
+.updates-resources-div p {
+  font-size: 14px;
+  margin: 1.5vh 0;
+  line-height: 1.43;
+  color: #333333;
+}
+
+.updates-resources-div .caret {
+  color: #337ab7;
+}
+
+.updates-resources-div a {
+  color: #337ab7;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.updates h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  color: #337ab7;
+  transition: 0.2s;
+}
+
+.updates h3:hover {
+  color: #265A88;
+  text-decoration: underline;
 }
 
 .updates {
+  width: 115vw;
+}
 
+.updates > a {
+  color: #337ab7;
+  font-size: 36px;
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  margin: 2vh 0;
+  transition: 0.2s;
+}
+.resources h1 {
+  color: #337ab7;
+  font-size: 36px;
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  transition: 0.2s;
+}
+
+.updates a:hover,
+.resources h1:hover {
+  color: #265A88;
+  text-decoration: underline;
+}
+
+.updates-collapsing {
+  margin: 5vh 0;
+}
+
+ul {
+  color: #333333;
+  font-size: 14px;
+  padding-left: 5vh;
+  line-height: 1.43;
+}
+
+li {
+  font-family: "Open Sans", sans-serif;
+}
+
+.updates-collapsing img:nth-of-type(1){
+  width: 39vw;
+  height: auto;
+  margin: 4vh 0;
+}
+
+.updates-collapsing img:nth-of-type(2) {
+  width: 18.5vw;
+  height: auto;
+  padding-right: 1vw;
+  padding-bottom: 2vh;
+}
+.updates-collapsing img:nth-of-type(3) {
+  width: 18.5vw;
+  height: auto;
+  padding-left: 1vw;
+  padding-bottom: 2vh;
 }
 
 .resources {
+  padding: 0 15vh;
+}
 
+.resource-buttons {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 27vw;
+}
+
+.resource-buttons a ,
+.resource-buttons h3 {
+  color: #ffffff;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  transition: 0.2s;
+}
+
+.resource-buttons .caret {
+  color: #ffffff;
+}
+
+.resource-buttons .trigger-div{
+  transition: 0.2s;
+}
+
+.resource-buttons ul {
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 0 0 1vh 0;
+}
+
+.resource-buttons li {
+  margin: 2vh 0;
+}
+
+.resource-buttons .collapsing a {
+  display: inline;
+  color: #337ab7;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.resource-buttons .collapsing a:hover {
+  color: #265A88;
+  text-decoration: underline;
+}
+
+.resource-buttons > :nth-child(1) {
+  background-color: #5BC0DE;
+  margin: 1vh 0;
+  padding: 3vh 0 3vh 2vh;
+  border-radius: 4px;
+}
+
+.resource-buttons > :nth-child(2) {
+  background-color: #D9534F;
+  margin: 1vh 0;
+  padding: 3vh 0 3vh 2vh;
+  border-radius: 4px;
+}
+
+.resource-buttons > :nth-child(3) .trigger-div{
+  background-color: #5CB85C;
+  margin: 1vh 0;
+  padding: 3vh 29.5vh 3vh 0;
+  border-radius: 4px;
+}
+
+.resource-buttons > :nth-child(4) .trigger-div{
+  background-color: #337AB7;
+  margin: 1vh 0;
+  padding: 3vh 24.5vh 3vh 0;
+  border-radius: 4px;
+}
+
+.resource-buttons > :nth-child(1):hover,
+.resource-buttons > :nth-child(2):hover,
+.resource-buttons .trigger-div:hover, {
+    background-color: #EDEDED;
+    color: #265A88;
+}
+
+.resource-buttons .trigger-div:hover h3,
+.resource-buttons .trigger-div:hover .caret {
+  color: #265A88;
 }
