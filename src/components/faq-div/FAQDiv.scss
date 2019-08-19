@@ -1,7 +1,3 @@
-.faq-div {
-  padding-bottom: 5%;
-}
-
 .faq-div > h1 {
   font-family: Tahoma, Verdana, Helvetica, sans-serif;
   font-size: 36px;
@@ -12,4 +8,37 @@
 
   padding: 1em;
   margin-bottom: 1.5em;
+}
+
+.faq-div h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  color: #337ab7;
+  margin: 0;
+  transition: 0.2s;
+  text-align: left;
+}
+
+.faq-div h3:hover {
+  color: #265A88;
+  text-decoration: underline;
+}
+
+.faq-div p {
+  font-size: 14px;
+  margin: 1.5vh 0;
+  line-height: 1.43;
+}
+
+.faq-div .caret {
+  color: #337ab7;
+}
+
+.faq-div .collapsable {
+  margin: 3vh 0;
+}
+
+.questions {
+  padding: 0 8vw;
+  padding-bottom: 5%;
 }

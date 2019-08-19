@@ -5,7 +5,7 @@ import ibbme_uoft from './../../assets/sponsors/ibbme-uoft.png'
 import neurotechx from './../../assets/sponsors/neurotechx.png'
 import ece_uoft from './../../assets/sponsors/ece-uoft.png'
 import interaxon from './../../assets/sponsors/interaxon.png'
-import pizza from './../../assets/sponsors/pizza_pizza.png'
+import student_life from './../../assets/sponsors/uoft-student-initiative-fund.png'
 import openbci from './../../assets/sponsors/openbci.png'
 import neurosky from './../../assets/sponsors/neurosky.png'
 import skule_uoft from './../../assets/sponsors/skule-uoft.png'
@@ -36,8 +36,8 @@ function Sponsors() {
                 <img src={interaxon} alt="Interaxon MUSE" id="interaxon"/>
               </a>
 
-              <a href="https://www.pizzapizza.ca/">
-                <img src={pizza} alt="PizzaPizza" id="pizza"/>
+              <a href="https://www.studentlife.utoronto.ca/bts/sif">
+                <img src={student_life} alt="UofT Student Life" id="student_life"/>
               </a>
 
               <a href="http://openbci.com/">
