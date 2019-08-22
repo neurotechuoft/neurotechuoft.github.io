@@ -41,6 +41,7 @@
 .team-photos {
   display: grid;
   grid-template-columns: repeat(16, 6.25vw);
+  grid-template-rows: repeat(3, 35vh);
   align-items: end;
   text-align: center;
   margin-top: 5vh;

@@ -26,6 +26,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.updates .trigger-div {
+  margin-top: 2vh;
+}
+
 .updates h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
@@ -39,7 +43,7 @@
 }
 
 .updates {
-  width: 115vw;
+  width: 100vw;
 }
 
 .updates > a {
@@ -78,26 +82,26 @@ li {
 }
 
 .updates-collapsing img:nth-of-type(1){
-  width: 39vw;
+  width: 100%;
   height: auto;
   margin: 4vh 0;
 }
 
 .updates-collapsing img:nth-of-type(2) {
-  width: 18.5vw;
+  width: 47%;
   height: auto;
-  padding-right: 1vw;
+  margin-right: 3%;
   padding-bottom: 2vh;
 }
 .updates-collapsing img:nth-of-type(3) {
-  width: 18.5vw;
+  width: 47%;
   height: auto;
-  padding-left: 1vw;
+  margin-left: 3%;
   padding-bottom: 2vh;
 }
 
 .resources {
-  padding: 0 15vh;
+  padding: 0 6.5vw;
 }
 
 .resource-buttons {
