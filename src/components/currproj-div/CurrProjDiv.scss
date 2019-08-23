@@ -44,3 +44,14 @@
   line-height: 1.42857143;
   color: #333333;
 }
+
+@media screen and (max-width: 900px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .proj {
+    width: 90%;
+  }
+}

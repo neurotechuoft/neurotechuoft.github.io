@@ -7,7 +7,7 @@ function UpdatesDiv() {
   return(
     <div className='updates-resources-div'>
 
-      <div className="updates" style={{width: '100%'}}>
+      <div className="updates updates-full">
         {updatesList}
       </div>
     </div>

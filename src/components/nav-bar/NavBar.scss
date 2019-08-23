@@ -9,13 +9,12 @@
 
 .navbar h1 {
     color: #ffffff;
+    margin: 1vh 0;
     background-color: transparent;
     font-size: 21px;
     text-align: center;
     text-decoration: none;
-
     display: inline-block;
-
     transition: 0.2s;
 }
 
@@ -26,11 +25,15 @@
 
 .navbar img{
     max-width: 25%;
-    max-height: inherit;
 
     min-width: 140pt;
-    min-height: inherit;
 
     display: block;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar{
+    grid-template-columns: 100%;
+  }
 }

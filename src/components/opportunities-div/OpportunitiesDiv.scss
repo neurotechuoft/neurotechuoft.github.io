@@ -50,3 +50,14 @@
   background-color: #EDEDED;
   color: #265A88;
 }
+
+@media screen and (max-width: 900px) {
+  .positions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .opportunities-div h3 {
+    margin: 1.5vh 0;
+  }
+}

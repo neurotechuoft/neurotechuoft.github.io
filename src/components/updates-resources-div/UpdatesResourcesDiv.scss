@@ -168,15 +168,17 @@ li {
 .resource-buttons > :nth-child(3) .trigger-div{
   background-color: #5CB85C;
   margin: 1vh 0;
-  padding: 3vh 29.5vh 3vh 0;
+  padding: 3vh 0;
   border-radius: 4px;
+  width: 100%;
 }
 
 .resource-buttons > :nth-child(4) .trigger-div{
   background-color: #337AB7;
   margin: 1vh 0;
-  padding: 3vh 24.5vh 3vh 0;
+  padding: 3vh 0;
   border-radius: 4px;
+  width: 100%;
 }
 
 .resource-buttons > :nth-child(1):hover,
@@ -189,4 +191,31 @@ li {
 .resource-buttons .trigger-div:hover h3,
 .resource-buttons .trigger-div:hover .caret {
   color: #265A88;
+}
+
+.updates-full {
+  width: 100%
+}
+
+@media screen and (max-width: 900px) {
+  .updates-resources-div {
+    flex-direction: column;
+    padding: 4vh 0;
+    align-items: center;
+    }
+
+    .updates,
+    .updates-full {
+      width: 90%;
+    }
+
+    .resources {
+      width: 90%;
+      padding: 0;
+    }
+
+    .resource-buttons {
+      width: 100%;
+
+    }
 }

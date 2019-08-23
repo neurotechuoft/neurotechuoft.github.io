@@ -88,6 +88,27 @@
 #yncn{
   justify-self: start;
   margin-left: 5%;
-  max-width: 40%;
+  max-width: 50%;
   height: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .sponsor-images {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(9, 1fr);
+  }
+
+  #skule_uoft{
+    max-width: 50%;
+    height: auto;
+  }
+
+  #student_life{
+    max-width: 50%;
+    height: auto;
+  }
+
+  .sponsors h3 {
+    padding: 0 1vh;
+  }
 }

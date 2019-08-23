@@ -10,7 +10,7 @@
 
   color: #ffffff;
 
-  padding: 1em;
+  padding: 1em 0;
   margin-bottom: 1.5em;
 }
 
@@ -70,6 +70,8 @@
     border-radius: 4px;
     display: inline-block;
     margin-bottom: 10vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
 
     font-size: 155%;
     color: #ffffff;
@@ -82,4 +84,15 @@
 .advanced-proj-div > a:hover {
     background-color: #EDEDED;
     color: #265A88;
+}
+
+@media screen and (max-width: 900px) {
+  .on-hold-projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .on-hold-proj {
+    width: 90%;
+  }
 }

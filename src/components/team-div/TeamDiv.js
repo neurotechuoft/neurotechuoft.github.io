@@ -21,55 +21,55 @@ function TeamDiv() {
 
       <div className="team-photos">
 
-        <div>
+        <div className="profile">
           <h2>Taha Morshedzadeh</h2>
           <h3>Vice-President, Operations</h3>
           <img src={Taha} alt="Taha Morshedzadeh"/>
         </div>
 
-        <div>
+        <div className="profile">
           <h2>Sayan Faraz</h2>
           <h3>President</h3>
           <img src={Sayan} alt="Sayan Faraz"/>
         </div>
 
-        <div>
+        <div className="profile">
           <h2>Musa Talluzi</h2>
           <h3>MindType Co-Lead</h3>
           <img src={Avatar} alt="Photo coming soon"/>
         </div>
 
-        <div>
+        <div className="profile">
           <h2>Vandod Farhadi</h2>
           <h3>Workshops Lead</h3>
           <img src={Avatar} alt="Photo coming soon"/>
         </div>
 
-        <div>
+        <div className="profile">
           <h2>Ritwij Jamuar</h2>
           <h3>Cortical Apps Lead</h3>
           <img src={Avatar} alt="Photo coming soon"/>
         </div>
 
-        <div>
+        <div className="profile">
           <h2>Li Quan Soh</h2>
           <h3>Marketing Director</h3>
           <img src={Avatar} alt="Photo coming soon"/>
         </div>
 
-        <div>
+        <div className="profile">
           <h2>Soaad Hossain</h2>
           <h3>Ideas Exchange Director</h3>
           <img src={Avatar} alt="Photo coming soon"/>
         </div>
 
-        <div>
+        <div className="profile">
           <h2>Kota Abe</h2>
           <h3>Sponsorship Director</h3>
           <img src={Kota} alt="Kota Abe"/>
         </div>
 
-        <div>
+        <div className="profile">
           <h2>Jai Aggarwal</h2>
           <h3>Sponsorship Director</h3>
           <img src={Avatar} alt="Photo coming soon"/>

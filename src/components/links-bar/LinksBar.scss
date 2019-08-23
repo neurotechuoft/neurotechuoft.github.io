@@ -28,3 +28,16 @@
   color: #265A88;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 900px) {
+  .linksbar {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 8vh);
+  }
+
+  .linksbar :first-child {
+    margin-left: 0;
+    justify-self: center;
+    grid-column: auto;
+  }
+}

@@ -71,6 +71,7 @@
 
 .dev-time img {
   width: 16%;
+  min-width: 140pt;
   height: auto;
   margin-right: 13vw;
 }
@@ -107,7 +108,12 @@
   width: 7%;
 }
 
+.cortical-div-btns a {
+  min-width: 50pt;
+}
+
 .cortical-div-btns a img {
+  display: block;
   width: 100%;
   height: auto;
 }
@@ -115,4 +121,30 @@
 .cortical-div-btns a:hover {
   background-color: #EDEDED;
   color: #265A88;
+}
+
+@media screen and (max-width: 900px) {
+
+  .cortical-apps-div > img {
+    width: 100%;
+  }
+
+  .cortical-apps-div *{
+    text-align: center;
+  }
+
+  .steps-to-idea,
+  .dev-time,
+  .cortical-div-btns {
+    flex-direction: column;
+  }
+
+  .idea-making,
+  .brain-hacking  {
+    padding: 0;
+  }
+
+  .dev-time img {
+    margin: 0 auto;
+  }
 }

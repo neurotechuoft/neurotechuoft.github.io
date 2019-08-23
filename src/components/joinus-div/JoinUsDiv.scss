@@ -21,16 +21,8 @@
 }
 
 .step {
-  max-width: 25%;
-  max-height: inherit;
-  min-width: 90pt;
-  min-height: inherit;
-  padding: 0 15px 0 15px;
-
-  display: block;
-  margin: 0;
-
-  flex-basis: 100%;
+  padding: 0 15px;
+  width: 26vw;
 }
 
 .steps-to-join div {
@@ -47,7 +39,7 @@
 }
 
 .step a {
-  display: block;
+  display: inline-block;
   padding: 3vh 0;
   margin-bottom: 5%;
   text-decoration: none;
@@ -57,7 +49,6 @@
   font-size: 24px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  white-space: nowrap;
   width: 100%;
   transition: 0.2s;
 }
@@ -92,4 +83,14 @@
 
 .step3 a {
   background-color: #ef7c6e;
+}
+
+@media screen and (max-width: 900px) {
+  .steps-to-join{
+    flex-direction: column;
+  }
+
+  .step {
+    width: 90%;
+  }
 }

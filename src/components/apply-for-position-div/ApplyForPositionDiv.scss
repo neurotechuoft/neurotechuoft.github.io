@@ -10,7 +10,7 @@
   color: #ffffff;
   background-color: #6B8998;
 
-  padding: 1em;
+  padding: 1em 0;
   margin-bottom: 1.5em;
 }
 
@@ -97,4 +97,21 @@
   font-size: 14px;
   margin: 1.5vh 0;
   line-height: 1.43;
+}
+
+.apply-for-position-div button {
+  text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+  .available-positions {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .executive-positions,
+  .advanced-project-positions {
+    width: 90%;
+  }
 }

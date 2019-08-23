@@ -103,3 +103,24 @@
 .evolstage b {
   font-family: inherit;
 }
+
+@media screen and (max-width: 900px) {
+  .evolution {
+    flex-direction: column;
+  }
+  .evolstage {
+    max-width: 100%;
+  }
+
+  .ninja-btn {
+    width: 100%;
+  }
+
+  .tadpole .ninja-btn-link,
+  .padawan .ninja-btn-link,
+  .ninja .ninja-btn-link {
+    display: block;
+    max-width: 100%;
+    padding: 2vh;
+  }
+}

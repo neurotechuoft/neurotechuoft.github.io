@@ -6,7 +6,7 @@
   font-family: Tahoma, Verdana, Helvetica, sans-serif;
   font-size: 36px;
 
-  padding: 1vh;
+  padding: 1vh 0;
   color: #ffffff;
 }
 
@@ -39,10 +39,9 @@
 }
 
 .team-photos {
-  display: grid;
-  grid-template-columns: repeat(16, 6.25vw);
-  grid-template-rows: repeat(3, 35vh);
-  align-items: end;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   text-align: center;
   margin-top: 5vh;
 }
@@ -50,51 +49,42 @@
 .team-photos h2 {
   font-family: Tahoma, Verdana, Helvetica, sans-serif;
   font-size: 30px;
-  white-space: nowrap;
+  margin-top: 3vh;
 }
 
 .team-photos h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
-  white-space: nowrap;
 }
 
 .team-photos img {
-  width: 80%;
+  width: 15vw;
 }
 
-.team-photos :nth-child(1) {
-  grid-column: 5 / span 2;
-}
-
+.team-photos :nth-child(1),
 .team-photos :nth-child(2) {
-  grid-column: 11 / span 2;
+  flex-basis: 50%
 }
 
-.team-photos :nth-child(3) {
-  grid-column: 4 / span 2;
-}
-
-.team-photos :nth-child(4) {
-  grid-column: 8 / span 2;
-}
-
+.team-photos :nth-child(3),
+.team-photos :nth-child(4),
 .team-photos :nth-child(5) {
-  grid-column: 12 / span 2;
+  flex-basis: 33%
 }
 
-.team-photos :nth-child(6) {
-  grid-column: 2 / span 2;
-}
-
-.team-photos :nth-child(7) {
-  grid-column: 6 / span 2;
-}
-
-.team-photos :nth-child(8) {
-  grid-column: 10 / span 2;
-}
-
+.team-photos :nth-child(6),
+.team-photos :nth-child(7),
+.team-photos :nth-child(8),
 .team-photos :nth-child(9) {
- grid-column: 14 / span 2;
+  flex-basis: 25%
+}
+
+@media screen and (max-width: 900px) {
+  .team-photos {
+    flex-direction: column;
+  }
+
+  .team-photos img {
+    width: 50%;
+  }
 }
