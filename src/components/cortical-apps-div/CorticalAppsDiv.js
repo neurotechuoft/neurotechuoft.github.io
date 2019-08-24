@@ -1,4 +1,6 @@
 import React from 'react';
+import {Helmet} from 'react-helmet';
+
 import './CorticalAppsDiv.scss';
 
 import corticalapps from '../../assets/ntuoft-cortical-apps-cover.png'
@@ -8,6 +10,9 @@ import slack from '../../assets/slack-selected-assets/slack_monochrome_white.png
 function CorticalAppsDiv() {
   return(
     <div className="cortical-apps-div">
+      <Helmet>
+        <title>Cortical Apps | NeurotechUofT</title>
+      </Helmet>
       <img src={corticalapps} alt="NeurotechUofT Cortical Apps Cover"/>
       <h1>Make an epic neurotech idea, and bring it to life</h1>
 

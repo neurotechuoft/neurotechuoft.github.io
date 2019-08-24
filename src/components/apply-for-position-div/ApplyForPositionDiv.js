@@ -1,4 +1,6 @@
 import React from 'react';
+import {Helmet} from 'react-helmet';
+
 import './ApplyForPositionDiv.scss';
 
 import collapseList from './collapseList';
@@ -7,6 +9,10 @@ function ApplyForPostionDiv() {
 
   return(
     <div className="apply-for-position-div">
+      <Helmet>
+        <title>Opportunities | NeurotechUofT</title>
+      </Helmet>
+
       <h1>OPPORTUNITIES</h1>
       <div className="available-positions">
 

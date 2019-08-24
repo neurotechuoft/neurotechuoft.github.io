@@ -1,4 +1,6 @@
 import React from 'react';
+import {Helmet} from 'react-helmet';
+
 import './FAQDiv.scss';
 
 import Collapsable from '../collapsable/Collapsable';
@@ -87,6 +89,9 @@ const q4collapsing = (
 function FAQDiv() {
   return(
     <div className="faq-div">
+      <Helmet>
+        <title>FAQ | NeurotechUofT</title>
+      </Helmet>
       <h1>FAQ</h1>
 
       <div className="questions">

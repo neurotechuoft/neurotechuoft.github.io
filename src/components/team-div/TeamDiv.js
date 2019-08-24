@@ -2,6 +2,7 @@ import React from 'react';
 import './TeamDiv.scss';
 
 import {Link} from 'react-router-dom';
+import {Helmet} from "react-helmet";
 
 import Taha from '../../assets/team/taha_morshedzadeh.jpg';
 import Sayan from '../../assets/team/sayan_faraz.jpg';
@@ -11,6 +12,9 @@ import Avatar from '../../assets/team/Profile_avatar_placeholder_large.png';
 function TeamDiv() {
   return(
     <div className="team-div">
+      <Helmet>
+        <title>Our Team | NeurotechUofT</title>
+      </Helmet>
       <div className="team-banner">
         <h1>TEAM</h1>
         <h3>

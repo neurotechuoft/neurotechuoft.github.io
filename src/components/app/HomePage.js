@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from 'react-helmet';
 
 import Sponsors from '../sponsors/Sponsors';
 import LandingDiv from '../landing-div/LandingDiv';
@@ -11,6 +12,10 @@ import UpdatesResourcesDiv from '../updates-resources-div/UpdatesResourcesDiv';
 function HomePage() {
   return (
     <div>
+      <Helmet>
+        <title>NeurotechUofT</title>
+      </Helmet>
+
       <LandingDiv/>
       <NinjaDiv/>
       <JoinUsDiv/>

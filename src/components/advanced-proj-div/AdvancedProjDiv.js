@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from 'react-helmet';
 import './AdvancedProjDiv.scss';
 
 import CurrProjDiv from "../currproj-div/CurrProjDiv";
@@ -6,6 +7,10 @@ import CurrProjDiv from "../currproj-div/CurrProjDiv";
 function AdvancedProjDiv() {
   return(
     <div className="advanced-proj-div">
+      <Helmet>
+        <title>Projects | NeurotechUofT</title>
+      </Helmet>
+      
       <CurrProjDiv/>
       <a href="http://bit.ly/admin-team-apps-2019">Apply for a Project Position</a>
 
