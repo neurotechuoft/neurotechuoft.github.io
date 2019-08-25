@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
+import {Link} from 'react-router-dom';
 import './AdvancedProjDiv.scss';
 
 import CurrProjDiv from "../currproj-div/CurrProjDiv";
@@ -10,9 +11,9 @@ function AdvancedProjDiv() {
       <Helmet>
         <title>Projects | NeurotechUofT</title>
       </Helmet>
-      
+
       <CurrProjDiv/>
-      <a href="http://bit.ly/admin-team-apps-2019">Apply for a Project Position</a>
+      <Link to="/opportunities">Apply for a Project Position</Link>
 
       <div className="on-hold-div">
         <h1>On Hold</h1>
