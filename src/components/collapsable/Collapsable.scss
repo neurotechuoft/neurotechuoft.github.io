@@ -1,0 +1,35 @@
+.trigger-div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.trigger-div > button {
+  display: inline-block;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.trigger-div .rotate {
+  transition: 0.2s;
+  transform: rotate(0deg);
+}
+
+.collapsable .collapsing {
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: 0px 1vw;
+  margin-top: 15px;
+  align-self: flex-start;
+  border-top: 4px dashed;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  transform: rotate(-90deg);
+  transition: 0.5s;
+}

@@ -1,0 +1,126 @@
+.ninja-div {
+    padding-bottom: 10vmin;
+    background: #f1f2ff;
+}
+
+.ninja-div *{
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+}
+
+.ninja-div > h1 {;
+  font-size: 220%;
+  padding: 6% 0% 3% 0%;
+  text-align: center;
+}
+
+.evolution {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.evolstage {
+  max-width: 25%;
+  max-height: inherit;
+  min-width: 90pt;
+  min-height: inherit;
+  padding: 0 15px 0 15px;
+
+  display: block;
+  margin: 0;
+}
+
+.evolstage img {
+  max-width: 25%;
+  max-height: inherit;
+  min-width: 90pt;
+  min-height: inherit;
+  padding-bottom: 0%;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.evolstage h1 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin: .67em 0
+}
+
+.evolstage h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.ninja-btn {
+  text-align: center;
+  margin: 2.5vh 0 4vh 0;
+}
+.ninja-btn-link {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: 0.2s;
+}
+
+.tadpole .ninja-btn-link {
+  background-color: #ef7c6e;
+  padding: 1.3vh 10vw;
+}
+
+.padawan .ninja-btn-link {
+  background-color: #A8D46F;
+  padding: 1.3vh 9.5vw;
+}
+
+.ninja .ninja-btn-link {
+  background-color: #136690;
+  padding: 1.3vh 8vw;
+}
+
+.ninja-btn-link:hover {
+  background-color: #EDEDED;
+  color: #265A88;
+}
+
+.evolstage p {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 10px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #333333;
+}
+
+.evolstage b {
+  font-family: inherit;
+}
+
+@media screen and (max-width: 900px) {
+  .evolution {
+    flex-direction: column;
+  }
+  .evolstage {
+    max-width: 100%;
+  }
+
+  .ninja-btn {
+    width: 100%;
+  }
+
+  .tadpole .ninja-btn-link,
+  .padawan .ninja-btn-link,
+  .ninja .ninja-btn-link {
+    display: block;
+    max-width: 100%;
+    padding: 2vh;
+  }
+}

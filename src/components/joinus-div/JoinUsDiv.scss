@@ -1,0 +1,96 @@
+.joinus-div {
+  background-color: #136690;
+  text-align: center;
+  padding: 5% 0% 5% 0%;
+}
+
+.joinus-div h1 {
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.1;
+  margin: 20px 0px 10px 0px;
+}
+
+.steps-to-join {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.step {
+  padding: 0 15px;
+  width: 26vw;
+}
+
+.steps-to-join div {
+    padding: 0 15px;
+}
+
+.step h2 {
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #ffffff;
+  margin: 20px 0px 10px 0px;
+}
+
+.step a {
+  display: inline-block;
+  padding: 3vh 0;
+  margin-bottom: 5%;
+  text-decoration: none;
+  border-radius: 1vmin;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  transition: 0.2s;
+}
+
+.step a:hover {
+    background-color: #EDEDED;
+    color: #265A88;
+}
+
+.drive-undergrad-research {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 3vh 0;
+  transition: 0.2s;
+}
+
+.drive-undergrad-research:hover {
+  text-decoration: underline;
+}
+
+.step1 a {
+  background-color: #A8D46F;
+}
+
+.step2 a {
+  background-color: #4ac2d2;
+}
+
+.step3 a {
+  background-color: #ef7c6e;
+}
+
+@media screen and (max-width: 900px) {
+  .steps-to-join{
+    flex-direction: column;
+  }
+
+  .step {
+    width: 90%;
+  }
+}

@@ -1,0 +1,18 @@
+* {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  color: #333333;
+}
+
+b {
+  font-weight: 600;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}

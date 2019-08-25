@@ -1,0 +1,45 @@
+.landing-div {
+  background-color: #4ac2d2;
+  text-align: center;
+
+  padding-bottom: 15vh;
+}
+
+.landing-div h1 {
+    color: #ffffff;
+    font-size: 350%;
+    padding: 0% 15% 0% 15%;
+
+    line-height: 1.42;
+    text-align: center;
+}
+
+.landing-div h2 {
+    color: #4a4a57;
+    font-size: 130%;
+    padding: 0% 19.5% 3% 19.5%;
+
+    line-height: 1.42;
+    text-align: center;
+
+    margin-bottom: 7vh;
+}
+
+.landing-div > a {
+    background-color: #265A88;
+    padding: 7vh 14vh;
+    border-radius: 4px;
+
+    font-size: 155%;
+    color: #ffffff;
+
+    font-weight: bold;
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.landing-div > a:hover {
+    background-color: #EDEDED;
+    color: #265A88;
+}
