@@ -19,8 +19,7 @@ function NinjaEvolution() {
         <p>
         Begin your journey by making your first neurotech app! Learn to build your
         first circuits, program your first Arduinos, and learn the fundamentals of
-        BCI design. <b>Our next round of workshops starts in January 2019</b>,
-        so make sure to keep an eye out for them!
+        BCI design. <a href="https://www.eventbrite.ca/e/intro-to-neurotech-workshop-series-tickets-73686537417"><b>Get your tickets here by September 29th!</b>.</a>
         </p>
       </div>
 

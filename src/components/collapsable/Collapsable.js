@@ -20,7 +20,7 @@ class Collapsable extends React.Component {
 
   render() {
     const {isExpanded, height} = this.state
-    const currentHeight = isExpanded ? height + 25 : 0
+    const currentHeight = isExpanded ? height + this.props.expandHeight : 0
 
     return(
       <div className="collapsable">

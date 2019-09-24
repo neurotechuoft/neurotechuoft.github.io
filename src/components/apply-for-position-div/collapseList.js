@@ -3,8 +3,8 @@ import Collapsable from '../collapsable/Collapsable';
 
 const positionsList =
 [
-  [
-    <h3>Ideas Exchange Associate</h3>,
+  [ // 0
+    <h3>Events Associate</h3>,
     <div>
       <p>
       Introduce our members to the best faculty and industry professionals
@@ -22,7 +22,7 @@ const positionsList =
       <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 1
     <h3>Branding Director</h3>,
     <div>
       <p>
@@ -39,7 +39,7 @@ const positionsList =
       <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 2
     <h3>Outreach Associate</h3>,
     <div>
       <p>
@@ -56,7 +56,7 @@ const positionsList =
       <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 3
     <h3>Cortical Apps Co-Director</h3>,
     <div>
       <p>
@@ -73,7 +73,7 @@ const positionsList =
       <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 4
     <h3>Vlog Editor</h3>,
     <div>
       <p>
@@ -90,7 +90,7 @@ const positionsList =
       <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 5
     <h3>Web Developer</h3>,
     <div>
       <p>
@@ -110,7 +110,7 @@ const positionsList =
       <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 6
     <h3>Talent Director</h3>,
     <div>
       <p>
@@ -129,7 +129,7 @@ const positionsList =
       <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 7
     <h3>Workshops Director</h3>,
     <div>
       <p>
@@ -156,7 +156,7 @@ const positionsList =
       <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 8
     <h3>Workshops Mentor</h3>,
     <div>
     <ul>
@@ -184,7 +184,7 @@ const positionsList =
     <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 9
     <h3>EEG Research Co-Lead</h3>,
     <div>
     <p>Lead NeurotechUofT EEG research efforts and iterative development of Neurostack</p>
@@ -210,7 +210,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 10
     <h3>Cloud Machine Learning Researcher</h3>,
     <div>
     <p>
@@ -235,7 +235,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 11
     <h3>Cloud Services Engineer</h3>,
     <div>
     <p>Develop and optimize real-time cloud ML services and benchmarking libraries.</p>
@@ -255,7 +255,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 12
     <h3>Cloud DevOps Engineer</h3>,
     <div>
     <p>Design and implement EEG ML pipeline and deployment stack.</p>
@@ -275,7 +275,26 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 13
+    <h3>Neuroscience Researcher</h3>,
+    <div>
+    <p>Identify core neuroscience phenomena to be detected using ML; design and implement experimental protocols to observe such phenomena</p>
+    <b>Required skills:</b>
+    <ul>
+      <li>Finished all core second year neuroscience courses</li>
+      <li>Experience reading neuroscience literature</li>
+    </ul>
+    <b>Nice skills to have:</b>
+    <ul>
+      <li>Previous experience with EEG</li>
+    </ul>
+    <p>
+    <b>Hours per week:</b> 4—5 hours
+    </p>
+    <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
+    </div>
+  ],
+  [ // 14
     <h3>Headset Project Lead</h3>,
     <div>
     <p>Lead the design of a easy-to-use, modular, comfortable, and fashionable EEG headset</p>
@@ -298,7 +317,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 15
     <h3>3D Printing and CAD Designer (Headset)</h3>,
     <div>
     <p>
@@ -325,7 +344,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 16
     <h3>Signals Acquisition Engineer (Headset)</h3>,
     <div>
     <p>
@@ -353,7 +372,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 17
     <h3>UX Designer (Headset)</h3>,
     <div>
     <p>
@@ -373,8 +392,98 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
-    <h3>Wall EEG Project Lead</h3>,
+  [ // 18
+    <h3>Biosignals Board Co-Lead</h3>,
+    <div>
+      <p>
+      Lead the design, prototyping, and fabrication of an ultra-low noise biosignals acquisition board.
+      </p>
+      <ul>
+        <li>Experience programming low-level computer hardware and/or embedded systems (ie ECE342 Computer Hardware)</li>
+        <li>Knowledgeable in operating systems (ECE344, CSC369, etc)</li>
+        <li>OR</li>
+        <li>Signal processing experience</li>
+        <li>Experience with PCB design</li>
+      </ul>
+      <b>Nice skills to have:</b>
+      <p>
+      <b>Hours per week:</b> 8—10 hours
+      </p>
+      <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
+    </div>
+  ],
+  [ // 19
+    <h3>Embedded Software / Firmware Engineer</h3>,
+    <div>
+      <p>
+      Work with one other programmer to design and program the ADS1299-Raspberry Pi interface. Responsible for coding the main loop on a Raspberry Pi to control and acquire data from an ADS1299 ADC chip through SPI and send it to a GUI for visualization.
+      </p>
+      <ul>
+        <li>Work with CAD Designer to design comfortable headset</li>
+        <li>Proficient in C/C++</li>
+        <li>Experience developing in a Linux environment</li>
+        <li>Experience programming low-level computer hardware and/or embedded systems (ie ECE342 Computer Hardware)</li>
+        <li>Knowledgeable in operating systems (ECE344, CSC369, etc)</li>
+      </ul>
+      <b>Nice skills to have:</b>
+      <ul>
+        <li>If you're more software oriented: multithreading, interfacing different programming languages (ie C, Python)</li>
+        <li>If you're more hardware oriented: scripting experience (make, bash, perl)</li>
+        <li>Previous experience with Arduino / Raspberry Pi</li>
+      </ul>
+      <p>
+      <b>Hours per week:</b> 6—7 hours
+      </p>
+      <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
+    </div>
+  ],
+  [ // 20
+    <h3>DSP Software Engineer</h3>,
+    <div>
+    <p>
+    Program digital signal processing (DSP) (noise filtering, high/low-pass filters, power spectral analysis etc.) functions to process acquired data on-chip.
+    </p>
+    <ul>
+      <li>Proficient in C/C++</li>
+      <li>Experience developing in a Linux environment</li>
+      <li>Taken courses in signal processing or signals and systems</li>
+    </ul>
+    <b>Nice skills to have:</b>
+    <ul>
+      <li>Previous experience working with Raspberry Pi</li>
+      <li>Previous DSP programming experience</li>
+    </ul>
+    <p>
+    <b>Hours per week:</b> 6—7 hours
+    </p>
+    <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
+    </div>
+  ],
+  [ // 21
+    <h3>PCB Designer</h3>,
+    <div>
+      <p>
+      Help create the hardware schematics and layout for the PCB used to interface the ADS1299 chip with electrodes and connections to the Raspberry Pi. Responsible for housing the ADS1299 chip for low noise embedded applications and testing for signal filtering.
+      </p>
+      <ul>
+        <li>Past experience with PCB design software (Altium, DesignSpark, EAGLE, AutoDesk)</li>
+        <li>Knowledgeable with PCB manufacturing techniques</li>
+        <li>Past experience soldering and testing low noise embedded circuits</li>
+        <li>Taken or is taking courses for analog and digital electronics</li>
+      </ul>
+      <b>Nice skills to have:</b>
+      <ul>
+        <li>Previous experience working with Arduino’s or Raspberry Pi’s</li>
+        <li>Taken signal analysis courses and familiar with filtering</li>
+      </ul>
+      <p>
+      <b>Hours per week:</b> 6—7 hours
+      </p>
+      <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
+    </div>
+  ],
+  [ // 22
+    <h3>WallEEG Project Lead</h3>,
     <div>
     <p>
     Lead development of biomechanics projects such as a mind controlled drone and mind controlled prosthetic arm
@@ -400,8 +509,8 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
-    <h3>3D Printing and CAD Designer (Headset)</h3>,
+  [ // 23
+    <h3>3D Printing and CAD Designer (WallEEG)</h3>,
     <div>
     <p>
     Design, fabricate, and test the chassis for a mind-controlled quidditch
@@ -426,7 +535,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 24
     <h3>Control Systems Designer</h3>,
     <div>
     <p>
@@ -451,7 +560,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 25
     <h3>Mechatronics Engineer</h3>,
     <div>
     <p>
@@ -476,7 +585,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 26
     <h3>Communications Engineer</h3>,
     <div>
     <p>
@@ -504,7 +613,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 27
     <h3>Edge Computing Engineer</h3>,
     <div>
     <p>
@@ -531,7 +640,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 28
     <h3>VR / AR Developer</h3>,
     <div>
     <p>
@@ -551,7 +660,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 29
     <h3>UX Designer (WallEEG)</h3>,
     <div>
     <p>
@@ -573,7 +682,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 30
     <h3>MindType Project Lead</h3>,
     <div>
     <p>
@@ -601,7 +710,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 31
     <h3>React Developer</h3>,
     <div>
     <p>
@@ -621,7 +730,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 32
     <h3>UI Designer</h3>,
     <div>
     <p>
@@ -638,7 +747,7 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-  [
+  [ // 33
     <h3>UX Designer (MindType)</h3>,
     <div>
     <p>
@@ -658,6 +767,106 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
-]
+].map( info => <Collapsable trigger={info[0]} collapsing={info[1]} expandHeight={25} /> )
 
-export default positionsList.map( info => <Collapsable trigger={info[0]} collapsing={info[1]}/> )
+const projectsList = [
+  [
+    [
+      <div>
+        <h2>Neurostack + EEG Research</h2>
+        <p>
+        Development of brain-wave analysis algorithms, and real-time
+        EEG ML cloud services for all our projects.
+        </p>
+        <p>
+        <b>Positions:</b> 1 technical co-lead, 1 neuroscience / physiology co-lead, experimental neuroscience, ML research, cloud, dev-ops.
+        </p>
+      </div>
+      ],
+    [
+      <div>
+        {positionsList[9]}
+        {positionsList[10]}
+        {positionsList[11]}
+        {positionsList[12]}
+        {positionsList[13]}
+      </div>
+    ]
+  ],
+  [
+    [
+      <div>
+        <h2>Headset and EEG Acquisition</h2>
+          <p>Making our own brain waves headset</p>
+          <p><b>Positions:</b> Hardware UX, signal acquisition / processing, CAD / 3D printing</p>
+      </div>
+    ],
+    [
+      <div>
+        {positionsList[14]}
+        {positionsList[15]}
+        {positionsList[16]}
+        {positionsList[17]}
+      </div>
+    ]
+  ],
+  [
+    [
+      <div>
+        <h2>Biosignals Board</h2>
+          <p>Making our own brain wave acquisition board</p>
+          <p><b>Positions:</b> Project co-lead, embedded software / firmware, analog / digital signal processing, PCB design</p>
+      </div>
+    ],
+    [
+      <div>
+        {positionsList[18]}
+        {positionsList[19]}
+        {positionsList[20]}
+        {positionsList[21]}
+      </div>
+    ]
+  ],
+  [
+    [
+      <div>
+        <h2>WallEEG</h2>
+        <p>Mind-controlled drone and prosthetic arm</p>  
+        <p><b>Positions:</b> 3D printing / CAD, control systems, mechatronics, communications, edge computing, VR/AR, UX</p>
+      </div>
+    ],
+    [
+      <div>
+        {positionsList[22]}
+        {positionsList[23]}
+        {positionsList[24]}
+        {positionsList[25]}
+        {positionsList[26]}
+        {positionsList[27]}
+        {positionsList[28]}
+        {positionsList[29]}
+      </div>
+    ]
+  ],
+  [
+    [
+      <div>
+        <h2>MindType</h2>
+          <p>Mind-controlled keyboard</p>
+          <p><b>Positions:</b> Project lead, front end, UI, UX</p>
+      </div>
+    ],
+    [
+      <div>
+        {positionsList[30]}
+        {positionsList[31]}
+        {positionsList[32]}
+        {positionsList[33]}
+      </div>
+    ]
+  ]
+].map( info => <Collapsable trigger={info[0]} collapsing={info[1]} expandHeight={350} /> )
+
+// export default positionsList.map( info => <Collapsable trigger={info[0]} collapsing={info[1]}/> )
+
+export {positionsList, projectsList}

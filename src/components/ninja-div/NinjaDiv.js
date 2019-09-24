@@ -6,7 +6,7 @@ import NinjaEvolution from './NinjaEvolution';
 function NinjaDiv() {
   return(
     <div className="ninja-div">
-      <h1>Become the Ultimate Neurotech Ninja!</h1>
+      <h1>Become the ultimate neurotech ninja</h1>
       <NinjaEvolution/>
     </div>
   )
