@@ -19,14 +19,14 @@ function ApplyForPostionDiv() {
         <div className="executive-positions">
           <h1>Executive Positions</h1>
           <h3>First years and up :)</h3>
-          <h3><b>Due:</b> September 29th</h3>
+          <h3><b>Due:</b> Rolling application</h3>
           <h4>(interviews are first-come first-serve)</h4>
           {positionsList[0]}
           {positionsList[1]}
           {positionsList[2]}
           {positionsList[3]}
           {positionsList[4]}
-          {positionsList[5]}
+          {/* {positionsList[5]} */}
           {positionsList[6]}
           <h2>Workshops</h2>
           <p>
@@ -44,8 +44,9 @@ function ApplyForPostionDiv() {
         <div className="advanced-project-positions">
           <h1>Advanced Project Positions</h1>
           <h3>Second years and up :)</h3>
-          <h3><b>Due:</b> September 29rd</h3>
+          <h3><b>Due:</b> Rolling application</h3>
           <h4>(interviews are first-come first-serve)</h4>
+          {positionsList[34]}
           {projectsList[0]}
           {projectsList[1]}
           {projectsList[2]}

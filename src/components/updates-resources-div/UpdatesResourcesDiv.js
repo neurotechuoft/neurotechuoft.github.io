@@ -59,12 +59,12 @@ function UpdatesResourcesDiv() {
       </div>
 
       <div className="resources">
-        <Collapsable trigger={resourcesTrigger} collapsing={resourcesCollapsing}/>
+        <Collapsable trigger={resourcesTrigger} collapsing={resourcesCollapsing} expandHeight={15} />
         <div className="resource-buttons">
           <a href="https://neurotechx.github.io/studentclubs/competition/">NeuroTechX Student Competition</a>
           <a href="https://prezi.com/user/v1u3a0hqncba/">NeurotechUofT Prezis</a>
-          <Collapsable trigger={programmingTrigger} collapsing={programmingCollapsing}/>
-          <Collapsable trigger={neurotechnologyTrigger} collapsing={neurotechnologyCollapsing}/>
+          <Collapsable trigger={programmingTrigger} collapsing={programmingCollapsing} expandHeight={0} />
+          <Collapsable trigger={neurotechnologyTrigger} collapsing={neurotechnologyCollapsing} expandHeight={10}/>
         </div>
       </div>
 

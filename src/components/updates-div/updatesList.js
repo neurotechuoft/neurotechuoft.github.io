@@ -728,4 +728,4 @@ const updatesList =
 
 ]
 
-export default updatesList.map( info => <Collapsable trigger={info[0]} body={info[1]} collapsing={info[2]}/> )
+export default updatesList.map( info => <Collapsable trigger={info[0]} body={info[1]} collapsing={info[2]} expandHeight={10}/> )

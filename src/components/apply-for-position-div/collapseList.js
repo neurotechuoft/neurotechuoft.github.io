@@ -767,6 +767,22 @@ const positionsList =
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
   ],
+  [ // 34
+    <h3>Not sure, but want to get involved in general?</h3>,
+    <div>
+    <p>
+    No worries, apply anyways! We'll help you figure out what you want to get out of your experience at NeurotechUofT, and help you get there!
+    </p>
+    <b>Nice skills to have:</b>
+    <ul>
+      <li>You're willing to give it your best and learn new things!</li>
+    </ul>
+    <p>
+    <b>Hours per week:</b> 6—7 hours
+    </p>
+    <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
+    </div>
+  ]
 ].map( info => <Collapsable trigger={info[0]} collapsing={info[1]} expandHeight={25} /> )
 
 const projectsList = [
@@ -779,16 +795,16 @@ const projectsList = [
         EEG ML cloud services for all our projects.
         </p>
         <p>
-        <b>Positions:</b> 1 technical co-lead, 1 neuroscience / physiology co-lead, experimental neuroscience, ML research, cloud, dev-ops.
+        <b>Positions:</b> Neuroscience researcher
         </p>
       </div>
       ],
     [
       <div>
-        {positionsList[9]}
-        {positionsList[10]}
-        {positionsList[11]}
-        {positionsList[12]}
+        {/* {positionsList[9]} */}
+        {/* {positionsList[10]} */}
+        {/* {positionsList[11]} */}
+        {/* {positionsList[12]} */}
         {positionsList[13]}
       </div>
     ]
@@ -803,7 +819,7 @@ const projectsList = [
     ],
     [
       <div>
-        {positionsList[14]}
+        {/* {positionsList[14]} */}
         {positionsList[15]}
         {positionsList[16]}
         {positionsList[17]}
@@ -832,18 +848,18 @@ const projectsList = [
       <div>
         <h2>WallEEG</h2>
         <p>Mind-controlled drone and prosthetic arm</p>  
-        <p><b>Positions:</b> 3D printing / CAD, control systems, mechatronics, communications, edge computing, VR/AR, UX</p>
+        <p><b>Positions:</b> Control systems, UX</p>
       </div>
     ],
     [
       <div>
-        {positionsList[22]}
-        {positionsList[23]}
+        {/* {positionsList[22]} */}
+        {/* {positionsList[23]} */}
         {positionsList[24]}
-        {positionsList[25]}
-        {positionsList[26]}
-        {positionsList[27]}
-        {positionsList[28]}
+        {/* {positionsList[25]} */}
+        {/* {positionsList[26]} */}
+        {/* {positionsList[27]} */}
+        {/* {positionsList[28]} */}
         {positionsList[29]}
       </div>
     ]
@@ -853,13 +869,13 @@ const projectsList = [
       <div>
         <h2>MindType</h2>
           <p>Mind-controlled keyboard</p>
-          <p><b>Positions:</b> Project lead, front end, UI, UX</p>
+          <p><b>Positions:</b> Project lead, UI, UX</p>
       </div>
     ],
     [
       <div>
         {positionsList[30]}
-        {positionsList[31]}
+        {/* {positionsList[31]} */}
         {positionsList[32]}
         {positionsList[33]}
       </div>
