@@ -1,508 +1,65 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
 
-<!--HEADER-->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>NeurotechUofT</title>
-    <meta name="description" content="Driving neurotech innovation at the University of Toronto">
-    <link rel="icon" type="image/png”" href="files/neurotechuoft_favicon.png">
-    <meta name="theme-color" content="#4ac2d2">
-    <meta property="og:image" content="files/neurotechuoft_cover.png"/>
-    <meta property="og:image:type" content="image/png"/>
-    <meta property="og:image:width" content="500" />
-    <meta property="og:image:height" content="500" />
-    <meta property="og:type" content="website"/>
-    <meta property="og:description" content="Driving neurotech innovation at the University of Toronto"/>
-    <!-- <link rel="stylesheet" type="text/css" href="CSS/bootstrap/css/bootstrap.css"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="CSS/CSS.css">
-    <link rel="stylesheet" type="text/css" href="CSS/initiatives.css">
-    <link rel="stylesheet" type="text/css" href="CSS/join.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/6.4.2/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/6.4.2/firebase-auth.js"></script>
+    <script defer src="/__/firebase/6.4.2/firebase-database.js"></script>
+    <script defer src="/__/firebase/6.4.2/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/6.4.2/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
 
-<!--BODY-->
-<div class="container-fluid">
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~LANDING PAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <div class="row" id="landing-page">
-        <!-- NavBar -->
-        <div class="row">
-
-            <!-- Logo -->
-            <div class="col-md-2 col-sm-2">
-                <img src="files/neurotechuoft_dark.png" class="img-responsive center-block nav_bar_logo" alt="NeurotechUofT Logo">
-            </div>
-
-            <!-- Nav Buttons -->
-            <div class="nav-bar-padding"></div> <!--padding on top-->
-
-            <div class="row center-block">
-
-                <div class="col-md-2 col-sm-2 text-center">
-                    <a href="index.html" role="button" class="btn btn-link nav-bar-btn ">HOME</a>
-                </div>
-
-                <div class="col-md-2 col-sm-2 text-center">
-                    <a href="our-team.html" role="button" class="btn btn-link nav-bar-btn" href="our-team.html">TEAM</a>
-                </div>
-
-                <div class="col-md-2 col-sm-2 text-center">
-                    <a href="initiatives.html" role="button" class="btn btn-link nav-bar-btn">INITIATIVES</a>
-                </div>
-
-                <div class="col-md-2 col-sm-2 text-center">
-                    <a href="events.html" role="button" class="btn btn-link nav-bar-btn">EVENTS</a>
-                </div>
-
-                <div class="col-md-2 col-sm-2 text-center">
-                    <a href="faq.html" role="button" class="btn btn-link nav-bar-btn">FAQ</a>
-                </div>
-
-            </div>
-
-        </div>
-
-        <!--Description-->
-        <div class="row text-center landing-text"> <!--header-->
-            Driving neurotech innovation at the University of Toronto
-        </div>
-        <div class="row text-center landing-subtext"> <!--subtext-->
-            Supporting student-run research and development, providing resources for those interested in learning about neurotech, and sharing ideas with like-minded individuals
-        </div>
-
-        <div class="row text-center landing-btn-div">
-            <a class="btn btn-primary landing-btn" href="join.html" role="button">Join us</a>
-        </div>
-        <!-- <div class="row text-center landing-btn-two-div">
-            <a class="btn btn-primary landing-btn-two" href="initiatives.html" role="button">Take a look at our initiatives</a>
-        </div> -->
-
+    <style media="screen">
+      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="message">
+      <h2>Welcome</h2>
+      <h1>Firebase Hosting Setup Complete</h1>
+      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
     </div>
-
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~INITIATIVES~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <div id="journey-of-member" class="row landing-page-div" >
-        <!-- <br>&nbsp;</br> -->
-        <h1 class="text-center">Become the ultimate neurotech ninja</h1>
-        <br>&nbsp;</br>
-        <!-- Tadpole -->
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-            <div class="col-md-4">
-                <img src="files/journey-of-member/tadpole.png" class="img-responsive center-block logo-stage" alt="Tadpole">
-                <h1>Tadpole</h1>
-                <h3>Knowledge: 1st year &mdash;</h3>
-                <a id="workshops-btn" class="btn btn-primary btn-block initiative-btn" href="initiatives/workshops.html" role="button">
-                    Workshops
-                </a>
-                <p>Begin your journey by making your first neurotech app! Learn to build your first circuits, program your first Arduinos, and learn the fundamentals of BCI design. <b>Our next round of workshops starts in January 2019</b>, so make sure to keep an eye out for them!</p>
-            </div>
-            <div class="col-md-4">
-                <img src="files/journey-of-member/padawan.png" class="img-responsive center-block logo-stage" alt="Padawan">
-                <h1>Padawan</h1>
-                <h3>Knowledge: 2nd year &mdash;</h3>
-                <a id="cortical-apps-btn" class="btn btn-primary btn-block initiative-btn" href="initiatives/cortical-apps.html" role="button">
-                    Cortical Apps
-                </a>
-                <p>Start applying your neurotech skills to real projects! Work on feature development for existing projects, or make your own with our <a href="./initiatives/cortical-apps.html"><b>Cortical Apps Project Incubator</b></a>.</p>
-            </div>
-            <div class="col-md-4">
-                <img src="files/journey-of-member/ninja.png" class="img-responsive center-block logo-stage" alt="Ninja">
-                <h1>Ninja</h1>
-                <h3>Knowledge: 3rd year &mdash;</h3>
-                <a id="projects-btn" class="btn btn-primary btn-block initiative-btn" href="initiatives/projects.html" role="button">
-                    Advanced Projects
-                </a>
-                <p>Work on our most advanced research and product development initiatives, and join our competition teams! Find out about our advanced projects <a href="initiatives/projects.html"><b>here</b></a>.</p>
-            </div>
-        </div>
-        <div class="col-md-1"></div>
-    </div>
-
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~JOIN~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-    <div class="row text-center landing-page-div join-div-bg">
-        <h1>Join us</h1>
-        <div class="row text-center">
-            <div class="col-md-1 col-sm-1"></div>
-            <div class="col-md-10 col-sm-10">
-                <div class="col-md-4 col-sm-4">
-                    <h2>Step 1</h2>
-                    <a class="btn btn-primary btn-block join-btn join-slack-btn" href="https://neurotechuoft.typeform.com/to/kj0egv"><h3>Tell us who you are :)</h3></a>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <h2>Step 2</h2>
-                    <a class="btn btn-primary btn-block join-btn join-community-btn" href="https://www.facebook.com/groups/neurotechUofT/"><h3>Join our community!</h3></a>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <h2>Step 3</h2>
-                    <a class="btn btn-primary btn-block join-btn join-comic-btn" href="https://waitbutwhy.com/2017/04/neuralink.html"><h3>Read a comic :D</h3></a>
-                </div>
-            </div>
-            <div class="col-md-1 col-sm-1"></div>
-        </div>
-        
-        <div class="row text-center">
-            <a class="link-light" href="opportunities.html"><h3>(Help drive undergrad neurotech innovation by joining one of our teams :D)</h3></a>
-        </div>
-    </div>
-
-
-    <div class="title row center-block" style="color: #136690;">
-        <h1 class="text-center">Current Projects</h1>
-    </div>
-
-    <div class="row center-block">
-
-        <!-- <h1>Current Projects</h1> -->
-
-        <!-- MindType -->
-        <div class="col-md-4 text-center">
-            <a href="https://github.com/neurotechuoft/MindType"><h2>MindType</h2></a>
-            <p>A mind-controlled keyboard! Current mind-controlled keyboards require multiple operations to select a character. We propose the usage of an imagined sign language to select characters. This way, characters can be selected in one operation, making mind-typing much faster for people with neuromuscular degeneration.</p>
-        </div>
-
-        <!-- WALL-EEG -->
-        <div class="col-md-4 text-center">
-            <a href="https://github.com/neurotechuoft/Wall-EEG"><h2>WallEEG</h2></a>
-            <p>A mind-controlled quidditch robot! This project proves the interdisciplinary nature of neurotechnology, and consists of concepts from electrical engineering, computer science, mathematics, and neuroscience. This will be our submission of Part 2 of the NeuroTechX Student Competition</p>
-        </div>
-
-        <!-- Headset -->
-        <div class="col-md-4 text-center">
-            <a href="https://www.youtube.com/watch?v=OJdKAIgMKiA"><h2>Headset</h2></a>
-            <p>Our own EEG headset! We're trying to make a headset for the OpenBCI board that is comfortale for wearers and easy to use for researchers with good signal quality.</p>
-        </div>
-
-    </div>
-
-    <div class="row">
-        <br>&nbsp;</br>
-        <br>&nbsp;</br>
-    </div>
-
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~OPPORTUNITIES~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <div id="job-board" class="row text-center landing-page-div">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10 text-center">
-                <h1>Opportunities</h1>
-                <!-- <p>Apply by February 2nd, 2019 :)</p> -->
-
-                <div class="col-md-4">
-                    <h3>Outreach Associate</h3>
-                    <h3>Vlog Editor</h3>
-                </div>
-                <div class="col-md-4">
-                    <h3>Workshops Director</h3>
-                    <h3>Cloud Machine Learning Researcher</h3>
-                    <h3>UX Designer (Headset)</h3>
-                </div>
-
-                <div class="col-md-4">
-                    <h3>Edge Computing Engineer (WallEEG)</h3>
-                    <h3>VR / AR Developer (WallEEG)</h3>
-                </div>
-            </div>
-            <div class="col-md-1"></div>
-        </div>
-        <div class="row">
-            <br>&nbsp;</br>
-        </div>
-        <div class="row">
-            <a class="btn btn-primary join-btn join-apply-btn" href="opportunities.html"><h3>Apply for a position</h3></a>
-        </div>
-    </div>
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~BODY~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-    <div class="row landing-page-div">
-        <div class="col-md-1 col-sm-1"></div> <!--margin-->
-        <!--~~~~~~~~~Left Column: Updates~~~~~~~~~-->
-        <div class="col-md-5 col-sm-5">
-
-            <!--Updates-->
-            <h1><a href="updates.html">Updates</a></h1>
-
-            <a href="#current-update-details" data-toggle="collapse">
-                <h3><span class="caret"></span> March 6, 2018</h3>
-            </a>
-
-            <h4> TL;DR: </h4>
-            <p>- <a href="http://bit.ly/ntuoft-nominate-exec">Nominate yourself</a> for Vice President, Operations by April 13th!</p>
-            <p>- <a href="http://bit.ly/admin-team-apps-2018">Exec positions are out</a>, and due April 13th! Project positions coming out soon :)</p>
-            <p>- <a href="https://www.youtube.com/watch?v=Hnu5h7NjMVc">We submitted our work so far with MindType</a> to the NTX Student Clubs Competition!</p>
-            <p>- Let's celebrate an epic year over some food and drinks; tentatively on April 28th 8:00pm!</p>
-
-            <div id="current-update-details" class="collapse">
-                <br>&nbsp;</br>
-
-                <p>Hey neurotech ninjas!</p>
-
-                <p>First of all, thank you very much for making this year our most awesome year yet! Some super-cool things we did:</p>
-
-                <ul>
-                    <li>Listened to Chris Aimone, the CTO of InteraXon talk about his incredible journey in making InteraXon at our Neuro Pathways: Bootstrap Your Neurotech Career event!</li>
-                    <li>Tried making a <a href="https://www.youtube.com/watch?v=Hnu5h7NjMVc">mind-controlled keyboard</a>, and a <a href="https://github.com/neurotechuoft/Biosignals-Board">Rasberry Pi-based biosignals board</a> for the <a href="https://neurotechx.github.io/studentclubs/competition/">NTX Student Clubs Competition</a> (and won an EMOTIV Epoc for the participation prize :D)</li>
-                    <li>Learned about neuroeconomics with Dr. Ryan Webb at our NeurotechUofT Presents: Neuroeconomics event!</li>
-                    <li>Our <a href="http://neurotechuoft.github.io/initiatives.html">Tadpoles</a> made their first EMG-based neurotech devices from scratch, with a side of Flappy Bird!</li>
-                    <li>Launched our <a href="http://neurotechuoft.github.io/initiatives/cortical-apps.html">Cortical Apps project incubator</a></li>
-                    <li>Made our own EEG headset :D</li>
-                </ul>
-
-                <br>&nbsp;</br>
-
-                <div class="row">
-                    <!-- <div class="col-md-1"></div> -->
-                    <div class="col-md-12">
-                            <img src="files/event-imgs/IMG_20170627_181801.jpg" class="img-responsive">
-                    </div>
-                    <!-- <div class="col-md-1"></div> -->
-                </div>
-                <br>&nbsp;</br>
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="files/event-imgs/IMG_20171019_184505.jpg" class="img-responsive">
-                    </div>
-                    <div class="col-md-6">
-                        <img src="files/event-imgs/20180326_212514670_iOS.jpg" class="img-responsive">
-                    </div>
-                </div>
-
-                <br>&nbsp;</br>
-
-                <p>All this calls for a celebration! We're going to go for food and drinks to wash exam season away; right now we're thinking of going on April 28th at 8:00pm, but we'll update you with more details as we get them!</p>
-
-                <p>We're also preparing NeurotechUofT to be ready to make stuff for the summer term! Some cool things we want to do:</p>
-
-                <ul>
-                    <li>Set up a controlled experiment protocol to get motor imagery algs to work for MindType</li>
-                    <li>Start working on brainOS, a mind-controlled augmented reality OS :D</li>
-                    <li>Print high-quality PCBs to reduce noise in our biosignals board</li>
-                    <li>Solidify beginner neurotech workshops; make advanced workshops with How to Hack the Brain, with Coffee!</li>
-                    <li>(Anything else you guys want to do! Let us know :) )</li>
-                </ul>
-                
-                <p>
-                    To do that, we're revamping our exec and project teams! We're <a href="http://bit.ly/ntuoft-nominate-exec">accepting nominations for Vice President, Operations</a>, and have <a href="http://bit.ly/admin-team-apps-2018">applications open for other exec roles</a>! These are due on April 13th at 11:59pm, so apply soon :O Project applications will come really soon :), so stay tuned!
-                </p>
-
-                <p>
-                    That's all for now; once again thank you for supporting us on our incredible journey in becoming epic neurotech ninjas! Get some rest, sleep well, and good luck on your exams!
-                </p>
-
-                <br>&nbsp;</br>
-                <p>Cheers,</p>
-                <p>Sayan Faraz</p>
-                <p>NeurotechUofT</p>
-            </div>
-
-        </div>
-
-        <!--~~~~~~~~~Middle Column: Separator~~~~~~~~~-->
-        <div class="col-md-1"></div>
-
-        <!--~~~~~~~~~Right Column: Resources~~~~~~~~~-->
-        <div class="col-md-3 col-sm-3 center-block">
-
-            <!--Resources-->
-            <div class="row center-block">
-                <a href="#resource-descrip" data-toggle="collapse">
-                    <h1><span class="caret"></span> Resources</h1>
-                </a>
-                <div id="resource-descrip" class="collapse">
-                    <p>(More will be coming soon, as we find new resources. If you have any resources you think are useful, email us <a href="mailto:ask@neurotechuoft.com">ask@neurotechuoft.com</a> and we'll be happy to look at it!)</p>
-                </div>
-            </div>
-
-
-            <div class="row center-block">
-                <a href="https://neurotechx.github.io/studentclubs/competition/" class="btn btn-info">
-                    <h3>NeurotechX Student Competition</h3>
-                </a>
-            </div>
-
-
-            <div class="row center-block">
-                <a href="https://prezi.com/user/v1u3a0hqncba/" target="_blank" class="btn btn-danger">
-                    <h3>NeurotechUofT Prezis</h3>
-                </a>
-            </div>
-
-
-            <div class="row center-block">
-                <a href="#programming-resource-descrip" class="btn btn-success" data-toggle="collapse">
-                    <h3><span class="caret"></span> Programming</h3>
-                </a>
-                <div id="programming-resource-descrip" class="collapse">
-                    <p>Git Version Control: <a href="http://learngitbranching.js.org/" target="_blank">LearnGitBranching</a></p>
-                    <p>Coding for Beginners: <a href="https://codecombat.com" target="_blank">CodeCombat</a></p>
-                    <p>Coding Puzzles (all levels of expertise): <a href= "https://open.kattis.com/" target="_blank">Kattis</a></p>
-                    <p>Android Development: <a href="https://www.thenewboston.com/videos.php?cat=278" target="_blank">TheNewBoston &mdash; Android App Development</a></p>
-                    <p>iOS Development: <a href="https://www.thenewboston.com/videos.php?cat=280" target="_blank">TheNewBoston &mdash; iOS App Development with Swift</a></p>
-                </div>
-            </div>
-
-
-            <div class="row center-block">
-                <a href="#neutech-resource-descrip" class="btn btn-primary" data-toggle="collapse">
-                    <h3><span class="caret"></span> Neurotechnology</h3>
-                </a>
-                <div id="neutech-resource-descrip" class="collapse">
-                    <p>
-                        Intro to BCI Design: <a href= "https://sccn.ucsd.edu/wiki/Introduction_To_Modern_Brain-Computer_Interface_Design" target="_blank">Swartz Center for Computational Neuroscience: Introduction To Modern Brain-Computer Interface Design</a>
-                    </p>
-                </div>
-            </div>
-
-
-        </div>
-        <div class="col-md-1 col-sm-1"></div> <!--margin-->
-    </div>
-
-
-    <!-- <div class="row landing-page-div" id="media"> -->
-        <!-- <div class="col-md-1 col-sm-1"></div> margin-->
-        <!--~~~~~~~~~Left Column: Photos~~~~~~~~~-->
-        <!-- <div class="col-md-6 col-sm-6"></div> -->
-
-        <!--~~~~~~~~~Middle Column: Separator~~~~~~~~~-->
-        <!-- <div class="col-md-1"></div> -->
-
-        <!--~~~~~~~~~Right Column: Facebook Feed~~~~~~~~~-->
-        <!-- <div class="col-md-3 col-sm-3">
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FNeurotechUofT%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=111477692820210" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </div>
-    </div> -->
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~PARTNERS~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <div class="row" id="sponsors">
-        <br>&nbsp;</br>
-        <h1 align="center">OUR PARTNERS</h1>
-        <br>&nbsp;</br>
-        <div class="row row-align-cols-center">
-            <!-- <div class="col-md-1 col-sm-1"></div> -->
-            <!-- IBBME -->
-            <div class="col-md-4 col-sm-4 col-xs-5">
-                <a href="https://ibbme.utoronto.ca/">
-                    <img src="files/sponsors/ibbme-uoft.png" class="img img-responsive center-block sponsor-img" alt="IBBME @UofT">
-                </a>
-            </div>
-
-            <!-- NeurotechX -->
-            <div class="col-md-2 col-sm-2 col-xs-5">
-                <a href="http://neurotechx.com/">
-                    <img src="files/sponsors/neurotechx.png" class="img img-responsive center-block sponsor-img" alt="NeurotechX">
-                </a>
-            </div>
-
-            <!-- ECE -->
-            <div class="col-md-4 col-sm-4 col-xs-5">
-                <a href="https://www.ece.utoronto.ca">
-                    <img src="files/sponsors/ece-uoft.png" class="img img-responsive center-block sponsor-img" alt="ECE @UofT">
-                </a>
-            </div>
-        </div>
-        <div class="row row-align-cols-center">
-            <!-- <div class="col-md-1 col-sm-1"></div> -->
-            <!-- University of Toronto -->
-
-            <!-- InteraXon -->
-            <div class="col-md-3 col-sm-3 col-xs-5">
-                <a href="http://www.choosemuse.com/">
-                    <img src="files/sponsors/interaxon.png" class="img img-responsive center-block sponsor-img" alt="InteraXon">
-                </a>
-            </div>
-
-            <!-- UofT Student Life -->
-            <div class="col-md-3 col-sm-3 col-xs-5">
-                <a href="https://www.studentlife.utoronto.ca/bts/sif">
-                    <img src="files/sponsors/uoft-student-initiative-fund.png" class="img img-responsive center-block" alt="UofT Student Life">
-                </a>
-            </div>
-
-            <!-- OpenBCI -->
-            <div class="col-md-3 col-sm-3 col-xs-5">
-                <a href="http://openbci.com/">
-                    <img src="files/sponsors/openbci.png" class="img img-responsive center-block" alt="OpenBCI">
-                </a>
-            </div>
-        </div>
-        <div class="row row-align-cols-center">
-            <!-- <div class="col-md-1 col-sm-1"></div> -->
-            <!-- NeuroSky -->
-            <div class="col-md-2 col-sm-2 col-xs-5">
-                <a href="http://neurosky.com/">
-                    <img src="files/sponsors/neurosky.png" class="img img-responsive center-block" alt="NeuroSky">
-                </a>
-            </div>
-            <!-- Skule -->
-            <div class="col-md-2 col-sm-2 col-xs-5">
-                <a href="http://skule.ca">
-                    <img src="files/sponsors/skule-uoft.png" class="img img-responsive center-block sponsor-img" alt="Skule @UofT">
-                </a>
-            </div>
-
-            <!-- YNCN -->
-            <div class="col-md-2 col-sm-2 col-xs-5">
-                <a href="https://yourenext.ca/">
-                    <img src="files/sponsors/yncn.png" class="img img-responsive center-block" alt="Your Next Career Network">
-                </a>
-            </div>
-        </div>
-
-        <br>&nbsp;</br>
-        
-        <div class="row text-center">
-            <h3>(Interested in a collaboration?
-                 <a href="files/NeurotechUofT-Sponsorship.pdf">
-                    Find out how we can work together here
-                </a>)</h3>
-        </div>
-
-        <br>&nbsp;</br>
-        <br>&nbsp;</br>
-
-    </div>
-
-
-
-    <!--~~~~~~~~~~~~~~~~~~~~~Contact Info~~~~~~~~~~~~~~~~~~~~~-->
-    <div class="row" id="contact">
-
-
-        <div class="row center-block">
-            <div class="col-md-2 col-sm-2 text-center">
-                <button class="btn btn-link contact-bar-btn" disabled="disabled">NeurotechUofT</button>
-            </div>
-
-            <div class="col-md-2 col-sm-2"></div>
-
-            <div class="col-md-2 col-sm-2 text-center">
-                <a href="https://www.facebook.com/groups/neurotechUofT/" role="button" class="btn btn-link contact-bar-btn ">facebook</a>
-            </div>
-
-            <div class="col-md-2 col-sm-2 text-center">
-                <a href="https://twitter.com/neurotechuoft" role="button" class="btn btn-link  contact-bar-btn" href="our-team.html">twitter</a>
-            </div>
-
-            <div class="col-md-2 col-sm-2 text-center">
-                <a href="mailto:ask@neurotechuoft.com" role="button" class="btn btn-link contact-bar-btn">e-mail</a>
-            </div>
-
-            <div class="col-md-2 col-sm-2 text-center">
-                <a href="https://github.com/neurotechuoft" role="button" class="btn btn-link contact-bar-btn">github</a>
-            </div>
-
-        </div>
-
-    </div>
-
-
-</div>
+    <p id="load">Firebase SDK Loading&hellip;</p>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+  </body>
+</html>

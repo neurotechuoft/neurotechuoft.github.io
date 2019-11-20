@@ -1,0 +1,90 @@
+.team-div {
+  padding-bottom: 5%;
+}
+
+.team-banner > h1 {
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  font-size: 36px;
+
+  padding: 1vh 0;
+  color: #ffffff;
+}
+
+.team-banner > h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+
+  padding: 1vh;
+  color: #ffffff;
+}
+
+.team-banner b {
+  color: #ffffff;
+}
+
+.team-div a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.team-div a:hover {
+  text-decoration: underline;
+}
+
+.team-banner {
+  background-color: #EF7C6E;
+  text-align: center;
+
+  padding: 1em;
+}
+
+.team-photos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.team-photos h2 {
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-top: 3vh;
+}
+
+.team-photos h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+}
+
+.team-photos img {
+  width: 15vw;
+}
+
+.team-photos :nth-child(1),
+.team-photos :nth-child(2) {
+  flex-basis: 50%
+}
+
+.team-photos :nth-child(3),
+.team-photos :nth-child(4),
+.team-photos :nth-child(5) {
+  flex-basis: 33%
+}
+
+.team-photos :nth-child(6),
+.team-photos :nth-child(7),
+.team-photos :nth-child(8),
+.team-photos :nth-child(9) {
+  flex-basis: 25%
+}
+
+@media screen and (max-width: 900px) {
+  .team-photos {
+    flex-direction: column;
+  }
+
+  .team-photos img {
+    width: 50%;
+  }
+}
