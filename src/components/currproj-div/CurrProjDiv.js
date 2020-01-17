@@ -1,6 +1,8 @@
 import React from 'react';
 import './CurrProjDiv.scss';
 
+import {Link} from 'react-router-dom';
+
 function CurrProjDiv() {
   return(
     <div className="curr-proj-div">
@@ -34,6 +36,15 @@ function CurrProjDiv() {
             Our own EEG headset! We're trying to make a headset for the OpenBCI
             board that is comfortale for wearers and easy to use for researchers
             with good signal quality.
+          </p>
+        </div>
+
+        <div className="proj">
+          <Link to="/neurostack">Neurostack</Link>
+          <p>
+            An open-source real-time EEG processing service on the cloud!
+            The goal is to develop a tool that allows users to easily create
+            neurotech applications, by taking and processing data from EEG headsets.
           </p>
         </div>
       </div>

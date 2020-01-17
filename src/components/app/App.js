@@ -14,9 +14,11 @@ import CorticalAppsDiv from "../cortical-apps-div/CorticalAppsDiv";
 import AdvancedProjDiv from "../advanced-proj-div/AdvancedProjDiv";
 import ApplyForPostionDiv from "../apply-for-position-div/ApplyForPositionDiv";
 import UpdatesDiv from "../updates-div/UpdatesDiv";
+import NeurostackDiv from "../neurostack-div/NeurostackDiv";
 
 import NavBar from "../nav-bar/NavBar";
 import LinksBar from "../links-bar/LinksBar";
+
 
 
 function App() {
@@ -39,6 +41,7 @@ function App() {
         <Route path="/advanced-projects" component={AdvancedProjDiv}/>
         <Route path="/opportunities" component={ApplyForPostionDiv}/>
         <Route path="/updates" component={UpdatesDiv}/>
+        <Route path="/neurostack" component={NeurostackDiv}/>
       </Switch>
 
       <LinksBar/>
