@@ -1,6 +1,8 @@
 import React from 'react'
 import Collapsable from '../collapsable/Collapsable';
 
+const OPS_APPLY_LINK = "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__dWWAh9UQTVUVERMNkE2VzVFSUhLSU82S1VXV0ZMSS4u"
+
 const positionsList =
 [
   [ // 0
@@ -19,7 +21,7 @@ const positionsList =
       <p>
       <b>Hours per week:</b> 5—6 hours
       </p>
-      <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
+      <a href={OPS_APPLY_LINK}>Apply</a>
     </div>
   ],
   [ // 1
@@ -36,7 +38,7 @@ const positionsList =
       <p>
       <b>Hours per week:</b> 6—8 hours
       </p>
-      <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
+      <a href={OPS_APPLY_LINK}>Apply</a>
     </div>
   ],
   [ // 2
@@ -53,7 +55,7 @@ const positionsList =
       <p>
       <b>Hours per week:</b> 4—5 hours
       </p>
-      <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
+      <a href={OPS_APPLY_LINK}>Apply</a>
     </div>
   ],
   [ // 3
@@ -70,7 +72,7 @@ const positionsList =
       <p>
       <b>Hours per week:</b> 5—6 hours
       </p>
-      <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
+      <a href={OPS_APPLY_LINK}>Apply</a>
     </div>
   ],
   [ // 4
@@ -87,7 +89,7 @@ const positionsList =
       <p>
       <b>Hours per week:</b> 4—5 hours
       </p>
-      <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
+      <a href={OPS_APPLY_LINK}>Apply</a>
     </div>
   ],
   [ // 5
@@ -107,7 +109,7 @@ const positionsList =
       <p>
       <b>Hours per week:</b> 4—5 hours
       </p>
-      <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
+      <a href={OPS_APPLY_LINK}>Apply</a>
     </div>
   ],
   [ // 6
@@ -126,7 +128,7 @@ const positionsList =
       <p>
       <b>Hours per week:</b> 4—8 hours
       </p>
-      <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
+      <a href={OPS_APPLY_LINK}>Apply</a>
     </div>
   ],
   [ // 7
@@ -153,7 +155,7 @@ const positionsList =
       <p>
       <b>Hours per week:</b> 6—8 hours
       </p>
-      <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
+      <a href={OPS_APPLY_LINK}>Apply</a>
     </div>
   ],
   [ // 8
@@ -181,7 +183,7 @@ const positionsList =
     <p>
     <b>Hours per week:</b> 4—5 hours
     </p>
-    <a href="http://bit.ly/admin-team-apps-2019w">Apply</a>
+    <a href={OPS_APPLY_LINK}>Apply</a>
     </div>
   ],
   [ // 9
