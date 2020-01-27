@@ -1,7 +1,7 @@
 import React from 'react'
 import Collapsable from '../collapsable/Collapsable';
 
-const OPS_APPLY_LINK = "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__dWWAh9UQTVUVERMNkE2VzVFSUhLSU82S1VXV0ZMSS4u"
+const OPS_APPLY_LINK = "https://forms.zohopublic.com/exec1/form/AdminTeamPositionsW2020/formperma/cwTO1X5jCKyr0Oju_Iz6cCdQ69XAxsZN1tjZOI9WPp8"
 
 const positionsList =
 [

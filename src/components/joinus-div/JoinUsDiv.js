@@ -12,7 +12,7 @@ function JoinUsDiv() {
 
         <div className="step step1">
           <h2>Step 1</h2>
-          <a href="https://neurotechuoft.typeform.com/to/kj0egv">Tell us who you are :)</a>
+          <a href="https://neurotechuoft.typeform.com/to/kj0egv">Join our mailing list :)</a>
         </div>
 
         <div className="step step2">

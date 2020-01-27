@@ -26,7 +26,7 @@ function ApplyForPostionDiv() {
           {positionsList[2]}
           {positionsList[3]}
           {positionsList[4]}
-          {/* {positionsList[5]} */}
+          {positionsList[5]}
           {positionsList[6]}
           <h2>Workshops</h2>
           <p>
@@ -34,14 +34,14 @@ function ApplyForPostionDiv() {
           no experience to learn BCI develpment.
           </p>
           <p>
-          <b>Topics:</b> neuroscience, physiology, software development,
+          <b>Topics:</b> machine learning, neuroscience, physiology, software development,
           cognitive sciences, psychology, analog electronics
           </p>
           {positionsList[7]}
           {positionsList[8]}
         </div>
 
-        <div className="advanced-project-positions">
+        {/* <div className="advanced-project-positions">
           <h1>Advanced Project Positions</h1>
           <h3>Second years and up :)</h3>
           <h3><b>Due:</b> Rolling application</h3>
@@ -52,7 +52,7 @@ function ApplyForPostionDiv() {
           {projectsList[2]}
           {projectsList[3]}
           {projectsList[4]}
-        </div>
+        </div> */}
       </div>
     </div>
   )
