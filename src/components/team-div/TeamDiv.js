@@ -12,6 +12,8 @@ import Lucy from '../../assets/team/lucy_ma.jpg';
 import Tarriq from '../../assets/team/tarriq_purivatra.jpg';
 import Reza from '../../assets/team/reza_mohammadi.jpg';
 import Bing from '../../assets/team/bing_li.jpg';
+import Diadem from '../../assets/team/diadem_shoukralla.jpg';
+import Dakota from '../../assets/team/dakota_mcinnis.jpg';
 import Melanie from '../../assets/team/melanie_davie.jpg';
 import Nora from '../../assets/team/nora_lehmann.jpg';
 import Yosi from '../../assets/team/yosi_hatekar.jpg';
@@ -83,6 +85,18 @@ function TeamDiv() {
           <h2>Bing Li</h2>
           <h3>Biosignals Board Co-Lead</h3>
           <img src={Bing} alt="Photo coming soon"/>
+        </div>
+
+        <div className="profile">
+          <h2>Diadem Shoukralla</h2>
+          <h3>Front End Co-Lead</h3>
+          <img src={Diadem} alt="Photo coming soon"/>
+        </div>
+
+        <div className="profile">
+          <h2>Dakota McInnis</h2>
+          <h3>Front End Co-Lead</h3>
+          <img src={Dakota} alt="Photo coming soon"/>
         </div>
 
         <div className="profile">
