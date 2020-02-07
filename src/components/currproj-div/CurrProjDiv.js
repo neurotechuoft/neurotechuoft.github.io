@@ -1,6 +1,11 @@
 import React from 'react';
 import './CurrProjDiv.scss';
 
+<<<<<<< HEAD
+import {Link} from 'react-router-dom';
+
+=======
+>>>>>>> master
 function CurrProjDiv() {
   return(
     <div className="curr-proj-div">
@@ -36,6 +41,18 @@ function CurrProjDiv() {
             with good signal quality.
           </p>
         </div>
+<<<<<<< HEAD
+
+        <div className="proj">
+          <Link to="/neurostack">Neurostack</Link>
+          <p>
+            An open-source real-time EEG processing service on the cloud!
+            The goal is to develop a tool that allows users to easily create
+            neurotech applications, by taking and processing data from EEG headsets.
+          </p>
+        </div>
+=======
+>>>>>>> master
       </div>
 
     </div>
