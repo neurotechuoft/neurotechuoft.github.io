@@ -14,26 +14,20 @@ import CorticalAppsDiv from "../cortical-apps-div/CorticalAppsDiv";
 import AdvancedProjDiv from "../advanced-proj-div/AdvancedProjDiv";
 import ApplyForPostionDiv from "../apply-for-position-div/ApplyForPositionDiv";
 import UpdatesDiv from "../updates-div/UpdatesDiv";
-<<<<<<< HEAD
 import NeurostackDiv from "../neurostack-div/NeurostackDiv";
-=======
->>>>>>> master
+import NeurostackDocs from '../neurostack-docs/NeurostackDocs';
 
 import NavBar from "../nav-bar/NavBar";
 import LinksBar from "../links-bar/LinksBar";
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 function App() {
   return (
     <Router>
     <ScrollToTop>
       <div className="App">
 
-      <NavBar/>
+      {/* <NavBar/> */}
 
       <Switch>
         <Route path="/" exact component={HomePage}/>
@@ -47,13 +41,11 @@ function App() {
         <Route path="/advanced-projects" component={AdvancedProjDiv}/>
         <Route path="/opportunities" component={ApplyForPostionDiv}/>
         <Route path="/updates" component={UpdatesDiv}/>
-<<<<<<< HEAD
-        <Route path="/neurostack" component={NeurostackDiv}/>
-=======
->>>>>>> master
+        <Route exact path="/neurostack" component={NeurostackDiv}/>
+        <Route exact path="/neurostack/docs" component={NeurostackDocs}/>
       </Switch>
 
-      <LinksBar/>
+      {/* <LinksBar/> */}
 
       </div>
     </ScrollToTop>

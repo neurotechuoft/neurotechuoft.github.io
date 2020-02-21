@@ -1,0 +1,17 @@
+.sidebar{
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid lightgrey;
+    position: fixed;
+    padding-top: 20px;
+}
+
+.sidebar p{
+    color: black;
+    padding: 10px 10px 10px 30px;
+}
+
+.sidebar p:hover{
+    color: white;
+    background-color: skyblue;
+}

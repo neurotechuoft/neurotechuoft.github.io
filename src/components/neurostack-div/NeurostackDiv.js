@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
+import {Link} from 'react-router-dom';
 
 import './NeurostackDiv.scss';
 
@@ -29,6 +30,7 @@ function NeurostackDiv() {
         <a href="https://github.com/neurotechuoft/Neurostack">
             Follow this link to the Neurostack github, documentation and API :)
         </a>
+        <Link to="/neurostack/docs">View Docs here</Link>
     </div>
   )
 }
