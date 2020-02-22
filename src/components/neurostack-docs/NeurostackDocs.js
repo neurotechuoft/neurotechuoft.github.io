@@ -27,14 +27,14 @@ function NeurostackDocs() {
           <h2>Getting Started</h2>
 
           <p>
-            There are a few prerequisite packages that Neurostack uses:
+            Neurostack requires the SocketIO_client library. This dependency implements the 
+            popular Socket.io library for Python.
           </p>
 
-          <p>socketIO_client</p>
           <comment>//Are there any other prerequisite dependencies?</comment>
 
           <p>
-            Since Neurostack is built on top of the Socket.io library, you might find it
+            Since Neurostack is built on top of Socket.io, you might find it
             useful to refer to their API reference.
           </p>
 
