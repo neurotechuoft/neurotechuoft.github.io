@@ -1,0 +1,32 @@
+.ns-docs-segment-main{
+  width: 100%;
+  background-color: #fafafa;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.ns-docs-segment-main h3{
+  font-weight: bolder;
+}
+
+.ns-docs-segment-main .code{
+  border-radius: 6px;
+}
+
+.ns-docs-segment-main snippet{
+  color: #6a737d;
+  background-color: rgba(27,31,35,.05);
+  padding: 3px;
+  font-family: monospace;
+  border-radius: 3px;
+}
+
+.ns-docs-segment-main bold{
+  font-weight: bolder;
+}
+
+.ns-docs-segment-main .arg{
+  padding-bottom: 6px;
+}

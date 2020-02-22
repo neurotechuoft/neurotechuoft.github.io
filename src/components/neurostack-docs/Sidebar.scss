@@ -1,17 +1,30 @@
-.sidebar{
+.ns-docs-sidebar{
     width: 200px;
     height: 100%;
     border-right: 1px solid lightgrey;
     position: fixed;
-    padding-top: 20px;
 }
 
-.sidebar p{
+.ns-docs-sidebar p{
     color: black;
     padding: 10px 10px 10px 30px;
+    cursor: pointer;
 }
 
-.sidebar p:hover{
+.ns-docs-sidebar p:hover{
     color: white;
-    background-color: skyblue;
+    background-color: #4ac2d2;
+}
+
+.ns-docs-logo{
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  object-position: -10px -40px;
+}
+
+@media only screen and (max-width: 700px) {
+  .ns-docs-sidebar {
+    display: none;
+  }
 }

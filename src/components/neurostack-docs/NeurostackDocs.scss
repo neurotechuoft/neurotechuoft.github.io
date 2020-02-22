@@ -1,14 +1,67 @@
 .ns-docs-main{
-    margin-left: 200px;
-    padding: 50px;
+  border-top: 2px solid #4ac2d2;
+  border-bottom: 2px solid #4ac2d2;;
+  margin-left: 200px;
+  padding: 50px;
+}
+
+.ns-docs-main comment{
+  color: gray;
+  font-family: monospace;
+}
+
+.ns-docs-main code{
+  color: white;
+  border-radius: 10px;
+  font-family: monospace;
+}
+
+.ns-docs-main snippet{
+  color: #6a737d;
+  background-color: rgba(27,31,35,.05);
+  padding: 3px;
+  font-family: monospace;
+  border-radius: 3px;
+}
+
+.ns-docs-main span{
+  font-family: monospace;
+}
+
+.ns-docs-main h2{
+  margin: 20px 0px 20px 0px;
+}
+
+.ns-docs-main p{
+  margin: 10px 0px 10px 0px;
+}
+
+.ns-docs-main .code{
+  border-radius: 6px;
 }
 
 .ns-docs-intro{
-    padding-bottom: 50px;
-    border-bottom: 1px solid lightgrey;
+  padding-bottom: 50px;
+  border-bottom: 1px solid lightgrey;
 }
 
 .ns-docs-getting-started{
-    font-family: Inter;
-    font-weight: 600;
+  padding-bottom: 50px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.ns-docs-tutorial{
+  padding-bottom: 50px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.ns-docs-websocketAPI{
+  padding-bottom: 50px;
+  border-bottom: 1px solid lightgrey;
+}
+
+@media only screen and (max-width: 700px) {
+  .ns-docs-main{
+    margin-left: 0px;
+  }
 }

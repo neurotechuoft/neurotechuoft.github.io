@@ -30,7 +30,7 @@ function App() {
       {/* <NavBar/> */}
 
       <Switch>
-        <Route path="/" exact component={HomePage}/>
+        <Route exact path="/" component={HomePage}/>
         <Route path="/join" component={JoinPage}/>
         <Route path="/team" component={TeamDiv}/>
         <Route path="/initiatives" component={InitiativesDiv}/>
