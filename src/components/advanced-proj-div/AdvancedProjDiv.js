@@ -5,12 +5,17 @@ import './AdvancedProjDiv.scss';
 
 import CurrProjDiv from "../currproj-div/CurrProjDiv";
 
+import NavBar from "../nav-bar/NavBar";
+import LinksBar from "../links-bar/LinksBar";
+
 function AdvancedProjDiv() {
   return(
     <div className="advanced-proj-div">
       <Helmet>
         <title>Projects | NeurotechUofT</title>
       </Helmet>
+
+      <NavBar/>
 
       <CurrProjDiv/>
       <Link to="/opportunities">Apply for a Project Position</Link>
@@ -46,6 +51,9 @@ function AdvancedProjDiv() {
         </div>
 
       </div>
+
+      <LinksBar/>
+
     </div>
   )
 }

@@ -6,12 +6,18 @@ import './NeurostackDiv.scss';
 
 import innovationplan from '../../assets/NTUofT-Innovation-Plan.png'
 
+import NavBar from "../nav-bar/NavBar";
+import LinksBar from "../links-bar/LinksBar";
+
 function NeurostackDiv() {
   return(
     <div className="neurostack-div">
       <Helmet>
         <title>Neurostack | NeurotechUofT</title>
       </Helmet>
+
+      <NavBar/>
+      
       <img src={innovationplan} alt="NeurotechUofT Cortical Apps Cover"/>
       <p>
           NeurotechUofT is currently working on Neurostack, an open-source real-time
@@ -31,6 +37,9 @@ function NeurostackDiv() {
             Follow this link to the Neurostack github, documentation and API :)
         </a>
         <Link to="/neurostack/docs">View Docs here</Link>
+
+        <LinksBar/>
+
     </div>
   )
 }

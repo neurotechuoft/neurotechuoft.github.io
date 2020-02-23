@@ -4,6 +4,9 @@ import './TeamDiv.scss';
 import {Link} from 'react-router-dom';
 import {Helmet} from "react-helmet";
 
+import NavBar from "../nav-bar/NavBar";
+import LinksBar from "../links-bar/LinksBar";
+
 import Taha from '../../assets/team/taha_morshedzadeh.jpg';
 import Sayan from '../../assets/team/sayan_faraz.jpg';
 import Karl from '../../assets/team/karl_cui.jpg';
@@ -29,6 +32,9 @@ function TeamDiv() {
       <Helmet>
         <title>Our Team | NeurotechUofT</title>
       </Helmet>
+
+      <NavBar/>
+      
       <div className="team-banner">
         <h1>TEAM</h1>
         <h3>
@@ -149,7 +155,10 @@ function TeamDiv() {
 
       </div>
 
+      <LinksBar/>
+
     </div>
+    
   )
 }
 

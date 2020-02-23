@@ -5,6 +5,9 @@ import './ApplyForPositionDiv.scss';
 
 import {positionsList, projectsList} from './collapseList';
 
+import NavBar from "../nav-bar/NavBar";
+import LinksBar from "../links-bar/LinksBar";
+
 function ApplyForPostionDiv() {
 
   return(
@@ -12,6 +15,8 @@ function ApplyForPostionDiv() {
       <Helmet>
         <title>Opportunities | NeurotechUofT</title>
       </Helmet>
+
+      <NavBar/>
 
       <h1>OPPORTUNITIES</h1>
       <div className="available-positions">
@@ -54,6 +59,9 @@ function ApplyForPostionDiv() {
           {projectsList[4]}
         </div> */}
       </div>
+
+      <LinksBar/>
+
     </div>
   )
 }

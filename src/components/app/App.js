@@ -17,17 +17,11 @@ import UpdatesDiv from "../updates-div/UpdatesDiv";
 import NeurostackDiv from "../neurostack-div/NeurostackDiv";
 import NeurostackDocs from '../neurostack-docs/NeurostackDocs';
 
-import NavBar from "../nav-bar/NavBar";
-import LinksBar from "../links-bar/LinksBar";
-
-
 function App() {
   return (
     <Router>
     <ScrollToTop>
       <div className="App">
-
-      {/* <NavBar/> */}
 
       <Switch>
         <Route exact path="/" component={HomePage}/>
@@ -44,8 +38,6 @@ function App() {
         <Route exact path="/neurostack" component={NeurostackDiv}/>
         <Route exact path="/neurostack/docs" component={NeurostackDocs}/>
       </Switch>
-
-      {/* <LinksBar/> */}
 
       </div>
     </ScrollToTop>

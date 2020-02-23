@@ -7,12 +7,18 @@ import corticalapps from '../../assets/ntuoft-cortical-apps-cover.png'
 import ninja from '../../assets/journey-of-member/ninja.png'
 import slack from '../../assets/slack-selected-assets/slack_monochrome_white.png'
 
+import NavBar from "../nav-bar/NavBar";
+import LinksBar from "../links-bar/LinksBar";
+
 function CorticalAppsDiv() {
   return(
     <div className="cortical-apps-div">
       <Helmet>
         <title>Cortical Apps | NeurotechUofT</title>
       </Helmet>
+
+      <NavBar/>
+      
       <img src={corticalapps} alt="NeurotechUofT Cortical Apps Cover"/>
       <h1>Make an epic neurotech idea, and bring it to life</h1>
 
@@ -78,6 +84,8 @@ function CorticalAppsDiv() {
           </a>
 
       </div>
+
+      <LinksBar/>
 
     </div>
   )
