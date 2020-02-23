@@ -31,7 +31,7 @@ function NeurostackDocs() {
             popular Socket.io library for Python.
           </p>
 
-          <comment>//Are there any other prerequisite dependencies?</comment>
+          {/* <comment>//Are there any other prerequisite dependencies?</comment> */}
 
           <p>
             Since Neurostack is built on top of Socket.io, you might find it
@@ -87,7 +87,7 @@ function NeurostackDocs() {
             our <snippet>client.on('uuid', print_results)</snippet> event handler as previously defined.
             Finally, our <snippet>print_results</snippet> callback will be called.
 
-            <comment> //The user should be able to substitute print_results for their own callback?</comment>
+            {/* <comment> //The user should be able to substitute print_results for their own callback?</comment> */}
           </p>
 
           <p>With our UUID ready, we can now send a prediction job:</p>
