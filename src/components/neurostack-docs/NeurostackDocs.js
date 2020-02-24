@@ -38,6 +38,26 @@ function NeurostackDocs() {
             useful to refer to their API reference.
           </p>
 
+          <p>
+          To start the Neurostack server, use <snippet>python start_server.py</snippet>. 
+          It will run on localhost:8001. To initialize on a client, run
+          <snippit>python neurostack.py.</snippit> from the command line. This command takes
+          3 arguments: 
+          </p>
+
+          <p>
+            <snippet>--address: ip: port to run Neurostack client on. The default is localhost:8002.</snippet>
+            <br/> <snippet>--server_address: ip: port for Neurostack server to connect to.</snippet>
+            <br/> <snippet>--use_fake_data: Use flag to generate fake data.</snippet>
+          </p>
+
+          <p>Example usage:</p>
+
+          <p>
+            <snippet>python neurostack.py --server_address 
+              localhost:8001 --address localhost:8002 --use_fake_data</snippet>
+          </p>
+
         </div>
 
         <div className="ns-docs-tutorial">
@@ -83,9 +103,10 @@ function NeurostackDocs() {
           <p>
             Here, we are sending our Socket.io server an event called <snippet>generate_uuid</snippet>, 
             with <snippet>None</snippet> as an argument.
+
             The server will then reply with a <snippet>generate_uuid</snippet> event that will be picked up by 
             our <snippet>client.on('uuid', print_results)</snippet> event handler as previously defined.
-            Finally, our <snippet>print_results</snippet> callback will be called.
+            Finally, our <snippet>print_results</snippet> callback will be called, with the UUID as an argument.
 
             {/* <comment> //The user should be able to substitute print_results for their own callback?</comment> */}
           </p>
@@ -106,7 +127,16 @@ function NeurostackDocs() {
               "client.wait(seconds=2)"}
           </SyntaxHighlighter>
 
-          <p>To send a training job:</p>
+          <p>
+            Here, we are sending a "predict" event to the server along with <snippet>args</snippet>
+            as data. Soon, the server will reply with it's own "predict" event, which will be picked up
+            by the client event handler we previously defined. Again, the <snippet>print_results</snippet>
+            callback will be called, with the following arguments: your UUID, a bool <snippet>p300</snippet> 
+            which is true if there is a prediced P300 ERP, and a float <snippet>score</snippet>, which is a 
+            number between 0 and 1 denoting the confidence in our prediction.
+          </p>
+
+          <p>Finally, we can also send a training job to the server</p>
 
           <SyntaxHighlighter className="code" language="python" style={monokaiSublime}>
             {"p300 = True               # For training: True is P300, False is no P300\n\n" +
@@ -121,6 +151,10 @@ function NeurostackDocs() {
               'client.emit("train", args)\n' +
               'client.wait(seconds=2)'}
           </SyntaxHighlighter>
+
+          <p>
+
+          </p>
 
         </div>
 
