@@ -10,19 +10,23 @@ import LinksBar from "../links-bar/LinksBar";
 
 function InitiativesDiv() {
   return (
-    <div className="initiatives-div">
-      <Helmet>
-        <title>Initiatives | NeurotechUofT</title>
-      </Helmet>
+    <div>
+      <div className="initiatives-div">
+        <Helmet>
+          <title>Initiatives | NeurotechUofT</title>
+        </Helmet>
 
-      <NavBar/>
-      
-      <h1>INITIATIVES</h1>
-      <NinjaEvolution/>
+        <NavBar/>
+        
+        <h1>INITIATIVES</h1>
+        <NinjaEvolution/>
+
+      </div>
 
       <LinksBar/>
-
+      
     </div>
+
   )
 }
 

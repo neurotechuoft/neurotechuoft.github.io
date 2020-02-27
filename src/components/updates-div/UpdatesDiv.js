@@ -10,20 +10,27 @@ import LinksBar from "../links-bar/LinksBar";
 
 function UpdatesDiv() {
   return(
-    <div className='updates-resources-div'>
-      <Helmet>
-        <title>Updates | NeurotechUofT</title>
-      </Helmet>
+    <div>
 
       <NavBar/>
 
-      <div className="updates updates-full">
-        {updatesList}
+      <div className='updates-resources-div'>
+        <Helmet>
+          <title>Updates | NeurotechUofT</title>
+        </Helmet>
+
+
+
+        <div className="updates updates-full">
+          {updatesList}
+        </div>
+
       </div>
 
       <LinksBar/>
 
     </div>
+
   )
 }
 
