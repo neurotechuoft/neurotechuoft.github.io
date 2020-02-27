@@ -5,6 +5,9 @@ import './FAQDiv.scss';
 
 import Collapsable from '../collapsable/Collapsable';
 
+import NavBar from "../nav-bar/NavBar";
+import LinksBar from "../links-bar/LinksBar";
+
 const q0trigger = (
   <h3>What is NeurotechUofT? What do you do?</h3>
 )
@@ -92,6 +95,9 @@ function FAQDiv() {
       <Helmet>
         <title>FAQ | NeurotechUofT</title>
       </Helmet>
+
+      <NavBar/>
+      
       <h1>FAQ</h1>
 
       <div className="questions">
@@ -101,6 +107,9 @@ function FAQDiv() {
         <Collapsable trigger={q3trigger} collapsing={q3collapsing}/>
         <Collapsable trigger={q4trigger} collapsing={q4collapsing}/>
       </div>
+
+      <LinksBar/>
+
     </div>
   )
 }

@@ -23,19 +23,25 @@
   line-height: 1.5;
   margin: 5vh 10vw ;
   color: #ffffff;
+  padding-bottom: 50px;
 }
 
-.neurostack-div a {
+.neurostack-div .link {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 1.5;
   margin: 5vh 10vw ;
   color: #ffffff;
   text-decoration: none;
+  background-color: #265a88;
+  padding: 3vh 14vh;
+  border-radius: 4px;
+  transition: 0.2s;
 }
 
-.neurostack-div a:hover {
-  background-color: transparent;
+.neurostack-div .link:hover {
+  background-color: #ededed;
+  color: #265a88;
   text-decoration: underline;
 }
 

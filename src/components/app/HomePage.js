@@ -9,12 +9,17 @@ import CurrProjDiv from '../currproj-div/CurrProjDiv';
 import OpportunitiesDiv from '../opportunities-div/OpportunitiesDiv';
 import UpdatesResourcesDiv from '../updates-resources-div/UpdatesResourcesDiv';
 
+import NavBar from "../nav-bar/NavBar";
+import LinksBar from "../links-bar/LinksBar";
+
 function HomePage() {
   return (
     <div>
       <Helmet>
         <title>NeurotechUofT</title>
       </Helmet>
+
+      <NavBar/>
 
       <LandingDiv/>
       <NinjaDiv/>
@@ -23,6 +28,9 @@ function HomePage() {
       <OpportunitiesDiv/>
       <UpdatesResourcesDiv/>
       <Sponsors/>
+
+      <LinksBar/>
+
     </div>
   );
 }
