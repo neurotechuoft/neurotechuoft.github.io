@@ -21,6 +21,7 @@ function NeurostackDocs() {
         <div className="ns-docs-intro">
           <h1>Welcome to Neurostack!</h1>
           <p>Neurostack is a open-source Python library that provides a real-time EEG processing service on the cloud.</p>
+          <p><a href = "https://github.com/neurotechuoft/Neurostack">View the source code here!</a></p>
         </div>
 
         <div className="ns-docs-getting-started">

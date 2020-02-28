@@ -52,7 +52,12 @@ class Sidebar extends Component {
           <Scroll activeClass="active" to="ns-docs-train" offset={-10} spy={true} smooth={true} duration={500}>
             <p>&bull; train</p>
           </Scroll>
+
         </div>
+
+        <a href = "https://github.com/neurotechuoft/Neurostack">
+          <p>View Source</p>
+        </a>
 
       </div>
     )
