@@ -14,12 +14,12 @@ function NeurostackDiv() {
 
     <div>
 
+      <NavBar/>
+
       <div className="neurostack-div">
         <Helmet>
           <title>Neurostack | NeurotechUofT</title>
         </Helmet>
-
-        <NavBar/>
         
         <img src={innovationplan} alt="NeurotechUofT Cortical Apps Cover"/>
         <p>
