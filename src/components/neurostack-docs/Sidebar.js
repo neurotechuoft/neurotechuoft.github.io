@@ -52,6 +52,12 @@ class Sidebar extends Component {
           <Scroll activeClass="active" to="ns-docs-train" offset={-10} spy={true} smooth={true} duration={500}>
             <p>&bull; train</p>
           </Scroll>
+          <Scroll activeClass="active" to="ns-docs-left-right-predict" offset={-10} spy={true} smooth={true} duration={500}>
+            <p>&bull; left_right_predict</p>
+          </Scroll>
+          <Scroll activeClass="active" to="ns-docs-left-right-train" offset={-10} spy={true} smooth={true} duration={500}>
+            <p>&bull; left_right_train</p>
+          </Scroll>
 
         </div>
 

@@ -179,6 +179,14 @@ function NeurostackDocs() {
             <Segment data = {TRAIN}/>
           </div>
 
+          <div className="ns-docs-left-right-predict">
+            <Segment data = {LEFT_RIGHT_PREDICT}/>
+          </div>
+
+          <div className="ns-docs-left-right-train">
+            <Segment data = {LEFT_RIGHT_TRAIN}/>
+          </div>
+
         </div>
 
       </div>
@@ -239,6 +247,51 @@ const TRAIN = {
             This will determine which classifier we will load up and use.",
     "timestamp": "(float)|The timestamp of this chunk of data",
     "p300": "(bool)|True if there should be a P300 ERP"
+  },
+  returns: {
+    "uuid": "(str)|The UUID of the caller",
+    "acc": "(Optional[float])|The accuracy of current classifier. \
+            This is either None/null (not enough training samples for training), \
+            or a float between 0 and 1."
+  }
+}
+
+const LEFT_RIGHT_PREDICT = {
+  title: "left_right_predict",
+  description: "Make a prediction for whether the user is using their left or right brain at a timestamp.",
+  example: "args = json.dumps({\n" +
+            "'uuid': uuid,\n" +
+            "'timestamp': timestamp,\n" +
+          "})\n\n" +
+
+          'client.emit("left_right_predict", args)',
+  parameters: {
+    "uuid": "(str)|The UUID of whoever is making a prediction. \
+            This will determine which classifier we will load up and use.",
+    "timestamp": "(float)|The timestamp of this chunk of data",
+  },
+  returns: {
+    "uuid": "(str)|The UUID of the caller",
+    "left": "(bool)|Either True or False, predicting whether the user is using their left (True) or right (False) brain.",
+    "score": "(float)|A value from 0 to 1 denoting the confidence in the prediction"
+  }
+}
+
+const LEFT_RIGHT_TRAIN = {
+  title: "left_right_train",
+  description: "Give a training example to the left/right brain classifier.",
+  example: "args = json.dumps({\n" +
+            "'uuid': uuid,\n" +
+            "'timestamp': timestamp,\n" +
+            "'left': True\n" +
+          "})\n\n" +
+
+          'client.emit("left_right_train", args)',
+  parameters: {
+    "uuid": "(str)|The UUID of whoever is making a prediction. \
+            This will determine which classifier we will load up and use.",
+    "timestamp": "(float)|The timestamp of this chunk of data",
+    "left": "(bool)|True if using left brain, otherwise False if using right brain"
   },
   returns: {
     "uuid": "(str)|The UUID of the caller",
