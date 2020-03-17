@@ -46,11 +46,11 @@ class Sidebar extends Component {
           <Scroll activeClass="active" to="ns-docs-generate_UUID" offset={-10} spy={true} smooth={true} duration={500}>
             <p>&bull; generate_uuid</p>
           </Scroll>
-          <Scroll activeClass="active" to="ns-docs-predict" offset={-10} spy={true} smooth={true} duration={500}>
-            <p>&bull; predict</p>
+          <Scroll activeClass="active" to="ns-docs-p300-predict" offset={-10} spy={true} smooth={true} duration={500}>
+            <p>&bull; p300_predict</p>
           </Scroll>
-          <Scroll activeClass="active" to="ns-docs-train" offset={-10} spy={true} smooth={true} duration={500}>
-            <p>&bull; train</p>
+          <Scroll activeClass="active" to="ns-docs-p300-train" offset={-10} spy={true} smooth={true} duration={500}>
+            <p>&bull; p300_train</p>
           </Scroll>
           <Scroll activeClass="active" to="ns-docs-left-right-predict" offset={-10} spy={true} smooth={true} duration={500}>
             <p>&bull; left_right_predict</p>
