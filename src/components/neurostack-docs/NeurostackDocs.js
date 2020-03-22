@@ -45,7 +45,7 @@ function NeurostackDocs() {
           </p>
 
           <p>
-            <snippet>--address: ip:port to run Neurostack client on. Use localhost:8001 when serving locally, or neurostack.neurotechuoft.com:8002 when connecting to remote</snippet>
+            <snippet>--address: ip:port to run Neurostack client on. Use localhost:8001 when serving locally, or neurostack.neurotechuoft.com:8001 when connecting to remote</snippet>
             <br/> <snippet>--server_address: ip:port for Neurostack server to connect to.</snippet>
             <br/> <snippet>--use_fake_data: Use flag to generate fake data.</snippet>
           </p>
