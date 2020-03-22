@@ -170,7 +170,7 @@ function NeurostackDocs() {
 
         </div>
 
-        <div className="ns-docs-websocketAPI">
+        <div className="ns-docs-websocket-API">
           <h2>WebSocket API</h2>
           <p>
             Neurostack supports the following event API calls. 
@@ -189,6 +189,15 @@ function NeurostackDocs() {
             <Segment data = {STOP_STREAMING_RAW_DATA}/>
           </div>
 
+        </div>
+
+        <div className="ns-docs-p300-API">
+          <h2>P300 API</h2>
+          <p>
+            Neurostack supports the following event API calls. 
+            Each of these will emit back the results with the same event name.
+          </p>
+
           <div className="ns-docs-p300-predict">
           <Segment data = {P300_PREDICT}/>
 
@@ -197,6 +206,15 @@ function NeurostackDocs() {
           <div className="ns-docs-p300-train">
             <Segment data = {P300_TRAIN}/>
           </div>
+
+        </div>
+
+        <div className="ns-docs-left-right-API">
+          <h2>Left-Right API</h2>
+          <p>
+            Neurostack supports the following event API calls. 
+            Each of these will emit back the results with the same event name.
+          </p>
 
           <div className="ns-docs-left-right-predict">
             <Segment data = {LEFT_RIGHT_PREDICT}/>

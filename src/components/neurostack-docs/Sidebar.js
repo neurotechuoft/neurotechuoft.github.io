@@ -40,7 +40,8 @@ class Sidebar extends Component {
         <Scroll activeClass="active" to="ns-docs-tutorial" offset={-30} spy={true} smooth={true} duration={500}>
           <p>Tutorial</p>
         </Scroll>
-        <Scroll activeClass="active" to="ns-docs-websocketAPI" offset={-30} spy={true} smooth={true} duration={500}>
+
+        <Scroll activeClass="active" to="ns-docs-websocket-API" offset={-30} spy={true} smooth={true} duration={500}>
           <p>WebSocket API</p>
         </Scroll>
 
@@ -54,19 +55,32 @@ class Sidebar extends Component {
           <Scroll activeClass="active" to="ns-docs-stop-streaming-raw-data" offset={-10} spy={true} smooth={true} duration={500}>
             <p>&bull; stop_streaming_raw_data</p>
           </Scroll>
+        </div>
+
+        <Scroll activeClass="active" to="ns-docs-p300-API" offset={-30} spy={true} smooth={true} duration={500}>
+          <p>P300 API</p>
+        </Scroll>
+        
+        <div className="ns-docs-sidebar-slide">
           <Scroll activeClass="active" to="ns-docs-p300-predict" offset={-10} spy={true} smooth={true} duration={500}>
             <p>&bull; p300_predict</p>
           </Scroll>
           <Scroll activeClass="active" to="ns-docs-p300-train" offset={-10} spy={true} smooth={true} duration={500}>
             <p>&bull; p300_train</p>
           </Scroll>
+        </div>
+
+        <Scroll activeClass="active" to="ns-docs-left-right-API" offset={-30} spy={true} smooth={true} duration={500}>
+          <p>Left-Right API</p>
+        </Scroll>
+
+        <div className="ns-docs-sidebar-slide">
           <Scroll activeClass="active" to="ns-docs-left-right-predict" offset={-10} spy={true} smooth={true} duration={500}>
             <p>&bull; left_right_predict</p>
           </Scroll>
           <Scroll activeClass="active" to="ns-docs-left-right-train" offset={-10} spy={true} smooth={true} duration={500}>
             <p>&bull; left_right_train</p>
           </Scroll>
-
         </div>
 
         <a href = "https://github.com/neurotechuoft/Neurostack">
