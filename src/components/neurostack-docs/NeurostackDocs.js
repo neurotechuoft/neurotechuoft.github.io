@@ -28,7 +28,8 @@ function NeurostackDocs() {
           <h2>Getting Started</h2>
 
           <p>
-          Neurostack runs in Python 3.6. We recommend working in a virtual environment (see Conda or venv). To install dependencies for the Neurostack client, 
+          Neurostack runs in Python 3.6. We recommend working in a virtual environment 
+          (see <a href="https://www.anaconda.com/">Conda</a> or <a href="https://docs.python.org/3/library/venv.html">venv</a>). To install dependencies for the Neurostack client, 
           run <snippet>pip install -r requirements.txt</snippet>. To install dependencies for the Neurostack server, 
           run <snippet>pip install -r server_requirements.txt</snippet>
           </p>
