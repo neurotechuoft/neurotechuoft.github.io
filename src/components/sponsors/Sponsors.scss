@@ -29,12 +29,32 @@
     text-decoration: underline;
 }
 
-.sponsor-images {
+.sponsors .images-2-cols {
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
-  grid-template-rows: repeat(3, 30%);
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: repeat(1, 1fr);
   justify-items: center;
   align-items: center;
+}
+
+.sponsors .images-3-cols {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+#branch_out{
+  margin-left: 13%;
+  max-width: 73%;
+  height: auto;
+}
+
+#neurotechx{
+  margin-right: 80%;
+  max-width: 40%;
+  height: auto;
 }
 
 #ibbme_uoft{
@@ -43,8 +63,8 @@
   height: auto;
 }
 
-#neurotechx{
-  max-width: 50%;
+#skule_uoft{
+  max-width: 80%;
   height: auto;
 }
 
@@ -74,20 +94,13 @@
 }
 
 #neurosky{
-  justify-self: end;
-  margin-right: 5%;
+  margin-left: 13%;
   max-width: 40%;
   height: auto;
 }
 
-#skule_uoft{
-  max-width: 80%;
-  height: auto;
-}
-
 #yncn{
-  justify-self: start;
-  margin-left: 5%;
+  margin-right: 85%;
   max-width: 50%;
   height: auto;
 }
