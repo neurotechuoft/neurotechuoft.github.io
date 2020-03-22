@@ -28,16 +28,15 @@ function NeurostackDocs() {
           <h2>Getting Started</h2>
 
           <p>
-            Neurostack requires the SocketIO_client library. This dependency implements the 
-            popular Socket.io library for Python.
-            Since Neurostack is built on top of Socket.io, it might often be
-            useful to refer to their <a href = "https://socket.io/docs/">API reference</a>.
+          Neurostack runs in Python 3.6. We recommend working in a virtual environment (see Conda or venv). To install dependencies for the Neurostack client, 
+          run <snippet>pip install -r requirements.txt</snippet>. To install dependencies for the Neurostack server, 
+          run <snippet>pip install -r server_requirements.txt</snippet>
           </p>
 
           <p>
             <b>You can either run the Neurostack server locally, or you may choose to connect to our remote server.</b> To 
             start the Neurostack server locally, run <snippet>python start_server.py</snippet>. It will run on localhost:8001. 
-            Alternatively, if you choose to connect to our remote server, it is currently being served on <snippet>neurostack.neurotechuoft.com:8002</snippet>
+            Alternatively, if you choose to connect to our remote server, it is currently being served on <snippet>neurostack.neurotechuoft.com:8001</snippet>
           </p>
 
           <p>
@@ -59,7 +58,7 @@ function NeurostackDocs() {
 
           <p>
             <snippet>python neurostack.py --server_address 
-              neurostack.neurotechuoft.com:8002 --address localhost:8002 --use_fake_data</snippet>
+              neurostack.neurotechuoft.com:8001 --address localhost:8002 --use_fake_data</snippet>
           </p>
 
         </div>
@@ -180,6 +179,14 @@ function NeurostackDocs() {
           
           <div className="ns-docs-generate_UUID">
             <Segment data = {GENERATE_UUID}/>
+          </div>
+
+          <div className="ns-docs-start-streaming-raw-data">
+            <Segment data = {START_STREAMING_RAW_DATA}/>
+          </div>
+
+          <div className="ns-docs-stop-streaming-raw-data">
+            <Segment data = {STOP_STREAMING_RAW_DATA}/>
           </div>
 
           <div className="ns-docs-p300-predict">
@@ -313,4 +320,35 @@ const LEFT_RIGHT_TRAIN = {
   }
 }
 
+const START_STREAMING_RAW_DATA = {
+  title: "start_streaming_raw_data",
+  description: "Start streaming raw EEG data. Applications that want to use this should listen for the event raw_data, which Neurostack will continuously emit to.",
+  example: "args = json.dumps({\n" +
+            "'uuid': uuid,\n" +
+          "})\n\n" +
+
+          'client.emit("start_streaming_raw_data", args)',
+  parameters: {
+    "uuid": "(str)|UUID of whoever is wants to stream raw data. This will open up a raw data stream for this specific user.",
+  },
+  returns: {
+    "None": ""
+  }
+}
+
+const STOP_STREAMING_RAW_DATA = {
+  title: "stop_streaming_raw_data",
+  description: "Stop streaming raw EEG data.",
+  example: "args = json.dumps({\n" +
+            "'uuid': uuid,\n" +
+          "})\n\n" +
+
+          'client.emit("stop_streaming_raw_data", args)',
+  parameters: {
+    "uuid": "(str)|UUID of whoever is wants to stop streaming raw data.",
+  },
+  returns: {
+    "None": ""
+  }
+}
 

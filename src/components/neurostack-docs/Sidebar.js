@@ -26,7 +26,9 @@ class Sidebar extends Component {
       <div className="ns-docs-sidebar" onClick={() => this.toggleDrawer()}>
 
         <Link to="/">
-          <img className="ns-docs-logo" src={require("../../assets/neurotechuoft_dark.png")}/>
+          <div className="ns-docs-logo">
+            <img src={require("../../assets/neurotechuoft_dark.png")}/>
+          </div>
         </Link>
 
         <Scroll activeClass="active" to="ns-docs-intro" offset={-52} spy={true} smooth={true} duration={500}>
@@ -45,6 +47,12 @@ class Sidebar extends Component {
         <div className="ns-docs-sidebar-slide">
           <Scroll activeClass="active" to="ns-docs-generate_UUID" offset={-10} spy={true} smooth={true} duration={500}>
             <p>&bull; generate_uuid</p>
+          </Scroll>
+          <Scroll activeClass="active" to="ns-docs-start-streaming-raw-data" offset={-10} spy={true} smooth={true} duration={500}>
+            <p>&bull; start_streaming_raw_data</p>
+          </Scroll>
+          <Scroll activeClass="active" to="ns-docs-stop-streaming-raw-data" offset={-10} spy={true} smooth={true} duration={500}>
+            <p>&bull; stop_streaming_raw_data</p>
           </Scroll>
           <Scroll activeClass="active" to="ns-docs-p300-predict" offset={-10} spy={true} smooth={true} duration={500}>
             <p>&bull; p300_predict</p>
