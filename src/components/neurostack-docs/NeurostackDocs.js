@@ -174,7 +174,7 @@ function NeurostackDocs() {
           <h2>WebSocket API</h2>
           <p>
             Neurostack supports the following event API calls. 
-            Each of these will emit back the results with the same event name.
+            Each endpoint will emit an appropriate result using a SocketIO event with the same event name.
           </p>
           
           <div className="ns-docs-generate_UUID">
@@ -194,8 +194,8 @@ function NeurostackDocs() {
         <div className="ns-docs-p300-API">
           <h2>P300 API</h2>
           <p>
-            Neurostack supports the following event API calls. 
-            Each of these will emit back the results with the same event name.
+            Neurostack's API endpoints support detection of P300 brain wave data.             
+            Each endpoint will emit an appropriate result using a SocketIO event with the same event name.
           </p>
 
           <div className="ns-docs-p300-predict">
@@ -212,8 +212,8 @@ function NeurostackDocs() {
         <div className="ns-docs-left-right-API">
           <h2>Left-Right API</h2>
           <p>
-            Neurostack supports the following event API calls. 
-            Each of these will emit back the results with the same event name.
+            These API endpoints support detection of left/right brain activity.
+            Each endpoint will emit an appropriate result using a SocketIO event with the same event name.
           </p>
 
           <div className="ns-docs-left-right-predict">
