@@ -34,6 +34,7 @@ function ApplyForPostionDiv() {
             {positionsList[4]}
             {positionsList[5]}
             {positionsList[6]}
+            {positionsList[35]}
             <h2>Workshops</h2>
             <p>
             Development of a two-coures series aimed at helping people with
@@ -47,18 +48,19 @@ function ApplyForPostionDiv() {
             {positionsList[8]}
           </div>
 
-          {/* <div className="advanced-project-positions">
+          <div className="advanced-project-positions">
             <h1>Advanced Project Positions</h1>
             <h3>Second years and up :)</h3>
             <h3><b>Due:</b> Rolling application</h3>
             <h4>(interviews are first-come first-serve)</h4>
-            {positionsList[34]}
+            {/* {positionsList[34]}
             {projectsList[0]}
             {projectsList[1]}
             {projectsList[2]}
             {projectsList[3]}
-            {projectsList[4]}
-          </div> */}
+            {projectsList[4]} */}
+            {projectsList[5]}
+          </div>
         </div>
 
       </div>
