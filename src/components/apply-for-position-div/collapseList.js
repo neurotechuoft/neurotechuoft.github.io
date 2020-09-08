@@ -93,7 +93,7 @@ const positionsList =
     </div>
   ],
   [ // 5
-    <h3>Website Developer</h3>,
+    <h3>Web Developer</h3>,
     <div>
       <p>
       Make an epic interactive website for NeurotechUofT, and make various
@@ -784,59 +784,6 @@ const positionsList =
     </p>
     <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
     </div>
-  ],
-  [ // 35
-    <h3>Hackternoons Director</h3>,
-    <div>
-      <p>
-      Create a positive and supportive environment for the whole NeurotechUofT Team to collaborate and innovate.
-      Guide newcomers to the right resources and help them learn the basics of Neurotechnology.
-      And of course, make plenty of cool friends along the way!
-      </p>
-      <b>Nice skills to have:</b>
-      <ul>
-        <li>Willingness to learn</li>
-        <li>Strong communication</li>
-        <li>Team and time management skills</li>
-        <li>Teaching experience</li>
-      </ul>
-      <p>
-        <b>Hours per week:</b> 2-4 hours
-      </p>
-      <p>
-        <b>Potential Demographics:</b> Art/Sci, CS, Engineering
-      </p>
-      <p>
-        <b>Urgency:</b> by September 21st
-      </p>
-    </div>
-  ],
-  [ // 36
-    <h3>Web Developer</h3>,
-    <div>
-      <p>
-      Be a member of the front end development team, creating porjects by:
-      <ul>
-        <li>Delivering small & well-understood tasks on a regular (1-2 weeks) basis</li>
-        <li>Work closely with other developers (on design or implementations)</li>
-        <li>Participate in code reviews</li>
-      </ul>
-      </p>
-      <b>Required Skills:</b>
-      <ul>
-        <li>Git</li>
-        <li>ReactJs (or React Native)</li>
-        <li>Javascript (ES6+)</li>
-      </ul>
-      <b>Nice skills to have:</b>
-      <ul>
-        <li>Redux</li>
-        <li>Typescript</li>
-      </ul>
-      <p>
-        <b>Hours per week:</b> 4-6 hours
-      </p>
-    </div>
   ]
 ].map( info => <Collapsable trigger={info[0]} collapsing={info[1]} expandHeight={25} /> )
 
@@ -933,33 +880,6 @@ const projectsList = [
         {/* {positionsList[31]} */}
         {positionsList[32]}
         {positionsList[33]}
-      </div>
-    ]
-  ],
-  [
-    [
-      <div>
-        <h2>Front End</h2>
-        <p>
-          <b>Projects:</b>
-          <ul>
-            <li>BrainTag:</li>
-            <ul>
-              <li>A tool for neuroscience researchers</li>
-              <li>Real-time graphing, EEG collection and tagging</li>
-            </ul>
-            <li>MindType:</li>
-            <ul>
-              <li>A mind-controlled keyboard</li>
-              <li>Uses a flashing algorithm & p300 wave detection to type</li>
-            </ul>
-          </ul>
-        </p>
-      </div>
-    ],
-    [
-      <div>
-        {positionsList[36]}
       </div>
     ]
   ]
