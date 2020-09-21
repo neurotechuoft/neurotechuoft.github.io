@@ -19,7 +19,7 @@ const positionsList =
       inclusivity, kindness, understanding of basic business and marketing concepts
       </p>
       <p>
-      <b>Hours per week:</b> 5—6 hours
+      <b>Hours per week:</b> 3-5 hours
       </p>
       <a href={OPS_APPLY_LINK}>Apply</a>
     </div>
@@ -36,7 +36,7 @@ const positionsList =
       <b>Nice skills to have:</b> Illustrator, InDesign
       </p>
       <p>
-      <b>Hours per week:</b> 6—8 hours
+      <b>Hours per week:</b> 3 hours
       </p>
       <a href={OPS_APPLY_LINK}>Apply</a>
     </div>
@@ -53,7 +53,7 @@ const positionsList =
       PR, social media, etc; strong time management skills
       </p>
       <p>
-      <b>Hours per week:</b> 4—5 hours
+      <b>Hours per week:</b> 2 hours
       </p>
       <a href={OPS_APPLY_LINK}>Apply</a>
     </div>
@@ -415,7 +415,7 @@ const positionsList =
     </div>
   ],
   [ // 19
-    <h3>Embedded Software / Firmware Engineer</h3>,
+    <h3>Embedded Software / Firmware Engineer (Biosignals)</h3>,
     <div>
       <p>
       Work with one other programmer to design and program the ADS1299-Raspberry Pi interface. Responsible for coding the main loop on a Raspberry Pi to control and acquire data from an ADS1299 ADC chip through SPI and send it to a GUI for visualization.
@@ -440,7 +440,7 @@ const positionsList =
     </div>
   ],
   [ // 20
-    <h3>DSP Software Engineer</h3>,
+    <h3>DSP Software Engineer (Biosignals)</h3>,
     <div>
     <p>
     Program digital signal processing (DSP) (noise filtering, high/low-pass filters, power spectral analysis etc.) functions to process acquired data on-chip.
@@ -462,7 +462,7 @@ const positionsList =
     </div>
   ],
   [ // 21
-    <h3>PCB Designer</h3>,
+    <h3>PCB Designer (Biosignals)</h3>,
     <div>
       <p>
       Help create the hardware schematics and layout for the PCB used to interface the ADS1299 chip with electrodes and connections to the Raspberry Pi. Responsible for housing the ADS1299 chip for low noise embedded applications and testing for signal filtering.
@@ -780,9 +780,16 @@ const positionsList =
       <li>You're willing to give it your best and learn new things!</li>
     </ul>
     <p>
-    <b>Hours per week:</b> 6—7 hours
+    <b>Hours per week:</b> 4—7 hours
     </p>
-    <a href="http://bit.ly/project-team-apps-2019w">Apply</a>
+    <p>
+    To learn more about our projects:
+    <a className="facebook" href="https://www.facebook.com/NeurotechUofT/events/?ref=page_internal">Join us at our 'Hackternoons' Events</a>
+    </p>
+    <p>
+      To begin working with our project teams:
+      <a href={OPS_APPLY_LINK}>Apply</a>
+    </p>
     </div>
   ],
   [ // 35
@@ -801,21 +808,22 @@ const positionsList =
         <li>Teaching experience</li>
       </ul>
       <p>
-        <b>Hours per week:</b> 2-4 hours
+        <b>Hours per week:</b> 3-5 hours
       </p>
       <p>
         <b>Potential Demographics:</b> Art/Sci, CS, Engineering
       </p>
       <p>
-        <b>Urgency:</b> by September 21st
+        <b>Urgent!</b>
       </p>
+      <a href={OPS_APPLY_LINK}>Apply</a>
     </div>
   ],
   [ // 36
     <h3>Web Developer</h3>,
     <div>
       <p>
-      Be a member of the front end development team, creating porjects by:
+      Be a member of the frontend development team, creating porjects by:
       <ul>
         <li>Delivering small & well-understood tasks on a regular (1-2 weeks) basis</li>
         <li>Work closely with other developers (on design or implementations)</li>
@@ -836,12 +844,13 @@ const positionsList =
       <p>
         <b>Hours per week:</b> 4-6 hours
       </p>
+      <a href={OPS_APPLY_LINK}>Apply</a>
     </div>
   ]
 ].map( info => <Collapsable trigger={info[0]} collapsing={info[1]} expandHeight={25} /> )
 
 const projectsList = [
-  [
+  [ // 0
     [
       <div>
         <h2>Neurostack + EEG Research</h2>
@@ -864,7 +873,7 @@ const projectsList = [
       </div>
     ]
   ],
-  [
+  [ // 1
     [
       <div>
         <h2>Headset and EEG Acquisition</h2>
@@ -881,7 +890,7 @@ const projectsList = [
       </div>
     ]
   ],
-  [
+  [ // 2
     [
       <div>
         <h2>Biosignals Board</h2>
@@ -898,7 +907,7 @@ const projectsList = [
       </div>
     ]
   ],
-  [
+  [ // 3
     [
       <div>
         <h2>WallEEG</h2>
@@ -919,7 +928,7 @@ const projectsList = [
       </div>
     ]
   ],
-  [
+  [ // 4
     [
       <div>
         <h2>MindType</h2>
@@ -936,23 +945,19 @@ const projectsList = [
       </div>
     ]
   ],
-  [
+  [ // 5
     [
       <div>
-        <h2>Front End</h2>
+        <h2>Frontend Team</h2>
         <p>
           <b>Projects:</b>
           <ul>
-            <li>BrainTag:</li>
-            <ul>
-              <li>A tool for neuroscience researchers</li>
-              <li>Real-time graphing, EEG collection and tagging</li>
-            </ul>
-            <li>MindType:</li>
-            <ul>
-              <li>A mind-controlled keyboard</li>
-              <li>Uses a flashing algorithm & p300 wave detection to type</li>
-            </ul>
+            <li>
+              <b>BrainTag:</b> A tool for neuroscience researchers collecting EEG data
+            </li>
+            <li>
+              <b>MindType:</b> A mind-controlled keyboard
+            </li>
           </ul>
         </p>
       </div>
@@ -960,6 +965,33 @@ const projectsList = [
     [
       <div>
         {positionsList[36]}
+      </div>
+    ]
+  ],
+  [ // 6
+    [
+      <div>
+        <h2>Hardware Team</h2>
+        <p>
+          <b>Projects:</b>
+          <ul>
+            <li>
+              <b>Headset:</b> An easy-to-use, modular and comfortable EEG headset
+            </li>
+            <li>
+              <b>Biosignals:</b> An ultra-low noise biosignals acquisition board
+            </li>
+          </ul>
+        </p>
+      </div>
+    ],
+    [
+      <div>
+        {positionsList[15]}
+        {positionsList[16]}
+        {positionsList[17]}
+        {positionsList[19]}
+        {positionsList[21]}
       </div>
     ]
   ]
