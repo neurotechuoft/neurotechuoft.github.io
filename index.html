@@ -1,65 +1,124 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>NeuroTech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rokkitt:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/6.4.2/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/6.4.2/firebase-auth.js"></script>
-    <script defer src="/__/firebase/6.4.2/firebase-database.js"></script>
-    <script defer src="/__/firebase/6.4.2/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/6.4.2/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+<body>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="background-color: rgb(18,18,20);">
+        <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="background-color: #ffffff;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon text-white"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1"><a href="index.html"><img src="assets/img/NeuroTech%20Logo%20without%20space.png" style="width: 91px;margin: 8px;"></a>
+                <ul class="nav navbar-nav d-flex flex-row justify-content-center mr-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html" style="font-family: Rokkitt, serif;font-size: 20px;color: rgb(194,194,194);">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="team.html" style="font-family: Rokkitt, serif;font-size: 20px;color: rgb(255,255,255);">Team</a></li>
+                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link border rounded border-light" href="joinUs.html" style="font-family: Rokkitt, serif;font-size: 20px;color: rgb(255,255,255);">Join Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+        data-bs-parallax-bg="true" style="height: 100vh;background-image: url(&quot;assets/img/blurbg.jpg&quot;);background-position: center;background-size: cover;">
+        <div class="container text-center justify-content-center" style="padding: 0px;padding-top: 7rem;padding-bottom: 10rem;padding-left: 0;padding-right: 0;"><img src="assets/img/NeuroTech%20Logo%20without%20space.png" style="width: 20rem;padding: 0px;padding-bottom: 0px;">
+            <h1 class="text-center" style="font-family: Rokkitt, serif;font-size: 36px;padding-right: 0;padding-left: 0;margin: 13px 10px 8px;color: rgb(255,255,255);">Driving NeuroTech Innovation at The University of Toronto</h1>
+        </div>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <section class="d-flex flex-column justify-content-center" style="background-color: rgb(61,167,196);background-size: cover;font-size: 40px;min-height: 70vh;">
+        <div>
+            <h1 class="text-center" style="font-family: Rokkitt, serif;color: rgb(255,255,255);font-size: 60px;font-weight: bold;padding-top: 31px;">Current Projects</h1>
+        </div>
+        <div class="container d-flex flex-row justify-content-center flex-wrap justify-content-lg-center align-items-lg-start" style="height: auto;padding-right: 0px;padding-left: 0px;padding-bottom: 88px;">
+            <div class="card" style="background-color: rgba(255,255,255,0.87);margin: 10px;margin-right: 10px;width: 265px;padding: 10px 0px;padding-top: 10px;padding-bottom: 10px;">
+                <div class="card-body text-center">
+                    <h4 class="card-title" style="font-family: Rokkitt, serif;font-size: 38px;">MindType</h4>
+                    <p class="card-text" style="font-size: 16px;font-family: Roboto, sans-serif;height: 290px;">A mind-controlled keyboard! Current mind-controlled keyboards require multiple operations to select a character. We propose the usage of an imagined sign language to select characters. This way, characters can be selected in one operation,
+                        making mind-typing much faster for people with neuromuscular degeneration</p><a class="card-link" href="https://github.com/neurotechuoft/MindType"><i class="fa fa-github-square" style="color: rgb(0,0,0);"></i></a></div>
+            </div>
+            <div class="card" style="background-color: rgba(255,255,255,0.87);margin: 10px;margin-right: 10px;width: 265px;padding: 10px 0px;">
+                <div class="card-body text-center">
+                    <h4 class="card-title" style="font-family: Rokkitt, serif;font-size: 38px;">WallEEG</h4>
+                    <p class="card-text" style="font-size: 16px;font-family: Roboto, sans-serif;height: 290px;">A mind-controlled quidditch robot! This project proves the interdisciplinary nature of neurotechnology, and consists of concepts from electrical engineering, computer science, mathematics, and neuroscience. This will be our submission
+                        of Part 2 of the NeuroTechX Student Competition.</p><a class="card-link" href="https://github.com/neurotechuoft/Wall-EEG"><i class="fa fa-github-square" style="color: rgb(0,0,0);"></i></a></div>
+            </div>
+            <div class="card" style="background-color: rgba(255,255,255,0.87);margin: 10px;margin-right: 10px;width: 265px;padding: 10px 0px;">
+                <div class="card-body text-center">
+                    <h4 class="card-title" style="font-family: Rokkitt, serif;font-size: 38px;">Headset</h4>
+                    <p class="card-text" style="font-size: 16px;font-family: Roboto, sans-serif;height: 290px;">Our own EEG headset! We're trying to make a headset for the OpenBCI board that is comfortale for wearers and easy to use for researchers with good signal quality.</p><a class="card-link" href="https://www.youtube.com/watch?v=OJdKAIgMKiA#"><i class="fa fa-youtube-play" style="color: rgb(0,0,0);"></i></a></div>
+            </div>
+            <div class="card" style="background-color: rgba(255,255,255,0.87);margin: 10px;margin-right: 10px;width: 265px;padding: 10px 0px;">
+                <div class="card-body text-center">
+                    <h4 class="card-title" style="font-family: Rokkitt, serif;font-size: 38px;">Neurostack</h4>
+                    <p class="card-text" style="font-size: 16px;font-family: Roboto, sans-serif;height: 290px;">An open-source real-time EEG processing service on the cloud! The goal is to develop a tool that allows users to easily create neurotech applications, by taking and processing data from EEG headsets.</p><a class="card-link" href="https://neurotechuoft.com/neurostack/docs"><i class="fa fa-arrow-circle-right" style="color: rgb(0,0,0);"></i></a></div>
+            </div>
+        </div>
+    </section>
+    <section class="d-flex flex-column justify-content-center" style="background-color: rgb(255,255,255);background-size: cover;font-size: 60px;min-height: 70vh;">
+        <div>
+            <h1 class="text-center" style="font-family: Rokkitt, serif;color: rgb(61,167,196);font-size: 60px;font-weight: bold;">Resources</h1>
+        </div>
+        <div class="container d-flex flex-column justify-content-center flex-wrap justify-content-xl-center align-items-xl-center" style="height: auto;"><button class="btn btn-primary" type="button" style="height: 80px;font-size: 20px;font-weight: 500;background-color: rgb(239,124,110);margin: 5px 0px;"><a href="https://neurotechx.github.io/studentclubs/competition/" style="color: rgb(255,255,255);">NeuroTechX Student Competition</a></button>
+            <div
+                role="tablist" id="accordion-1">
+                <div class="card">
+                    <div class="card-header text-center" role="tab" style="background-color: rgb(106,205,116);">
+                        <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-1" href="#accordion-1 .item-1" style="color: rgb(255,255,255);">Programming</a></h5>
+                    </div>
+                    <div class="collapse item-1" role="tabpanel" data-parent="#accordion-1">
+                        <div class="card-body">
+                            <p class="card-text" style="font-size: 17px;">Git Version Control:&nbsp;<a href="http://learngitbranching.js.org/">http://learngitbranching.js.org/</a><br>Coding for Beginners:&nbsp;<a href="https://codecombat.com/">https://codecombat.com/</a><br>Coding Puzzles (all levels
+                                of expertise):&nbsp;&nbsp;<a href="https://open.kattis.com/">https://open.kattis.com/</a><br>Android Development: TheNewBoston —&nbsp;<a href="https://www.thenewboston.com/videos.php?cat=278">https://www.thenewboston.com/videos.php?cat=278</a><br>iOS
+                                Development: TheNewBoston —&nbsp;<a href="https://www.thenewboston.com/videos.php?cat=280">https://www.thenewboston.com/videos.php?cat=280</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header text-center" role="tab" style="background-color: rgb(61,167,196);">
+                        <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-2" href="#accordion-1 .item-2" style="color: rgb(255,255,255);">NeuroTechnology</a></h5>
+                    </div>
+                    <div class="collapse item-2" role="tabpanel" data-parent="#accordion-1">
+                        <div class="card-body">
+                            <p class="card-text" style="font-size: 17px;">Intro to BCI Design:&nbsp;<a href="https://sccn.ucsd.edu/wiki/Introduction_To_Modern_Brain-Computer_Interface_Design">Swartz Center for Computational Neuroscience: Introduction To Modern Brain-Computer Interface Design</a></p>
+                        </div>
+                    </div>
+                </div>
+        </div><button class="btn btn-primary" type="button" style="height: 80px;font-size: 20px;font-weight: 500;margin: 1px;background-color: rgb(61,138,221);"><a href="https://prezi.com/user/v1u3a0hqncba/" style="color: rgb(255,255,255);">NeurotechUofT Prezis</a></button></div>
+    </section>
+    <section class="d-flex flex-column justify-content-center" style="background-color: rgb(61,167,196);background-size: cover;font-size: 40px;min-height: 70vh;">
+        <div>
+            <h1 class="text-center" style="font-family: Rokkitt, serif;color: rgb(255,255,255);font-size: 60px;font-weight: bold;padding-top: 31px;">Our Partners</h1>
+        </div>
+        <div class="container d-flex flex-row justify-content-center flex-wrap justify-content-lg-center align-items-lg-start align-items-xl-center" style="height: auto;padding-right: 0px;padding-left: 0px;padding-bottom: 88px;background-color: #ffffff;"><img src="assets/img/download.png" style="width: 250px;margin: 20px;"><img src="assets/img/openbci.3b7675c8.png" style="width: 250px;margin: 20px;"><img src="assets/img/ece-uoft.27d6af9e.png" style="width: 250px;margin: 20px;"><img src="assets/img/skule-uoft.0185c519.png" style="width: 250px;margin: 20px;">
+            <img
+                src="assets/img/ibbme-uoft.ce213853.png" style="width: 250px;margin: 20px;"><img src="assets/img/branch-out.1f396224.png" style="width: 250px;margin: 20px;"><img src="assets/img/neurotechx.15910e14.png" style="width: 250px;margin: 20px;"><img src="assets/img/interaxon.502ecc5a.png" style="width: 250px;margin: 20px;"><img src="assets/img/uoft-student-initiative-fund.efec4117.png" style="width: 250px;margin: 20px;">
+                <img
+                    src="assets/img/neurosky.84f9d0b0.png" style="width: 250px;margin: 20px;"></div>
+    </section>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col item social"><a href="https://www.facebook.com/groups/neurotechUofT/"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/neurotechuoft"><i class="icon ion-social-twitter"></i></a><a href="https://github.com/neurotechuoft"><i class="icon ion-social-github"></i></a></div>
+                </div>
+                <p class="copyright">NeurotechUoft© 2020</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
 </html>
