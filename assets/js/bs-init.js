@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 	var backgrounds = [];
 
-	$('[data-bs-parallax-bg]').each(function(){
+	$('[data-bss-parallax-bg]').each(function(){
 		var el = $(this);
 		var bg = $('<div>');
 
